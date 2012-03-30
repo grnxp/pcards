@@ -1,0 +1,6131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection type="Cartes_telephoniques" items="408" version="1.5.0">
+ <information>
+  <email>user_mail@...</email>
+  <images>collection_images</images>
+  <lang>FR (Français)</lang>
+  <maxId>422</maxId>
+  <owner>owner informations</owner>
+ </information>
+
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="Vitell_1_0.jpg"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Vitell 1"
+  gcsfield7="03/1993"
+  gcsfield8=""
+  gcsfield9="B320C0061"
+  gcsfield10="1500000"
+  gcsfield11="Alimentation "
+  gcsautoid="4"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Boissons/boissonivittel2.JPG"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Vitell 2"
+  gcsfield7="03/1997"
+  gcsfield8=""
+  gcsfield9="B72089104 732157506"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="5"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Boissons/boissonoasis.JPG"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Oasis"
+  gcsfield7="06/1993"
+  gcsfield8=""
+  gcsfield9="A 35017753"
+  gcsfield10="1200000"
+  gcsfield11="Alimentation "
+  gcsautoid="6"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Boissons/boissonschweppes1.JPG"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Schweppes Indian Tonic"
+  gcsfield7="08/1992"
+  gcsfield8=""
+  gcsfield9="42741"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="7"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Boissons/boissonschweppes2.JPG"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Schweppes &quot;Collectionnez l'effet Schhh...!&quot;"
+  gcsfield7="08/1995"
+  gcsfield8=""
+  gcsfield9="A 58116746 568888419"
+  gcsfield10="2000000"
+  gcsfield11="Alimentation "
+  gcsautoid="8"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Boissons/boissonschweppes4.JPG"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Schweppes &quot;Schhh...!&quot;"
+  gcsfield7="12/1994"
+  gcsfield8=""
+  gcsfield9="B4C027016 483527113"
+  gcsfield10="2500000"
+  gcsfield11="Alimentation "
+  gcsautoid="9"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Boissons/boissonschweppes6a.JPG"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Schweppes Dry Lemon"
+  gcsfield7="07/1993"
+  gcsfield8=""
+  gcsfield9="A 36018076"
+  gcsfield10="1500000"
+  gcsfield11="Alimentation "
+  gcsautoid="10"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandisesbiscuitsapero01.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Crackers Belin"
+  gcsfield7="12/1995"
+  gcsfield8=""
+  gcsfield9="A 5B017583 592694823"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="11"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandisesbiscuitsapero03.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Pringles"
+  gcsfield7="06/1998"
+  gcsfield8=""
+  gcsfield9="A 85493741 280231605"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="12"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandiseschoco01.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Côte d'Or Praliné intense"
+  gcsfield7="05/1995"
+  gcsfield8=""
+  gcsfield9="A 55015152 518545464"
+  gcsfield10="1500000"
+  gcsfield11="Alimentation "
+  gcsautoid="13"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandiseschoco04.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Toblerone"
+  gcsfield7="05/1997"
+  gcsfield8=""
+  gcsfield9="582066744 C5A053704"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="14"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandiseschoco05.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Lion"
+  gcsfield7="11/1997"
+  gcsfield8=""
+  gcsfield9="B7A431200 230576988"
+  gcsfield10="2000000"
+  gcsfield11="Alimentation "
+  gcsautoid="15"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandiseschoco06.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Kit-Kat"
+  gcsfield7="01/1995"
+  gcsfield8=""
+  gcsfield9="C51148409"
+  gcsfield10="1900000"
+  gcsfield11="Alimentation "
+  gcsautoid="16"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandisesglaces01.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Carte d'or"
+  gcsfield7="05/1997"
+  gcsfield8=""
+  gcsfield9="B74115067 747127672"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="17"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandiseschoco03.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="120"
+  gcsfield6="Milka Lila Pause"
+  gcsfield7="02/1996"
+  gcsfield8=""
+  gcsfield9="612091187 C62057429"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="18"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/milka 50.jpg"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Milka Lila Pause"
+  gcsfield7="02/1996"
+  gcsfield8=""
+  gcsfield9="B61013013"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="19"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandisesptitdej1.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="120"
+  gcsfield6="McMorning"
+  gcsfield7="06/1998"
+  gcsfield8=""
+  gcsfield9="B85474017 277231139"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="20"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/mcmorning 50.jpg"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="McMorning"
+  gcsfield7="09/1998"
+  gcsfield8=""
+  gcsfield9="B87406052 288683379"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="21"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandisesucre03.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="tic tac"
+  gcsfield7="09/1992"
+  gcsfield8=""
+  gcsfield9="42600"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="22"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/gourmandisesucre07.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Canderel"
+  gcsfield7="11/1996"
+  gcsfield8=""
+  gcsfield9="B6A007026 707679873"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="23"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/magnum.jpg"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Magnum"
+  gcsfield7="12/1994"
+  gcsfield8=""
+  gcsfield9="B4B017066 481424527"
+  gcsfield10="1500000"
+  gcsfield11="Alimentation "
+  gcsautoid="24"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Gourmandises/miko.JPG"
+  gcsfield4="Gourmandises"
+  gcsfield5="50"
+  gcsfield6="Moko Winner Taco"
+  gcsfield7="06/1998"
+  gcsfield8=""
+  gcsfield9="B85471009 278868779"
+  gcsfield10="500000"
+  gcsfield11="Alimentation "
+  gcsautoid="25"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Alimentation/Divers/alimentationdivers02.JPG"
+  gcsfield4="Divers"
+  gcsfield5="50"
+  gcsfield6="Barilla Spaghetti"
+  gcsfield7="07/1994"
+  gcsfield8=""
+  gcsfield9="B46008029 434969329"
+  gcsfield10="300000"
+  gcsfield11="Alimentation "
+  gcsautoid="26"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Alimentation/Divers/alimentationdivers03.JPG"
+  gcsfield4="Divers"
+  gcsfield5="50"
+  gcsfield6="Sauces Buitoni"
+  gcsfield7="10/1992"
+  gcsfield8=""
+  gcsfield9="A 2B6900"
+  gcsfield10="2000000"
+  gcsfield11="Alimentation "
+  gcsautoid="27"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Alimentation/Divers/alimentationdivers04.JPG"
+  gcsfield4="Divers"
+  gcsfield5="50"
+  gcsfield6="Raviolis Buitoni"
+  gcsfield7="07/1995"
+  gcsfield8=""
+  gcsfield9="564451858 C58152573"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="28"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Alimentation/Divers/alimentationdivers05.JPG"
+  gcsfield4="Divers"
+  gcsfield5="50"
+  gcsfield6="Maggi Bouillon de volaille"
+  gcsfield7="12/1992"
+  gcsfield8=""
+  gcsfield9="41103"
+  gcsfield10="1500000"
+  gcsfield11="Alimentation "
+  gcsautoid="29"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Alimentation/Divers/alimentationdivers06.JPG"
+  gcsfield4="Divers"
+  gcsfield5="50"
+  gcsfield6="Le Baron"
+  gcsfield7="04/1996"
+  gcsfield8=""
+  gcsfield9="A 64119021 643249706"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="30"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney02.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="EuroDisney Resort"
+  gcsfield7="04/2002"
+  gcsfield8=""
+  gcsfield9="B230L0038"
+  gcsfield10="510000"
+  gcsfield11="Disney"
+  gcsautoid="31"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney04.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Le cadeau"
+  gcsfield7="11/1993"
+  gcsfield8=""
+  gcsfield9="D41001756"
+  gcsfield10="6000000"
+  gcsfield11="Disney"
+  gcsautoid="32"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney05.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="EuroDisneyland Paris "
+  gcsfield7="05/1994"
+  gcsfield8=""
+  gcsfield9="649149506"
+  gcsfield10="2000000"
+  gcsfield11="Disney"
+  gcsautoid="33"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney08.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Disneyland Paris 2"
+  gcsfield7="02/1995"
+  gcsfield8=""
+  gcsfield9="A 51014512 497464515"
+  gcsfield10="500000"
+  gcsfield11="Disney"
+  gcsautoid="34"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney06.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="&quot;séjour golf&quot;"
+  gcsfield7="06/1994"
+  gcsfield8=""
+  gcsfield9="C47045825"
+  gcsfield10="1400000"
+  gcsfield11="Disney"
+  gcsautoid="35"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney09.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Disneyland Paris 1"
+  gcsfield7="04/1997"
+  gcsfield8=""
+  gcsfield9="C75107261 759776710"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="36"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney10.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Sommet des enfants"
+  gcsfield7="05/1996"
+  gcsfield8=""
+  gcsfield9="B64179076 649123124"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="37"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney12.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Walt Disney Studios 1"
+  gcsfield7="04/2002"
+  gcsfield8="01/05/2004"
+  gcsfield9="A23613745 500347337"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="38"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney13.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Walt Disney Studio 2"
+  gcsfield7="04/2002"
+  gcsfield8="01/05/2004"
+  gcsfield9="D23413735 498675383"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="39"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney14.jpg"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Disney Village"
+  gcsfield7="08/2003"
+  gcsfield8=""
+  gcsfield9="B37714275 557624551"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="40"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney15.jpg"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="La légende de Buffalo Bill"
+  gcsfield7="08/2003"
+  gcsfield8=""
+  gcsfield9="D38714278 558047652"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="41"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/buffalo bill 120.jpg"
+  gcsfield4=""
+  gcsfield5="120"
+  gcsfield6="La légende de Buffalo Bill"
+  gcsfield7="08/2003"
+  gcsfield8=""
+  gcsfield9="A38714287 558634813"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="42"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disneyleroilion.jpg"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="La légende du Roi Lion"
+  gcsfield7="07/2004"
+  gcsfield8="01/08/2006"
+  gcsfield9="B46714593 589401321"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="43"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/728.jpg"
+  gcsfield4="Cyclisme"
+  gcsfield5="50"
+  gcsfield6="Tour de France 97"
+  gcsfield7="06/1997"
+  gcsfield8=""
+  gcsfield9="A 76112386 756590342"
+  gcsfield10="3000000"
+  gcsfield11="Sport "
+  gcsautoid="44"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/97 120.JPG"
+  gcsfield4="Cyclisme"
+  gcsfield5="120"
+  gcsfield6="Tour de France 97"
+  gcsfield7="06/1997"
+  gcsfield8=""
+  gcsfield9="D76101640 765901303"
+  gcsfield10="3000000"
+  gcsfield11="Sport "
+  gcsautoid="45"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/P1000402.JPG"
+  gcsfield4="Cyclisme"
+  gcsfield5="120"
+  gcsfield6="Tour de France 99"
+  gcsfield7="06/1999"
+  gcsfield8=""
+  gcsfield9="B95158091 826453905"
+  gcsfield10="3000000"
+  gcsfield11="Sport "
+  gcsautoid="46"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/968.jpg"
+  gcsfield4="Cyclisme"
+  gcsfield5="50"
+  gcsfield6="Tour de France 99"
+  gcsfield7="06/1999"
+  gcsfield8=""
+  gcsfield9="B95457109 341994572"
+  gcsfield10="3000000"
+  gcsfield11="Sport "
+  gcsautoid="47"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/1125A.jpg"
+  gcsfield4="Cyclisme"
+  gcsfield5="50"
+  gcsfield6="Tour de France 2001 1"
+  gcsfield7="06/2001"
+  gcsfield8="01/07/2003"
+  gcsfield9="A15513223 453838341"
+  gcsfield10="750000"
+  gcsfield11="Sport "
+  gcsautoid="48"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/F1142A.jpg"
+  gcsfield4="Cyclisme"
+  gcsfield5="50"
+  gcsfield6="Tour de France 2001 2"
+  gcsfield7="06/2001"
+  gcsfield8="01/07/2003"
+  gcsfield9="A15513223 453838399"
+  gcsfield10="750000"
+  gcsfield11="Sport "
+  gcsautoid="49"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/velo1.JPG"
+  gcsfield4="Cyclisme"
+  gcsfield5="50"
+  gcsfield6="Tour de France 1996"
+  gcsfield7="05/1996"
+  gcsfield8=""
+  gcsfield9="A 66119536 661116178"
+  gcsfield10="4000000"
+  gcsfield11="Sport "
+  gcsautoid="50"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/P1000403.JPG"
+  gcsfield4="Cyclisme"
+  gcsfield5="120"
+  gcsfield6="Tour de France 1996"
+  gcsfield7="05/1996"
+  gcsfield8=""
+  gcsfield9="B65188156 660453201"
+  gcsfield10="4000000"
+  gcsfield11="Sport "
+  gcsautoid="51"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/velo3.JPG"
+  gcsfield4="Cyclisme"
+  gcsfield5="50"
+  gcsfield6="Tour de France 98"
+  gcsfield7="06/1998"
+  gcsfield8=""
+  gcsfield9="B85488059 281810212"
+  gcsfield10="3000000"
+  gcsfield11="Sport "
+  gcsautoid="52"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Cyclisme/velo5.JPG"
+  gcsfield4="Cyclisme"
+  gcsfield5="50+ 5 offertes"
+  gcsfield6="Tour de France 2000 (le 87ème)"
+  gcsfield7="06/2000"
+  gcsfield8="01/2001"
+  gcsfield9="B05476072 400282291"
+  gcsfield10="3000000"
+  gcsfield11="Sport "
+  gcsautoid="53"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Football/spftdivJVC.JPG"
+  gcsfield4="Football"
+  gcsfield5="50"
+  gcsfield6="JVC (World Cup USA 1994)"
+  gcsfield7="12/1993"
+  gcsfield8=""
+  gcsfield9="B3A050046"
+  gcsfield10="1000000"
+  gcsfield11="Sport "
+  gcsautoid="54"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Gymnastique/gym06.JPG"
+  gcsfield4="Gymnastique"
+  gcsfield5="50"
+  gcsfield6="Championnats du monde de gymnastique Paris 1992"
+  gcsfield7="04/1992"
+  gcsfield8=""
+  gcsfield9="39166"
+  gcsfield10="1000000"
+  gcsfield11="Sport "
+  gcsautoid="55"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Gymnastique/gym08.JPG"
+  gcsfield4="Gymnastique"
+  gcsfield5="50"
+  gcsfield6="1973 - 1993 La gymnastique, une passion depuis 120 ans."
+  gcsfield7="09/1993"
+  gcsfield8=""
+  gcsfield9="47145"
+  gcsfield10="2000000"
+  gcsfield11="Sport "
+  gcsautoid="56"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Gymnastique/gym13.JPG"
+  gcsfield4="Gymnastique"
+  gcsfield5="50"
+  gcsfield6="7èmes Itenationnaux France Télécom de Gymnastique"
+  gcsfield7="02/1996"
+  gcsfield8=""
+  gcsfield9="613339085 C62156881"
+  gcsfield10="1000000"
+  gcsfield11="Sport "
+  gcsautoid="57"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Gymnastique/gym15.JPG"
+  gcsfield4="Gymnastique"
+  gcsfield5="50"
+  gcsfield6="8èmes Internationnaux France Télécom"
+  gcsfield7="03/1998"
+  gcsfield8=""
+  gcsfield9="D83401110 263024165"
+  gcsfield10="1000000"
+  gcsfield11="Sport "
+  gcsautoid="58"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Sports automobiles/sp24h11.JPG"
+  gcsfield4="Sports automobiles"
+  gcsfield5="50"
+  gcsfield6="Peugeot 1er aux 24 heures du Mans en 92 et 93 (1)"
+  gcsfield7="07/1993"
+  gcsfield8=""
+  gcsfield9="B37069046"
+  gcsfield10="1500000"
+  gcsfield11="Sport "
+  gcsautoid="59"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Sports automobiles/sp24h13.JPG"
+  gcsfield4="Sports automobiles"
+  gcsfield5="50"
+  gcsfield6="Peugeot 1er aux 24 heures du Mans en 92 et 93 (2)"
+  gcsfield7="07/1993"
+  gcsfield8=""
+  gcsfield9="46583"
+  gcsfield10="1500000"
+  gcsfield11="Sport "
+  gcsautoid="60"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Sports automobiles/sp24h14.JPG"
+  gcsfield4="Sports automobiles"
+  gcsfield5="50"
+  gcsfield6="Peugeot 1er aux 24 heures du Mans en 92 et 93 (3)"
+  gcsfield7="07/1993"
+  gcsfield8=""
+  gcsfield9="A 37018426"
+  gcsfield10="1500000"
+  gcsfield11="Sport "
+  gcsautoid="61"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Sports automobiles/sp24h16.JPG"
+  gcsfield4="Sports automobiles"
+  gcsfield5="50"
+  gcsfield6="Peugeot 1er aux 24 heures du Mans en 92 et 93 (4)"
+  gcsfield7="07/1993"
+  gcsfield8=""
+  gcsfield9="A 38018748"
+  gcsfield10="1500000"
+  gcsfield11="Sport "
+  gcsautoid="62"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Sports automobiles/sp24h15.JPG"
+  gcsfield4="Sports automobiles"
+  gcsfield5="50"
+  gcsfield6="Peugeot 1er aux 24 heures du Mans en 92 et 93 (5)"
+  gcsfield7="07/1993"
+  gcsfield8=""
+  gcsfield9="46865"
+  gcsfield10="1500000"
+  gcsfield11="Sport "
+  gcsautoid="63"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Sport/Sports automobiles/P1000404.JPG"
+  gcsfield4="Sports automobiles"
+  gcsfield5="120"
+  gcsfield6="Peugeot 1er aux 24 heures du Mans en 92 et 93 (3)"
+  gcsfield7="07/1993"
+  gcsfield8=""
+  gcsfield9="A 38018634"
+  gcsfield10="1500000"
+  gcsfield11="Sport "
+  gcsautoid="64"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Banques/banque02.JPG"
+  gcsfield4="Banques"
+  gcsfield5="50"
+  gcsfield6="Libertimmo"
+  gcsfield7="04/1994"
+  gcsfield8=""
+  gcsfield9="B43026073"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="66"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Banques/banque03.jpg"
+  gcsfield4="Banques"
+  gcsfield5="50"
+  gcsfield6="Paribas"
+  gcsfield7="08/1995"
+  gcsfield8=""
+  gcsfield9="A 58116659 567519694"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="67"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Emploi/diversassedic02.jpg"
+  gcsfield4="Emploi"
+  gcsfield5="50"
+  gcsfield6="Assedic"
+  gcsfield7="02/2003"
+  gcsfield8="01/03/2005"
+  gcsfield9="B31714081 543846884"
+  gcsfield10="750000"
+  gcsfield11="Divers"
+  gcsautoid="68"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Emploi/ftservices3615emploi01.jpg"
+  gcsfield4="Emploi"
+  gcsfield5="50"
+  gcsfield6="36-15 Emploi 1"
+  gcsfield7="12/1996"
+  gcsfield8=""
+  gcsfield9="709519799 C6C171533"
+  gcsfield10="2000000"
+  gcsfield11="Divers"
+  gcsautoid="69"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Emploi/ftservices3615emploi02.jpg"
+  gcsfield4="Emploi"
+  gcsfield5="50"
+  gcsfield6="36-15 Emploi 2"
+  gcsfield7="05/1996"
+  gcsfield8=""
+  gcsfield9="A 65119335 653437923"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="70"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Emploi/ftservices3615emploi03.jpg"
+  gcsfield4="Emploi"
+  gcsfield5="50"
+  gcsfield6="36-15 Emploi 3"
+  gcsfield7="02/1998"
+  gcsfield8=""
+  gcsfield9="C81420805 247166116"
+  gcsfield10="2500000"
+  gcsfield11="Divers"
+  gcsautoid="71"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Europe/europe03.jpg"
+  gcsfield4="Europe"
+  gcsfield5="50"
+  gcsfield6="Je pense donc je vote"
+  gcsfield7="04/1999"
+  gcsfield8=""
+  gcsfield9="B94447042 337553084"
+  gcsfield10="2000000"
+  gcsfield11="Divers"
+  gcsautoid="72"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Michelin/F831.JPG"
+  gcsfield4="Michelin"
+  gcsfield5="50"
+  gcsfield6="1998 L'année Bibendum"
+  gcsfield7="03/1998"
+  gcsfield8=""
+  gcsfield9="C82022106 794857431"
+  gcsfield10="500000"
+  gcsfield11="Divers"
+  gcsautoid="73"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Michelin/F894.JPG"
+  gcsfield4="Michelin"
+  gcsfield5="50"
+  gcsfield6="Planète Bibendum"
+  gcsfield7="06/1998"
+  gcsfield8=""
+  gcsfield9="A 86493816 281151879"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="74"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Michelin/michelin02.jpg"
+  gcsfield4="Michelin"
+  gcsfield5="50"
+  gcsfield6="France 98 Coupe du monde"
+  gcsfield7="05/1998"
+  gcsfield8=""
+  gcsfield9="A 84493277 271739153"
+  gcsfield10="2000000"
+  gcsfield11="Divers"
+  gcsautoid="75"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Monnaie de Paris/monaiedeparis02.jpg"
+  gcsfield4="Monnaie de Paris"
+  gcsfield5="50"
+  gcsfield6="Mai 45 - Mai 95"
+  gcsfield7="08/1995"
+  gcsfield8=""
+  gcsfield9="563273028 C58152478"
+  gcsfield10="2000000"
+  gcsfield11="Divers"
+  gcsautoid="76"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Montagne/motagne02.jpg"
+  gcsfield4="Montagne"
+  gcsfield5="50"
+  gcsfield6="Ski France"
+  gcsfield7="04/1997"
+  gcsfield8=""
+  gcsfield9="C74106295 751344449"
+  gcsfield10="1200000"
+  gcsfield11="Divers"
+  gcsautoid="77"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/O.C.B/ocb01.jpg"
+  gcsfield4="O.C.B."
+  gcsfield5="50"
+  gcsfield6="O.C.B. 1"
+  gcsfield7="09/1998"
+  gcsfield8=""
+  gcsfield9="D88401821 295172598"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="78"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/O.C.B/ocb02.jpg"
+  gcsfield4="O.C.B."
+  gcsfield5="50"
+  gcsfield6="O.C.B. 2"
+  gcsfield7="06/1997"
+  gcsfield8=""
+  gcsfield9="D75001261 756823353"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="79"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Pages jaunes/pagesjaunes01.jpg"
+  gcsfield4="Pages jaunes"
+  gcsfield5="50"
+  gcsfield6="Pages jaunes 1"
+  gcsfield7="11/1996"
+  gcsfield8=""
+  gcsfield9="718576600 C6C172556"
+  gcsfield10="2000000"
+  gcsfield11="Divers"
+  gcsautoid="80"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Pages jaunes/pagesjaunes02.jpg"
+  gcsfield4="Pages jaunes"
+  gcsfield5="50"
+  gcsfield6="Pages jaunes 2"
+  gcsfield7="12/1997"
+  gcsfield8=""
+  gcsfield9="B7B401030 240300875"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="81"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/S.F.R/divsfr01.JPG"
+  gcsfield4="S.F.R."
+  gcsfield5="50"
+  gcsfield6="S.F.R. 1"
+  gcsfield7="09/1995"
+  gcsfield8=""
+  gcsfield9="A 59117029 575716757"
+  gcsfield10="5000000"
+  gcsfield11="Divers"
+  gcsautoid="82"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/S.F.R/divsfr02.JPG"
+  gcsfield4="S.F.R."
+  gcsfield5="50"
+  gcsfield6="S.F.R. 2"
+  gcsfield7="12/1995"
+  gcsfield8=""
+  gcsfield9="611053644 C61056592"
+  gcsfield10="2500000"
+  gcsfield11="Divers"
+  gcsautoid="83"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/S.F.R/divsfr03.jpg"
+  gcsfield4="S.F.R."
+  gcsfield5="50"
+  gcsfield6="S.F.R. 3"
+  gcsfield7="12/1995"
+  gcsfield8=""
+  gcsfield9="B5B044189 607944675"
+  gcsfield10="2500000"
+  gcsfield11="Divers"
+  gcsautoid="84"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/S.F.R/divsfr04.jpg"
+  gcsfield4="S.F.R."
+  gcsfield5="50"
+  gcsfield6="S.F.R. 4"
+  gcsfield7="03/1995"
+  gcsfield8=""
+  gcsfield9="C53149426"
+  gcsfield10="1610000"
+  gcsfield11="Divers"
+  gcsautoid="85"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Sony/sony01.jpg"
+  gcsfield4="Sony"
+  gcsfield5="50"
+  gcsfield6="Sony 1"
+  gcsfield7="05/1996"
+  gcsfield8=""
+  gcsfield9="656621147 C66160951"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="86"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Sony/sony02.jpg"
+  gcsfield4="Sony"
+  gcsfield5="50"
+  gcsfield6="Sony 2"
+  gcsfield7="12/1996"
+  gcsfield8=""
+  gcsfield9="B6B019049 712112098"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="87"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Vrac/diverscanon.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Canon"
+  gcsfield7="10/1995"
+  gcsfield8=""
+  gcsfield9="B59015069 571039834"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="88"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Vrac/diversdico.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Hachette"
+  gcsfield7="08/1997"
+  gcsfield8=""
+  gcsfield9="C78112492 774722356"
+  gcsfield10="800000"
+  gcsfield11="Divers"
+  gcsautoid="89"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Vrac/diversmanpower.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Manpower"
+  gcsfield7="05/1998"
+  gcsfield8=""
+  gcsfield9="C84124077 802296815"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="90"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Vrac/diversepson.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Epson"
+  gcsfield7="11/1995"
+  gcsfield8=""
+  gcsfield9="B5B041076 596045470"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="91"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Vrac/diverskodak.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Kodak"
+  gcsfield7="07/1996"
+  gcsfield8=""
+  gcsfield9="B66016033 671531820"
+  gcsfield10="780000"
+  gcsfield11="Divers"
+  gcsautoid="92"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Vrac/diverspeinture.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Quelyd"
+  gcsfield7="04/1994"
+  gcsfield8=""
+  gcsfield9="B44031014"
+  gcsfield10="1000000"
+  gcsfield11="Divers"
+  gcsautoid="93"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Vrac/diversscotchbrite.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Scotch-Brite"
+  gcsfield7="01/1992"
+  gcsfield8=""
+  gcsfield9="B2104C"
+  gcsfield10="2000000"
+  gcsfield11="Divers"
+  gcsautoid="94"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Divers/Vrac/diverssheba.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Sheba"
+  gcsfield7="03/1996"
+  gcsfield8=""
+  gcsfield9="B63149085 626041991"
+  gcsfield10="2000000"
+  gcsfield11="Divers"
+  gcsautoid="95"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/1010/ftservices1010x01.jpg"
+  gcsfield4="1010"
+  gcsfield5="50"
+  gcsfield6="1010 (1)"
+  gcsfield7="04/1997"
+  gcsfield8=""
+  gcsfield9="B73111008 741383353"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="96"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/1010/ftservices1010x03.jpg"
+  gcsfield4="1010"
+  gcsfield5="50"
+  gcsfield6="1010 (2)"
+  gcsfield7="04/1997"
+  gcsfield8=""
+  gcsfield9="C74104364 745695978"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="97"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/1010/ftservices1010x04.jpg"
+  gcsfield4="1010"
+  gcsfield5="50"
+  gcsfield6="1010 (3)"
+  gcsfield7="09/1997"
+  gcsfield8=""
+  gcsfield9="A 79112720 783768498"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="98"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/1010/ftservices1010x05.jpg"
+  gcsfield4="1010"
+  gcsfield5="50"
+  gcsfield6="1010 (4)"
+  gcsfield7="10/1998"
+  gcsfield8=""
+  gcsfield9="B89130051 811506927"
+  gcsfield10="3000000"
+  gcsfield11="France Télécom"
+  gcsautoid="99"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/an2000ft.jpg"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="L'an 2000"
+  gcsfield7="01/1997"
+  gcsfield8=""
+  gcsfield9="B6C134123 722413641"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="100"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/P1000410.JPG"
+  gcsfield4="Autres publicités"
+  gcsfield5="120"
+  gcsfield6="L'an 2000"
+  gcsfield7="01/1997"
+  gcsfield8=""
+  gcsfield9="B6C035048 719478827"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="101"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/ftdivpub09.JPG"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="Un monde toujours plus proche"
+  gcsfield7="04/1993"
+  gcsfield8=""
+  gcsfield9="B330K0011"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="102"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/ftdivpub10.JPG"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="1995 le cinquantenaire du CNET"
+  gcsfield7="02/1995"
+  gcsfield8=""
+  gcsfield9="A 53014940 511719929"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="103"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/ftdivpub11.JPG"
+  gcsfield4="Autres publicités"
+  gcsfield5="120"
+  gcsfield6="Le téléphone est dans le TGV"
+  gcsfield7="04/1992"
+  gcsfield8=""
+  gcsfield9="A 245337"
+  gcsfield10="1500000"
+  gcsfield11="France Télécom"
+  gcsautoid="104"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/ftdivpub12.JPG"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="France Télécom et le monde est plus proche (1)"
+  gcsfield7="02/1996"
+  gcsfield8=""
+  gcsfield9="A 61018229 616535161"
+  gcsfield10="3000000"
+  gcsfield11="France Télécom"
+  gcsautoid="105"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/ftdivpub13.JPG"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="France Télécom s'engage"
+  gcsfield7="12/1995"
+  gcsfield8=""
+  gcsfield9="B61093034 614895629"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="106"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/P1000411.JPG"
+  gcsfield4="Autres publicités"
+  gcsfield5="120"
+  gcsfield6="France Télécom s'engage"
+  gcsfield7="12/1995"
+  gcsfield8=""
+  gcsfield9="B5B045092 601548529"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="107"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Divers Pub/ftdivpub14.JPG"
+  gcsfield4="Autres publicités"
+  gcsfield5="50"
+  gcsfield6="France Télécom et le monde est plus proche (2)"
+  gcsfield7="12/1994"
+  gcsfield8=""
+  gcsfield9="B4B011025 474490519"
+  gcsfield10="4000000"
+  gcsfield11="France Télécom"
+  gcsautoid="109"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Entreprises/ftentreprisesteletravail02.JPG"
+  gcsfield4="Entreprises"
+  gcsfield5="50"
+  gcsfield6="ETW 97 Semaine Européenne du Télétravail"
+  gcsfield7="11/1997"
+  gcsfield8=""
+  gcsfield9="C7A417316231751254"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="110"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Equipements/equipement02.jpg"
+  gcsfield4="Equipements"
+  gcsfield5="50"
+  gcsfield6="Magis le Minitel 1"
+  gcsfield7="07/1995"
+  gcsfield8=""
+  gcsfield9="B56021073 543748395"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="111"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Equipements/equipement03.jpg"
+  gcsfield4="Equipements"
+  gcsfield5="50"
+  gcsfield6="Magis le Minitel 2"
+  gcsfield7="07/1995"
+  gcsfield8=""
+  gcsfield9="553981136 C57051731"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="112"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Equipements/P1000413.JPG"
+  gcsfield4="Equipements"
+  gcsfield5="120"
+  gcsfield6="Minitel 2"
+  gcsfield7="08/1994"
+  gcsfield8=""
+  gcsfield9="A 47012669 442908135"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="113"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Equipements/equipement05.jpg"
+  gcsfield4="Equipements"
+  gcsfield5="50"
+  gcsfield6="Sillage Le téléphone répondeur Minitel"
+  gcsfield7="07/1995"
+  gcsfield8=""
+  gcsfield9="A 57116332 557558789"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="114"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Equipements/P1000414.JPG"
+  gcsfield4="Equipements"
+  gcsfield5="120"
+  gcsfield6="Sillage Le téléphone répondeur Minitel"
+  gcsfield7="06/1995"
+  gcsfield8=""
+  gcsfield9="B55004132 539545838"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="115"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Equipements/equipements07.JPG"
+  gcsfield4="Equipements"
+  gcsfield5="50"
+  gcsfield6="Alphapage"
+  gcsfield7="03/1992"
+  gcsfield8=""
+  gcsfield9="A 235971"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="116"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Equipements/equipements09.JPG"
+  gcsfield4="Equipements"
+  gcsfield5="50"
+  gcsfield6="tatoo"
+  gcsfield7="09/1996"
+  gcsfield8=""
+  gcsfield9="B6A061073 703358292"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="117"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Equipements/equipements10.JPG"
+  gcsfield4="Equipements"
+  gcsfield5="50"
+  gcsfield6="Bi-Bop"
+  gcsfield7="05/1993"
+  gcsfield8=""
+  gcsfield9="47047"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="118"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/convatrois01.jpg"
+  gcsfield4="Services ligne"
+  gcsfield5="50"
+  gcsfield6="Conversation à trois"
+  gcsfield7="08/1992"
+  gcsfield8=""
+  gcsfield9="40953"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="119"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/ftservicesignaldappel02.jpg"
+  gcsfield4="Services ligne"
+  gcsfield5="50"
+  gcsfield6="Signal d'Appel"
+  gcsfield7="03/1992"
+  gcsfield8=""
+  gcsfield9="A 225483"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="120"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/ftservicesignaldappel03.jpg"
+  gcsfield4="Services ligne"
+  gcsfield5="50"
+  gcsfield6="Signal d'Appel c'est épatant!"
+  gcsfield7="06/1995"
+  gcsfield8=""
+  gcsfield9="A 57116093 550158169"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="121"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/ftservicesignaldappel05.jpg"
+  gcsfield4="Services ligne"
+  gcsfield5="50"
+  gcsfield6="Signal d'Appel 10F par mois (1)"
+  gcsfield7="05/1993"
+  gcsfield8=""
+  gcsfield9="45777"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="122"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/P1000415.JPG"
+  gcsfield4="Services ligne"
+  gcsfield5="120"
+  gcsfield6="Signal d'Appel 10F par mois (1)"
+  gcsfield7="05/1993"
+  gcsfield8=""
+  gcsfield9="C35141547"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="123"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/ftservicesignaldappel04.jpg"
+  gcsfield4="Services ligne"
+  gcsfield5="50"
+  gcsfield6="Signal d'Appel 10F pas mois (2)"
+  gcsfield7="10/1993"
+  gcsfield8=""
+  gcsfield9="A 3A019557"
+  gcsfield10="1500000"
+  gcsfield11="France Télécom"
+  gcsautoid="124"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/transfdappel03.jpg"
+  gcsfield4="Services ligne"
+  gcsfield5="50"
+  gcsfield6="Transfert d'appel"
+  gcsfield7="08/1992"
+  gcsfield8=""
+  gcsfield9="B270A0004"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="125"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/P1000416.JPG"
+  gcsfield4="Services ligne"
+  gcsfield5="120"
+  gcsfield6="Transfert d'appel"
+  gcsfield7="10/1992"
+  gcsfield8=""
+  gcsfield9="B290D0033"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="126"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services ligne/transfdappel04.jpg"
+  gcsfield4="Services ligne"
+  gcsfield5="50"
+  gcsfield6="Transfert d'appel 10F par mois"
+  gcsfield7="06/1995"
+  gcsfield8=""
+  gcsfield9="B55095134 535061695"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="127"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services tarifs/ftservicestarifsreduits02.jpg"
+  gcsfield4="Services tarifs"
+  gcsfield5="50"
+  gcsfield6="En semaine les tarifs eéduits du soir commencent à 18h00"
+  gcsfield7="05/1992"
+  gcsfield8=""
+  gcsfield9="40418"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="128"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services tarifs/ftservicestarifsreduits03.jpg"
+  gcsfield4="Services tarifs"
+  gcsfield5="50"
+  gcsfield6="Quand le jour baisse, le téléphone aussi."
+  gcsfield7="08/1992"
+  gcsfield8=""
+  gcsfield9="42162"
+  gcsfield10="1000000"
+  gcsfield11="France Télécom"
+  gcsautoid="129"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/France Telecom/Services tarifs/ftservicestarifsreduits04.jpg"
+  gcsfield4="Services tarifs"
+  gcsfield5="50"
+  gcsfield6="Pour téléphoner, choisissez votre heure."
+  gcsfield7="11/1994"
+  gcsfield8=""
+  gcsfield9="C4B050015"
+  gcsfield10="2000000"
+  gcsfield11="France Télécom"
+  gcsautoid="130"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/grdmagasins3suisses.jpg"
+  gcsfield4="Prêt à porter"
+  gcsfield5="50"
+  gcsfield6="3 Suisses"
+  gcsfield7="02/1993"
+  gcsfield8=""
+  gcsfield9="C31041040"
+  gcsfield10="1500000"
+  gcsfield11="Grands magasins"
+  gcsautoid="131"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/grdmagasinsauchan01.jpg"
+  gcsfield4="Auchan"
+  gcsfield5="50"
+  gcsfield6="Auchan (orange)"
+  gcsfield7="09/1999"
+  gcsfield8=""
+  gcsfield9="B98190109 832290688"
+  gcsfield10="3000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="132"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/P1000418.JPG"
+  gcsfield4="Auchan"
+  gcsfield5="120"
+  gcsfield6="Auchan (orange)"
+  gcsfield7="09/1999"
+  gcsfield8=""
+  gcsfield9="A99496925 360815585"
+  gcsfield10="3000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="133"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/grdmagasinsauchan02.jpg"
+  gcsfield4="Auchan"
+  gcsfield5="50"
+  gcsfield6="Auchan (rouge)"
+  gcsfield7="09/1999"
+  gcsfield8=""
+  gcsfield9="B98491042 367580793"
+  gcsfield10="3000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="134"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/P1000419.JPG"
+  gcsfield4="Auchan"
+  gcsfield5="120"
+  gcsfield6="Auchan (rouge)"
+  gcsfield7="09/1999"
+  gcsfield8=""
+  gcsfield9="A9A497378 362375115"
+  gcsfield10="4000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="135"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/grdmagasinsauchan03.jpg"
+  gcsfield4="Auchan"
+  gcsfield5="50"
+  gcsfield6="Auchan (violet)"
+  gcsfield7="09/1999"
+  gcsfield8=""
+  gcsfield9="A99497108 363485655"
+  gcsfield10="4000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="136"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/P1000417.JPG"
+  gcsfield4="Auchan"
+  gcsfield5="120"
+  gcsfield6="Auchan (violet)"
+  gcsfield7="09/1999"
+  gcsfield8=""
+  gcsfield9="A99497035 361606329"
+  gcsfield10="4000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="137"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/grdmagasinsfnac01.jpg"
+  gcsfield4="Fnac"
+  gcsfield5="50"
+  gcsfield6="Fnac Direct"
+  gcsfield7="11/1996"
+  gcsfield8=""
+  gcsfield9="704076438 C6B169739"
+  gcsfield10="1000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="138"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/grdmagasinsfnac02.jpg"
+  gcsfield4="Fnac"
+  gcsfield5="50"
+  gcsfield6="Offrez les chèques-cadeaux Fnac"
+  gcsfield7="08/1997"
+  gcsfield8=""
+  gcsfield9="C78412732 213783118"
+  gcsfield10="500000"
+  gcsfield11="Grands magasins"
+  gcsautoid="139"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/grdmagasinsfnac03.jpg"
+  gcsfield4="Fnac"
+  gcsfield5="50"
+  gcsfield6="Développez vos photos à la Fnac"
+  gcsfield7="08/1997"
+  gcsfield8=""
+  gcsfield9="A 78112663 780033796"
+  gcsfield10="1000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="140"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Grands magasins/grdmagasinstati.jpg"
+  gcsfield4="Prêt à porter"
+  gcsfield5="50"
+  gcsfield6="Tati"
+  gcsfield7="07/1995"
+  gcsfield8=""
+  gcsfield9="A 56015961 537479433"
+  gcsfield10="1000000"
+  gcsfield11="Grands magasins"
+  gcsautoid="141"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratastro.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Astro"
+  gcsfield7="12/1997"
+  gcsfield8=""
+  gcsfield9="B7A434042 233478365"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="143"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratbanco1.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Banco (bleu)"
+  gcsfield7="04/1996"
+  gcsfield8=""
+  gcsfield9="A 63118771 635528666"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="144"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratbanco2.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Banco (vert)"
+  gcsfield7="05/1998"
+  gcsfield8=""
+  gcsfield9="D84401260 270073279"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="145"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratblackjack1.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Black Jack (rouge)"
+  gcsfield7="11/1995"
+  gcsfield8=""
+  gcsfield9="A 5B017515 590118292"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="146"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratblackjack2.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Black Jack (gris)"
+  gcsfield7="06/1999"
+  gcsfield8=""
+  gcsfield9="D95403051 343888650"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="147"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratileautresor.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="L'île au trésor"
+  gcsfield7="03/1998"
+  gcsfield8=""
+  gcsfield9="C82122618 795958210"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="148"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratmillionaire1.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Millionnaire 1"
+  gcsfield7="10/1995"
+  gcsfield8=""
+  gcsfield9="A 5A017280 581229728"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="149"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratmillionaire2.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Millionnaire 2"
+  gcsfield7="09/1999"
+  gcsfield8=""
+  gcsfield9="D99403402 374342116"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="150"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratmillionaire3.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Millionnaire 3"
+  gcsfield7="11/1997"
+  gcsfield8=""
+  gcsfield9="C7A016699 785094119"
+  gcsfield10="1300000"
+  gcsfield11="Jeux"
+  gcsautoid="151"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratmorpion1.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Morpion 1"
+  gcsfield7="12/1994"
+  gcsfield8=""
+  gcsfield9="C52050464"
+  gcsfield10="2500000"
+  gcsfield11="Jeux"
+  gcsautoid="152"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratmorpion2.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Morpion 2"
+  gcsfield7="01/1996"
+  gcsfield8=""
+  gcsfield9="A 61018044 605599916"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="153"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratmorpion3.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Morpion 3"
+  gcsfield7="02/1998"
+  gcsfield8=""
+  gcsfield9="D81403625 251705376"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="154"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/gratpileoufacerecto.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Pile ou Face"
+  gcsfield7="12/1999"
+  gcsfield8=""
+  gcsfield9="B9B425003 377042410"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="155"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/grattacotac1.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Tac O Tac 1"
+  gcsfield7="03/1996"
+  gcsfield8=""
+  gcsfield9="B62133012 626901231"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="156"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Grattage/grattacotac2.JPG"
+  gcsfield4="Grattage"
+  gcsfield5="50"
+  gcsfield6="Tac O Tac 2"
+  gcsfield7="01/1999"
+  gcsfield8=""
+  gcsfield9="B91411041 323905333"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="157"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirkeno1.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Keno 1"
+  gcsfield7="11/1993"
+  gcsfield8=""
+  gcsfield9="B39008104"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="158"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirkeno2.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Keno 2"
+  gcsfield7="02/1996"
+  gcsfield8=""
+  gcsfield9="A 62018427 625194224"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="159"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirkeno3.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Keno 3"
+  gcsfield7="04/1998"
+  gcsfield8=""
+  gcsfield9="B83028008 797879362"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="160"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirlogofrancdesjeux.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Numéro d'appel Tirages Française des jeux"
+  gcsfield7="06/1996"
+  gcsfield8=""
+  gcsfield9="670559240 C67162445"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="161"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirloto2.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Super Loto"
+  gcsfield7="05/1996"
+  gcsfield8=""
+  gcsfield9="A 65119250 647945846"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="162"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirloto4.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Loto (chien)"
+  gcsfield7="06/1998"
+  gcsfield8=""
+  gcsfield9="A 85493592 276651322"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="163"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirloto5.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Loto (club 44)"
+  gcsfield7="05/1999"
+  gcsfield8=""
+  gcsfield9="D94402922 338925655"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="164"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirloto6.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Loto Joker"
+  gcsfield7="11/1999"
+  gcsfield8=""
+  gcsfield9="F9B400810 375162166"
+  gcsfield10="1000000"
+  gcsfield11="Jeux"
+  gcsautoid="165"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirlotofoot1.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Loto Sportif"
+  gcsfield7="09/1993"
+  gcsfield8=""
+  gcsfield9="B38090061"
+  gcsfield10="2000000"
+  gcsfield11="Jeux"
+  gcsautoid="166"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Jeux/Tirage/tirlotofoot2.JPG"
+  gcsfield4="Tirage"
+  gcsfield5="50"
+  gcsfield6="Loto Foot"
+  gcsfield7="01/1998"
+  gcsfield8=""
+  gcsfield9="D7B403234 239435052"
+  gcsfield10="1000000"
+  gcsfield11="Sport "
+  gcsautoid="167"
+ >
+ </item>
+ <item
+  gcsfield1="Zimbabwe"
+  gcsfield2="1"
+  gcsfield3="zimbabwe/001.JPG"
+  gcsfield4="6 Th All Africa Games Zimbabwe 1995"
+  gcsfield5="100"
+  gcsfield6="6 Th All Africa Games Zimbabwe 1995 (rouge)"
+  gcsfield7="09/1998"
+  gcsfield8=""
+  gcsfield9="1100.061246"
+  gcsfield10=""
+  gcsfield11="Sport "
+  gcsautoid="168"
+ >
+ </item>
+ <item
+  gcsfield1="Zimbabwe"
+  gcsfield2="1"
+  gcsfield3="zimbabwe/002.JPG"
+  gcsfield4="6 Th All Africa Games Zimbabwe 1995 ("
+  gcsfield5="50"
+  gcsfield6="6 Th All Africa Games Zimbabwe 1995 (jaune)"
+  gcsfield7="09/1998"
+  gcsfield8=""
+  gcsfield9="1200.018851"
+  gcsfield10=""
+  gcsfield11="Sport"
+  gcsautoid="169"
+ >
+ </item>
+ <item
+  gcsfield1="Pays-Bas"
+  gcsfield2="1"
+  gcsfield3="pays bas/2.jpg"
+  gcsfield4=""
+  gcsfield5="5€"
+  gcsfield6="Altijd dichtbij "
+  gcsfield7=""
+  gcsfield8="01/07/2008"
+  gcsfield9="R411714587"
+  gcsfield10=""
+  gcsfield11="Cabines"
+  gcsautoid="170"
+ >
+ </item>
+ <item
+  gcsfield1="Pays-Bas"
+  gcsfield2="1"
+  gcsfield3="pays bas/1.jpg"
+  gcsfield4="Football"
+  gcsfield5="10 Gulden (4.54€)"
+  gcsfield6="Euro 2000"
+  gcsfield7=""
+  gcsfield8="01/01/2004"
+  gcsfield9="A405592666"
+  gcsfield10=""
+  gcsfield11="Sport"
+  gcsautoid="171"
+ >
+ </item>
+ <item
+  gcsfield1="Pays-Bas"
+  gcsfield2="1"
+  gcsfield3="pays bas/3.jpg"
+  gcsfield4="A travers le temps"
+  gcsfield5="f25 (11,34€)"
+  gcsfield6="Gouden eeuw: De Dam, Amsterdam"
+  gcsfield7=""
+  gcsfield8="01/01/2005"
+  gcsfield9="A408864121"
+  gcsfield10=""
+  gcsfield11="Histoire"
+  gcsautoid="172"
+ >
+ </item>
+ <item
+  gcsfield1="Pays-Bas"
+  gcsfield2="1"
+  gcsfield3="pays bas/4.jpg"
+  gcsfield4=""
+  gcsfield5="10€"
+  gcsfield6="Drapeaux"
+  gcsfield7=""
+  gcsfield8="01/07/2007"
+  gcsfield9="R4 09543438"
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="173"
+ >
+ </item>
+ <item
+  gcsfield1="Pays-Bas"
+  gcsfield2="1"
+  gcsfield3="pays bas/5.jpg"
+  gcsfield4="A travers le temps"
+  gcsfield5="f10 (4.54€)"
+  gcsfield6="20e eeuw: Arnhem 1944, dolle mina 1972, Marga Klompé 1912"
+  gcsfield7=""
+  gcsfield8="01/01/2004"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Histoire"
+  gcsautoid="174"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2="0"
+  gcsfield3="Italie/P1010061.JPG"
+  gcsfield4=""
+  gcsfield5="Lire 10000"
+  gcsfield6="Tempio Voltiano"
+  gcsfield7=""
+  gcsfield8="31/12/2001"
+  gcsfield9="386015791"
+  gcsfield10="340000"
+  gcsfield11="Musée"
+  gcsautoid="175"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010071.JPG"
+  gcsfield4=""
+  gcsfield5="5€"
+  gcsfield6="Welcome"
+  gcsfield7=""
+  gcsfield8="31/01/2006"
+  gcsfield9="06718230041"
+  gcsfield10=""
+  gcsfield11="Appels internationnaux"
+  gcsautoid="176"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010070.JPG"
+  gcsfield4=""
+  gcsfield5="5€"
+  gcsfield6="Happiness"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="05611383 0398"
+  gcsfield10=""
+  gcsfield11="Appels internationnaux"
+  gcsautoid="177"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010069.JPG"
+  gcsfield4=""
+  gcsfield5="5€"
+  gcsfield6="€uropa"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="1275 0233 9174"
+  gcsfield10=""
+  gcsfield11="Appels internationnaux"
+  gcsautoid="178"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010068.JPG"
+  gcsfield4="Glaciers"
+  gcsfield5="3€"
+  gcsfield6="Svalbard - Liefdefjorden"
+  gcsfield7=""
+  gcsfield8="31/12/2007"
+  gcsfield9="0086019412"
+  gcsfield10="1000000"
+  gcsfield11="Paysages"
+  gcsautoid="179"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010067.JPG"
+  gcsfield4=""
+  gcsfield5="Lire 5000"
+  gcsfield6="Saet"
+  gcsfield7=""
+  gcsfield8="31/12/1995"
+  gcsfield9="165011011"
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="180"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010066.JPG"
+  gcsfield4=""
+  gcsfield5="Lire 10000"
+  gcsfield6="Carabinieri"
+  gcsfield7=""
+  gcsfield8="30/06/1996"
+  gcsfield9="370049563"
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="181"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010065.JPG"
+  gcsfield4=""
+  gcsfield5="5€"
+  gcsfield6="We can help you"
+  gcsfield7=""
+  gcsfield8="30/06/2006"
+  gcsfield9="2462019620"
+  gcsfield10="305000"
+  gcsfield11="Telecom"
+  gcsautoid="182"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010064.JPG"
+  gcsfield4=""
+  gcsfield5="5€"
+  gcsfield6="Phone Home"
+  gcsfield7=""
+  gcsfield8="31/12/2004"
+  gcsfield9="2240122524"
+  gcsfield10="1000000"
+  gcsfield11="Telecom"
+  gcsautoid="183"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010063.JPG"
+  gcsfield4="Musique"
+  gcsfield5="Lire 5000"
+  gcsfield6="Maggio"
+  gcsfield7=""
+  gcsfield8="31/12/2001"
+  gcsfield9="773143402"
+  gcsfield10="1000000"
+  gcsfield11="Spectacles / Festivals"
+  gcsautoid="184"
+ >
+ </item>
+ <item
+  gcsfield1="Italie"
+  gcsfield2=""
+  gcsfield3="Italie/P1010062.JPG"
+  gcsfield4=""
+  gcsfield5="Lire 5000"
+  gcsfield6="Giusto di giovanni Menabuoi - Natività"
+  gcsfield7=""
+  gcsfield8="31/12/2000"
+  gcsfield9="341063381"
+  gcsfield10="1000000"
+  gcsfield11="Art"
+  gcsautoid="185"
+ >
+ </item>
+ <item
+  gcsfield1="Bulgarie"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010072.JPG"
+  gcsfield4=""
+  gcsfield5="10"
+  gcsfield6="Carpet, Chiprovsky, National Ethnographic Museum , Sofia"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="37BULA015683"
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="186"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010073.JPG"
+  gcsfield4=""
+  gcsfield5="£5"
+  gcsfield6="OnLine"
+  gcsfield7=""
+  gcsfield8="06/1999"
+  gcsfield9="284-830722"
+  gcsfield10=""
+  gcsfield11="Appels internationnaux"
+  gcsautoid="187"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2="1"
+  gcsfield3="royaume unis/P1010074.JPG"
+  gcsfield4="Musique"
+  gcsfield5="£3"
+  gcsfield6="Glastonbury Festival 26-27-28 June 1998"
+  gcsfield7=""
+  gcsfield8="31/03/2000"
+  gcsfield9="02/3/002039/0845"
+  gcsfield10=""
+  gcsfield11="Spectacles / Festivals"
+  gcsautoid="188"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2="1"
+  gcsfield3="royaume unis/P1010075.JPG"
+  gcsfield4=""
+  gcsfield5="50p"
+  gcsfield6="BT Phonecard"
+  gcsfield7=""
+  gcsfield8="31/03/2000"
+  gcsfield9="23/6/001130/0581"
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="189"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010076.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="£5 off your Pizza"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="529A31637"
+  gcsfield10=""
+  gcsfield11="Alimentation"
+  gcsautoid="190"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010077.JPG"
+  gcsfield4=""
+  gcsfield5="10"
+  gcsfield6="Princess Diana 1961-1997"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10="5000, card number 38"
+  gcsfield11="Personnalités"
+  gcsautoid="191"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010078.JPG"
+  gcsfield4="Cinéma"
+  gcsfield5="£10"
+  gcsfield6="&quot;Leonardo Di Caprio Phonecard&quot;"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Personnalités"
+  gcsautoid="192"
+ >
+ </item>
+ <item
+  gcsfield1="Israël"
+  gcsfield2=""
+  gcsfield3="israel/P1010079.JPG"
+  gcsfield4="Football"
+  gcsfield5="20"
+  gcsfield6="Foot"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="023B85944"
+  gcsfield10=""
+  gcsfield11="Sport"
+  gcsautoid="193"
+ >
+ </item>
+ <item
+  gcsfield1="Israël"
+  gcsfield2=""
+  gcsfield3="israel/P1010080.JPG"
+  gcsfield4="Blanche-Neige"
+  gcsfield5="50"
+  gcsfield6="Blanche-Neige"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="928A27238"
+  gcsfield10=""
+  gcsfield11="Disney"
+  gcsautoid="194"
+ >
+ </item>
+ <item
+  gcsfield1="Roumanie"
+  gcsfield2="1"
+  gcsfield3="Roumanie/P1010014.JPG"
+  gcsfield4="Alpinisme"
+  gcsfield5="100000"
+  gcsfield6="Constantin Lacatusu în Nepal"
+  gcsfield7=""
+  gcsfield8="01/01/2010"
+  gcsfield9="H1EWWL"
+  gcsfield10=""
+  gcsfield11="Sport"
+  gcsautoid="195"
+ >
+ </item>
+ <item
+  gcsfield1="Roumanie"
+  gcsfield2="1"
+  gcsfield3="Roumanie/P1010011.JPG"
+  gcsfield4=""
+  gcsfield5="80000 lei"
+  gcsfield6="Nouveau préfixe"
+  gcsfield7="06/2002"
+  gcsfield8="06/2004"
+  gcsfield9="OFKDXK"
+  gcsfield10="500000"
+  gcsfield11="Telecom"
+  gcsautoid="196"
+ >
+ </item>
+ <item
+  gcsfield1="Roumanie"
+  gcsfield2="1"
+  gcsfield3="Roumanie/P1010013.JPG"
+  gcsfield4="Natation"
+  gcsfield5="160000"
+  gcsfield6="Spirit de echipa"
+  gcsfield7=""
+  gcsfield8="01/10/2009"
+  gcsfield9="DNVW98"
+  gcsfield10=""
+  gcsfield11="Sport"
+  gcsautoid="197"
+ >
+ </item>
+ <item
+  gcsfield1="République Tchèque"
+  gcsfield2=""
+  gcsfield3="Tchequie/P1010089.JPG"
+  gcsfield4=""
+  gcsfield5="150Kc"
+  gcsfield6="Vue sur Prague"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="125253"
+  gcsfield10=""
+  gcsfield11="Appels internationnaux"
+  gcsautoid="198"
+ >
+ </item>
+ <item
+  gcsfield1="République Tchèque"
+  gcsfield2="1"
+  gcsfield3="Tchequie/P1010086.JPG"
+  gcsfield4=""
+  gcsfield5="150Kc"
+  gcsfield6="Etoile de mer"
+  gcsfield7="04/97"
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10="300000"
+  gcsfield11="Telecom"
+  gcsautoid="199"
+ >
+ </item>
+ <item
+  gcsfield1="République Tchèque"
+  gcsfield2="1"
+  gcsfield3="Tchequie/P1010085.JPG"
+  gcsfield4=""
+  gcsfield5="175Kc"
+  gcsfield6="Zdarma"
+  gcsfield7="06/01"
+  gcsfield8=""
+  gcsfield9="8 594038 960556"
+  gcsfield10="120000"
+  gcsfield11="Telecom"
+  gcsautoid="200"
+ >
+ </item>
+ <item
+  gcsfield1="République Tchèque"
+  gcsfield2="1"
+  gcsfield3="Tchequie/1.jpg"
+  gcsfield4=""
+  gcsfield5="150Kc"
+  gcsfield6="TRICK"
+  gcsfield7="03/02"
+  gcsfield8="31/03/2005"
+  gcsfield9="8 594038 960570"
+  gcsfield10="300000"
+  gcsfield11="Telecom"
+  gcsautoid="201"
+ >
+ </item>
+ <item
+  gcsfield1="République Tchèque"
+  gcsfield2="1"
+  gcsfield3="Tchequie/2.jpg"
+  gcsfield4=""
+  gcsfield5="175Kc"
+  gcsfield6="Historic plzenských tramvají"
+  gcsfield7="11/00"
+  gcsfield8=""
+  gcsfield9="8 594038 960518"
+  gcsfield10="50000"
+  gcsfield11="Transport"
+  gcsautoid="202"
+ >
+ </item>
+ <item
+  gcsfield1="République Tchèque"
+  gcsfield2="1"
+  gcsfield3="Tchequie/3.jpg"
+  gcsfield4="Cesky "
+  gcsfield5="175Kc"
+  gcsfield6="TRICK"
+  gcsfield7="04/02"
+  gcsfield8="30/04/2005"
+  gcsfield9="8 594038 960600"
+  gcsfield10="200000"
+  gcsfield11="Telecom"
+  gcsautoid="203"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010106.JPG"
+  gcsfield4="Harry Potter"
+  gcsfield5="100 Baht"
+  gcsfield6="Harry, Ron et Hermione"
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="204"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010105.JPG"
+  gcsfield4="Harry Potter"
+  gcsfield5="100 Bhat"
+  gcsfield6="Minerva McGonagall"
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="205"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010104.JPG"
+  gcsfield4="Harry Potter"
+  gcsfield5="100 Baht"
+  gcsfield6="Rubeus Hagrid"
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="206"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010103.JPG"
+  gcsfield4="Harry Potter"
+  gcsfield5="100 Baht"
+  gcsfield6="Harry et Drago Malefoy "
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="207"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010102.JPG"
+  gcsfield4="Harry Potter"
+  gcsfield5="100 Baht"
+  gcsfield6="Severus Rogue"
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="208"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010101.JPG"
+  gcsfield4="Harry Potter"
+  gcsfield5="100 Baht"
+  gcsfield6="Drago Malefoy "
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="209"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010100.JPG"
+  gcsfield4="Harry Potter"
+  gcsfield5="100 Baht"
+  gcsfield6="Albus Dumbledore "
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="210"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010098.JPG"
+  gcsfield4="Harry Potter"
+  gcsfield5="100 Baht"
+  gcsfield6="Harry Potter &quot;Rictusempra&quot;"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="2245-1571-30999"
+  gcsfield10=""
+  gcsfield11="Cinéma / Appels internationnaux"
+  gcsautoid="211"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010097.JPG"
+  gcsfield4=""
+  gcsfield5="500 Baht"
+  gcsfield6="20th World Scout Jamboree Thailand, 2003"
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Jamboree"
+  gcsautoid="212"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010094.JPG"
+  gcsfield4=""
+  gcsfield5="100 Baht"
+  gcsfield6="We Are Scout"
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Jamboree"
+  gcsautoid="213"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2=""
+  gcsfield3="thailande/P1010093.JPG"
+  gcsfield4=""
+  gcsfield5="50 Baht"
+  gcsfield6="Pin Phone 108"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="2145-1721-23329"
+  gcsfield10=""
+  gcsfield11="Jamboree / Appels internationnaux"
+  gcsautoid="214"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2=""
+  gcsfield3="thailande/P1010092.JPG"
+  gcsfield4=""
+  gcsfield5="100 Baht"
+  gcsfield6="20th World Scout Jamboree Thailand, 2003"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="2245-1671-14344"
+  gcsfield10=""
+  gcsfield11="Jamboree / Appels internationnaux"
+  gcsautoid="215"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2="1"
+  gcsfield3="thailande/P1010091.JPG"
+  gcsfield4=""
+  gcsfield5="100 Baht"
+  gcsfield6="20th World Scout Jamboree Thailand, 2003"
+  gcsfield7=""
+  gcsfield8="05/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Jamboree"
+  gcsautoid="216"
+ >
+ </item>
+ <item
+  gcsfield1="Thaïlande"
+  gcsfield2=""
+  gcsfield3="thailande/P1010090.JPG"
+  gcsfield4=""
+  gcsfield5="500 Baht"
+  gcsfield6="20th World Scout Jamboree Thailand, 2003"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="2545-1691-01429"
+  gcsfield10=""
+  gcsfield11="Jamboree / Appels internationnaux"
+  gcsautoid="217"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010126.JPG"
+  gcsfield4=""
+  gcsfield5="18Dh"
+  gcsfield6="Astéroïdes flottants dans l'espace"
+  gcsfield7="01/04"
+  gcsfield8=""
+  gcsfield9="4200/790891"
+  gcsfield10=""
+  gcsfield11="Espace"
+  gcsautoid="219"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010125.JPG"
+  gcsfield4=""
+  gcsfield5="60Dh"
+  gcsfield6="Galaxie et champs d'étoiles"
+  gcsfield7="09/04"
+  gcsfield8=""
+  gcsfield9="9200/216746"
+  gcsfield10=""
+  gcsfield11="Espace"
+  gcsautoid="220"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010124.JPG"
+  gcsfield4="Lac"
+  gcsfield5="99Dh"
+  gcsfield6="Lac"
+  gcsfield7="11/04"
+  gcsfield8=""
+  gcsfield9="3200/191086"
+  gcsfield10="Edition limitée"
+  gcsfield11="Paysages"
+  gcsautoid="221"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010107.JPG"
+  gcsfield4=""
+  gcsfield5="40"
+  gcsfield6="Studio Jauson"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="222"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010123.JPG"
+  gcsfield4=""
+  gcsfield5="30Dh"
+  gcsfield6="C'est l'été du MTT"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="59023295440603"
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="223"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010122.JPG"
+  gcsfield4=""
+  gcsfield5="99Dh"
+  gcsfield6="Gold vision"
+  gcsfield7="06/04"
+  gcsfield8=""
+  gcsfield9="7800/298662"
+  gcsfield10=""
+  gcsfield11="Technologie"
+  gcsautoid="224"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010121.JPG"
+  gcsfield4=""
+  gcsfield5="18Dh"
+  gcsfield6="Cabine"
+  gcsfield7="11/02"
+  gcsfield8=""
+  gcsfield9="4005/989077"
+  gcsfield10=""
+  gcsfield11="Cabines"
+  gcsautoid="225"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010120.JPG"
+  gcsfield4=""
+  gcsfield5="30Dh"
+  gcsfield6="Terre, lune et voie lactée"
+  gcsfield7="06/04"
+  gcsfield8=""
+  gcsfield9="5007/816341"
+  gcsfield10=""
+  gcsfield11="Espace"
+  gcsautoid="226"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010119.JPG"
+  gcsfield4=""
+  gcsfield5="30Dh"
+  gcsfield6="GSM"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="59024198850803"
+  gcsfield10=""
+  gcsfield11="Cabines"
+  gcsautoid="227"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010118.JPG"
+  gcsfield4="Sur la route des kasbahs"
+  gcsfield5="60Dh"
+  gcsfield6="Kasbahs de la vallée du Draâ"
+  gcsfield7="01/04"
+  gcsfield8=""
+  gcsfield9="6200/121447"
+  gcsfield10=""
+  gcsfield11="Le maroc (trio)"
+  gcsautoid="228"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2=""
+  gcsfield3="maroc/P1010117.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Cornets de téléphone"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="804B93579"
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="229"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2=""
+  gcsfield3="maroc/P1010116.JPG"
+  gcsfield4="Désert"
+  gcsfield5="70"
+  gcsfield6="Ouarzazate"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="204E50151"
+  gcsfield10=""
+  gcsfield11="Paysages"
+  gcsautoid="230"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2=""
+  gcsfield3="maroc/P1010115.JPG"
+  gcsfield4="Le transfert d'appel"
+  gcsfield5="120"
+  gcsfield6="Le transfert d'appel"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="412D25793"
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="231"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010112.JPG"
+  gcsfield4="L'éblouissement des sens"
+  gcsfield5="30Dh"
+  gcsfield6="Place de Jamaâ Lafna, Marrakech"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="59015117240503"
+  gcsfield10=""
+  gcsfield11="Le maroc (trio)"
+  gcsautoid="232"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010109.JPG"
+  gcsfield4="La passion de l'extrême"
+  gcsfield5="18Dh"
+  gcsfield6="Surf"
+  gcsfield7="05/03"
+  gcsfield8=""
+  gcsfield9="4007/595981"
+  gcsfield10=""
+  gcsfield11="Maroc (trio) (Le)"
+  gcsautoid="233"
+ >
+ </item>
+ <item
+  gcsfield1="Maroc"
+  gcsfield2="1"
+  gcsfield3="maroc/P1010108.JPG"
+  gcsfield4=""
+  gcsfield5="100"
+  gcsfield6="Studio Jauson"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Cinéma"
+  gcsautoid="222"
+ >
+ </item>
+ <item
+  gcsfield1="Venezuela"
+  gcsfield2="1"
+  gcsfield3="Venezuela/P1010028.JPG"
+  gcsfield4=""
+  gcsfield5="Bs. 500"
+  gcsfield6="Cangrejo Flecha"
+  gcsfield7="07/94"
+  gcsfield8=""
+  gcsfield9="GEM015510400"
+  gcsfield10="1800000"
+  gcsfield11="Animaux"
+  gcsautoid="235"
+ >
+ </item>
+ <item
+  gcsfield1="Venezuela"
+  gcsfield2="1"
+  gcsfield3="Venezuela/P1010027.JPG"
+  gcsfield4=""
+  gcsfield5="Bs. 500"
+  gcsfield6="Pez Loro"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="GEM012643408"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="236"
+ >
+ </item>
+ <item
+  gcsfield1="Venezuela"
+  gcsfield2="1"
+  gcsfield3="Venezuela/P1010026.JPG"
+  gcsfield4="New York"
+  gcsfield5="Bs. 500"
+  gcsfield6="Nueva York"
+  gcsfield7="04/94"
+  gcsfield8=""
+  gcsfield9="GEM013900057"
+  gcsfield10="750000"
+  gcsfield11="Villes"
+  gcsautoid="237"
+ >
+ </item>
+ <item
+  gcsfield1="Venezuela"
+  gcsfield2="1"
+  gcsfield3="Venezuela/P1010025.JPG"
+  gcsfield4=""
+  gcsfield5="Bs. 250"
+  gcsfield6="Club Social"
+  gcsfield7="05/94"
+  gcsfield8=""
+  gcsfield9="GEM014741719"
+  gcsfield10="300000"
+  gcsfield11=""
+  gcsautoid="238"
+ >
+ </item>
+ <item
+  gcsfield1="Etats-Unis"
+  gcsfield2=""
+  gcsfield3="P1010040.JPG"
+  gcsfield4=""
+  gcsfield5=""
+  gcsfield6="New Orleans Louisiana"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Appels internationnaux"
+  gcsautoid="239"
+ >
+ </item>
+ <item
+  gcsfield1="Grand Duché du Luxembourg"
+  gcsfield2="1"
+  gcsfield3="Luxembourg/1.jpg"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="PostPack"
+  gcsfield7="30/03/2003"
+  gcsfield8="12/2005"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="La poste"
+  gcsautoid="241"
+ >
+ </item>
+ <item
+  gcsfield1="Japon"
+  gcsfield2=""
+  gcsfield3="japon/P1000990.JPG"
+  gcsfield4=""
+  gcsfield5="105"
+  gcsfield6="Chats et chapeau"
+  gcsfield7="01/07/1994"
+  gcsfield8=""
+  gcsfield9="111-020"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="242"
+ >
+ </item>
+ <item
+  gcsfield1="Japon"
+  gcsfield2=""
+  gcsfield3="japon/P1000989.JPG"
+  gcsfield4=""
+  gcsfield5="105"
+  gcsfield6="Chien et ballon"
+  gcsfield7="01/11/1994"
+  gcsfield8=""
+  gcsfield9="111-032"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="243"
+ >
+ </item>
+ <item
+  gcsfield1="Japon"
+  gcsfield2=""
+  gcsfield3="japon/P1000988.JPG"
+  gcsfield4=""
+  gcsfield5="105"
+  gcsfield6="Chien"
+  gcsfield7="01/03/1996"
+  gcsfield8=""
+  gcsfield9="111-092"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="244"
+ >
+ </item>
+ <item
+  gcsfield1="Japon"
+  gcsfield2=""
+  gcsfield3="japon/P1000987.JPG"
+  gcsfield4=""
+  gcsfield5="105"
+  gcsfield6="Chien et baseball"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="231-200"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="245"
+ >
+ </item>
+ <item
+  gcsfield1="Japon"
+  gcsfield2=""
+  gcsfield3="japon/P1000986.JPG"
+  gcsfield4=""
+  gcsfield5="105"
+  gcsfield6="Chien et voiture"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="331-447"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="246"
+ >
+ </item>
+ <item
+  gcsfield1="Japon"
+  gcsfield2=""
+  gcsfield3="japon/P1000985.JPG"
+  gcsfield4=""
+  gcsfield5="105"
+  gcsfield6="Chiens"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="111-086"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="247"
+ >
+ </item>
+ <item
+  gcsfield1="Japon"
+  gcsfield2=""
+  gcsfield3="japon/P1000984.JPG"
+  gcsfield4=""
+  gcsfield5="105"
+  gcsfield6="Chiens et football"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="411-242"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="248"
+ >
+ </item>
+ <item
+  gcsfield1="Pologne"
+  gcsfield2="1"
+  gcsfield3="Pologne/P1010023.JPG"
+  gcsfield4=""
+  gcsfield5="15"
+  gcsfield6="Karta elektronicza TP"
+  gcsfield7="01/04/2006"
+  gcsfield8=""
+  gcsfield9="6110153136"
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="249"
+ >
+ </item>
+ <item
+  gcsfield1="Pologne"
+  gcsfield2="1"
+  gcsfield3="Pologne/P1010022.JPG"
+  gcsfield4=""
+  gcsfield5="30"
+  gcsfield6="Karta elektronicza TP"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="250"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010009.JPG"
+  gcsfield4=""
+  gcsfield5="60"
+  gcsfield6="Altin Kanatlar"
+  gcsfield7="05/2001"
+  gcsfield8=""
+  gcsfield9="210830661036"
+  gcsfield10="350000"
+  gcsfield11="Histoire"
+  gcsautoid="251"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010008.JPG"
+  gcsfield4=""
+  gcsfield5="30"
+  gcsfield6="Turquie"
+  gcsfield7="01/02/2000"
+  gcsfield8=""
+  gcsfield9="210443483663"
+  gcsfield10="4000000"
+  gcsfield11="Drapeaux"
+  gcsautoid="252"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010007.JPG"
+  gcsfield4=""
+  gcsfield5="30"
+  gcsfield6="Süsleme Sanatlari"
+  gcsfield7="02/2002"
+  gcsfield8=""
+  gcsfield9="210399331308"
+  gcsfield10="1750000"
+  gcsfield11="Histoire"
+  gcsautoid="253"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010006.JPG"
+  gcsfield4=""
+  gcsfield5="60"
+  gcsfield6="Osmanli Devleti'nin: Armoirie de l'Empire Ottoman"
+  gcsfield7="12/07/1999"
+  gcsfield8=""
+  gcsfield9="210555297985"
+  gcsfield10="2000000"
+  gcsfield11="Histoire"
+  gcsautoid="254"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010005.JPG"
+  gcsfield4=""
+  gcsfield5="60"
+  gcsfield6="Tapis Turc"
+  gcsfield7="01/11/1999"
+  gcsfield8=""
+  gcsfield9="210523396962"
+  gcsfield10="2000000"
+  gcsfield11=""
+  gcsautoid="255"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010004.JPG"
+  gcsfield4=""
+  gcsfield5="60"
+  gcsfield6="Bindokuzyüzyirmiiki"
+  gcsfield7="11/2000"
+  gcsfield8=""
+  gcsfield9="210812114054"
+  gcsfield10="4000000"
+  gcsfield11="Vieux téléphones"
+  gcsautoid="256"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010003.JPG"
+  gcsfield4=""
+  gcsfield5="60"
+  gcsfield6="Ata sporumuz"
+  gcsfield7="24/08/1999"
+  gcsfield8=""
+  gcsfield9="210622764991"
+  gcsfield10="1500000"
+  gcsfield11="Sport"
+  gcsautoid="257"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010002.JPG"
+  gcsfield4="Kalelerimiz, Chateaux"
+  gcsfield5="100"
+  gcsfield6="Firan Kalesi / Ermenek"
+  gcsfield7="03/2001"
+  gcsfield8=""
+  gcsfield9="210648185428"
+  gcsfield10="400000"
+  gcsfield11="Paysages"
+  gcsautoid="258"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1010001.JPG"
+  gcsfield4=""
+  gcsfield5="100"
+  gcsfield6="Ceylan"
+  gcsfield7="06/2001"
+  gcsfield8=""
+  gcsfield9="210638399107"
+  gcsfield10="1000000"
+  gcsfield11="Animaux"
+  gcsautoid="259"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1000998.JPG"
+  gcsfield4="Kalelerimiz, Chateaux"
+  gcsfield5="60"
+  gcsfield6="Simena Kaleköy / Antalya"
+  gcsfield7="03/2001"
+  gcsfield8=""
+  gcsfield9="210816661423"
+  gcsfield10="1000000"
+  gcsfield11="Paysages"
+  gcsautoid="260"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1000997.JPG"
+  gcsfield4=""
+  gcsfield5="60"
+  gcsfield6="T.C. Ziraat Bankasi"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Banques"
+  gcsautoid="261"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2=""
+  gcsfield3="Turquie/P1000996.JPG"
+  gcsfield4=""
+  gcsfield5="60"
+  gcsfield6="Bindokuzyüzatmissekiz"
+  gcsfield7="12/2000"
+  gcsfield8=""
+  gcsfield9="210828926401"
+  gcsfield10="4000000"
+  gcsfield11="Vieux téléphones"
+  gcsautoid="262"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2="1"
+  gcsfield3="Turquie/1.jpg"
+  gcsfield4=""
+  gcsfield5="100"
+  gcsfield6="Prince Aksuvar, fodateur de l'empire blanc de Huns"
+  gcsfield7="10/00"
+  gcsfield8="10/02"
+  gcsfield9="A13E80122149298443"
+  gcsfield10=""
+  gcsfield11="Histoire"
+  gcsautoid="263"
+ >
+ </item>
+ <item
+  gcsfield1="Turquie"
+  gcsfield2="1"
+  gcsfield3="Turquie/2.jpg"
+  gcsfield4="Anniversaire"
+  gcsfield5="100"
+  gcsfield6="L'empire Ottoman 1299-1922"
+  gcsfield7="09/2001"
+  gcsfield8="09/2003"
+  gcsfield9="A13E80120011705740"
+  gcsfield10=""
+  gcsfield11="Histoire"
+  gcsautoid="264"
+ >
+ </item>
+ <item
+  gcsfield1="Norvège"
+  gcsfield2="1"
+  gcsfield3="Norvege/P1010048.JPG"
+  gcsfield4=""
+  gcsfield5="22"
+  gcsfield6="Rod Telefonkiosk"
+  gcsfield7="08/97"
+  gcsfield8=""
+  gcsfield9="C78014207"
+  gcsfield10="250000"
+  gcsfield11="Cabines"
+  gcsautoid="265"
+ >
+ </item>
+ <item
+  gcsfield1="Norvège"
+  gcsfield2="1"
+  gcsfield3="Norvege/P1010047.JPG"
+  gcsfield4=""
+  gcsfield5="22"
+  gcsfield6="TeleKort"
+  gcsfield7="04/96"
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10="250000"
+  gcsfield11="Telecom"
+  gcsautoid="266"
+ >
+ </item>
+ <item
+  gcsfield1="Norvège"
+  gcsfield2="1"
+  gcsfield3="Norvege/P1010046.JPG"
+  gcsfield4="Hiver"
+  gcsfield5="22"
+  gcsfield6="Isformasjoner"
+  gcsfield7="02/98"
+  gcsfield8=""
+  gcsfield9="C81021210"
+  gcsfield10="300000"
+  gcsfield11="Saisons"
+  gcsautoid="267"
+ >
+ </item>
+ <item
+  gcsfield1="Norvège"
+  gcsfield2="1"
+  gcsfield3="Norvege/P1010045.JPG"
+  gcsfield4=""
+  gcsfield5="65"
+  gcsfield6="Miljotips"
+  gcsfield7="01/96"
+  gcsfield8=""
+  gcsfield9="C5C155790"
+  gcsfield10="100000"
+  gcsfield11="Art"
+  gcsautoid="268"
+ >
+ </item>
+ <item
+  gcsfield1="Norvège"
+  gcsfield2="1"
+  gcsfield3="Norvege/P1010044.JPG"
+  gcsfield4="Montagne"
+  gcsfield5="65"
+  gcsfield6="Lyngen, Troms"
+  gcsfield7="04/96"
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10="250000"
+  gcsfield11="Paysages"
+  gcsautoid="269"
+ >
+ </item>
+ <item
+  gcsfield1="Norvège"
+  gcsfield2="1"
+  gcsfield3="Norvege/P1010043.JPG"
+  gcsfield4=""
+  gcsfield5="22"
+  gcsfield6="Ring uten mynter"
+  gcsfield7="08/96"
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10="300000"
+  gcsfield11=""
+  gcsautoid="270"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Art a la carte/Collection courants artistiques/artcollectionft07.jpg"
+  gcsfield4="Collection Courants Artistique"
+  gcsfield5="120"
+  gcsfield6="n°7 - Le Surréalisme - France (1924-1936)"
+  gcsfield7="12/00"
+  gcsfield8="01/01/2003"
+  gcsfield9="A0C612965 424220357"
+  gcsfield10="1000000"
+  gcsfield11="Art"
+  gcsautoid="272"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Art a la carte/Collection courants artistiques/artcollectionft02.jpg"
+  gcsfield4="Collection Courants Artistiques"
+  gcsfield5="50"
+  gcsfield6="n°2 - Le Fauvisme - France (1905-1910)"
+  gcsfield7="11/00"
+  gcsfield8="01/12/2002"
+  gcsfield9="A0B612903"
+  gcsfield10="1000000"
+  gcsfield11="Art"
+  gcsautoid="273"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3=""
+  gcsfield4="Collection Courants Artistiques"
+  gcsfield5="120"
+  gcsfield6="n°2 - Le Fauvisme - France (1905-1910)"
+  gcsfield7="11/00"
+  gcsfield8="01/12/2002"
+  gcsfield9="A0B612904 426834978"
+  gcsfield10="1000000"
+  gcsfield11="Art"
+  gcsautoid="274"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Art a la carte/Collection courants artistiques/artcollectionft01.jpg"
+  gcsfield4="Collection Courants Artistiques"
+  gcsfield5="50"
+  gcsfield6="n°1 - Le &quot;Wiener Werkstätte&quot; - Autriche (1896-1932)"
+  gcsfield7="11/00"
+  gcsfield8="01/12/2002"
+  gcsfield9="B0A612901 415560333"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="275"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiquecheveux01.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="L'Oréal Epicéa Color"
+  gcsfield7="07/96"
+  gcsfield8=""
+  gcsfield9="B66011175 673669513"
+  gcsfield10="2000000"
+  gcsfield11="Beauté"
+  gcsautoid="276"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiquecheveux02.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="120"
+  gcsfield6="L'Oréal Animatic"
+  gcsfield7="01/96"
+  gcsfield8=""
+  gcsfield9="A 61018302 618601888"
+  gcsfield10="2000000"
+  gcsfield11="Beauté"
+  gcsautoid="277"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3=""
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="L'Oréal Animatic"
+  gcsfield7="01/96"
+  gcsfield8=""
+  gcsfield9="B61094035 618008370"
+  gcsfield10="2000000"
+  gcsfield11="Beauté"
+  gcsautoid="278"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueparfumcacharel01.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Cacharel Eau d'Eden"
+  gcsfield7="04/96"
+  gcsfield8=""
+  gcsfield9="646874171 C65159853"
+  gcsfield10="2000000"
+  gcsfield11="Beauté"
+  gcsautoid="279"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueparfumkookai.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Kookaï Oui-Non"
+  gcsfield7="06/94"
+  gcsfield8=""
+  gcsfield9="C44044640"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="280"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueparfumlancome.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Lancôme Ô"
+  gcsfield7="09/96"
+  gcsfield8=""
+  gcsfield9="B69053069 698611188"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="281"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueparfumrabane.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="paco rabanne"
+  gcsfield7="10/94"
+  gcsfield8=""
+  gcsfield9="B48056023 447760294"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="282"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueparfumysl01.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Yvresse - Yves Saint Laurent"
+  gcsfield7="09/96"
+  gcsfield8=""
+  gcsfield9="B68144011 692936741"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="283"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueparfumysl02.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Jeans - Yves Saint Laurent"
+  gcsfield7="07/96"
+  gcsfield8=""
+  gcsfield9="A 67110126 679913270"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="284"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueparfumysl03.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Opium - Yves Saint Laurent"
+  gcsfield7="11/95"
+  gcsfield8=""
+  gcsfield9="A 5B017608 5940366941"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="285"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiquepeaubasic.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Basic Homme - Vichy"
+  gcsfield7="04/96"
+  gcsfield8=""
+  gcsfield9="B63136115 640023798"
+  gcsfield10="2000000"
+  gcsfield11="Beauté"
+  gcsautoid="286"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3=""
+  gcsfield4="Cosmétiques"
+  gcsfield5="120"
+  gcsfield6="Basic Homme - Vichy"
+  gcsfield7="04/96"
+  gcsfield8=""
+  gcsfield9="B63137001 631292284"
+  gcsfield10="2000000"
+  gcsfield11="Beauté"
+  gcsautoid="287"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueyvesrocher01.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Yves Rocher 1"
+  gcsfield7="05/96"
+  gcsfield8=""
+  gcsfield9="649997356 C65160400"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="288"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueyvesrocher02.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Yves Rocher 2"
+  gcsfield7="09/95"
+  gcsfield8=""
+  gcsfield9="B58074032 567198612"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="289"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueyvesrocher03.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Yves Rocher 3"
+  gcsfield7="06/97"
+  gcsfield8=""
+  gcsfield9="A 75390126 204604335"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="290"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueyvesrocher04.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Yves Rocher 4"
+  gcsfield7="09/96"
+  gcsfield8=""
+  gcsfield9="A 69110654 694251133"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="291"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueyvesrocher05.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Yves Rocher 5"
+  gcsfield7="02/01"
+  gcsfield8="01/03/2003"
+  gcsfield9="A11613055 433635135"
+  gcsfield10="2000000"
+  gcsfield11="Beauté"
+  gcsautoid="292"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Cosmetiques/cosmetiqueyvesrocher06.jpg"
+  gcsfield4="Cosmétiques"
+  gcsfield5="50"
+  gcsfield6="Yves Rocher 6"
+  gcsfield7="04/98"
+  gcsfield8=""
+  gcsfield9="B83032015 799480151"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="293"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Pret a porter/pretaportercoupdecoeur.jpg"
+  gcsfield4="Prêt à porter"
+  gcsfield5="50"
+  gcsfield6="Coup de Coeur"
+  gcsfield7="08/96"
+  gcsfield8=""
+  gcsfield9="686018822 C68165031"
+  gcsfield10="1000000"
+  gcsfield11="Beauté"
+  gcsautoid="294"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Pret a porter/pretaporterjeanlevis505.jpg"
+  gcsfield4="Prêt à porter"
+  gcsfield5="50"
+  gcsfield6="Levis"
+  gcsfield7="08/96"
+  gcsfield8=""
+  gcsfield9="B67119109 677804941"
+  gcsfield10="1600000"
+  gcsfield11="Beauté"
+  gcsautoid="296"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Beaute/Pret a porter/pretaporternafnaf.jpg"
+  gcsfield4="Prêt à porter"
+  gcsfield5="50"
+  gcsfield6="Naf Naf"
+  gcsfield7="10/94"
+  gcsfield8=""
+  gcsfield9="A 4A013519 471490808"
+  gcsfield10="2000000"
+  gcsfield11="Beauté"
+  gcsautoid="297"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/1290.jpg"
+  gcsfield4="Mensonges et trahisons"
+  gcsfield5="25"
+  gcsfield6="Mensonges et trahisons"
+  gcsfield7="05/04"
+  gcsfield8="01/06/2006"
+  gcsfield9="B44714569 583435757"
+  gcsfield10="1000000"
+  gcsfield11="Cinéma"
+  gcsautoid="298"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/1291.jpg"
+  gcsfield4="Mensonges et trahisons"
+  gcsfield5="25"
+  gcsfield6="Mensonges et trahisons"
+  gcsfield7="06/04"
+  gcsfield8="01/07/2006"
+  gcsfield9="B45714582 585500185"
+  gcsfield10="1000000"
+  gcsfield11="Cinéma"
+  gcsautoid="299"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/cine2cinema1101.JPG"
+  gcsfield4="Divers"
+  gcsfield5="50"
+  gcsfield6="Gagnez un an de cinéma"
+  gcsfield7="12/01"
+  gcsfield8="01/01/2004"
+  gcsfield9="B1B613534 484049543"
+  gcsfield10="1000000"
+  gcsfield11="Cinéma"
+  gcsautoid="300"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/cine2fleur.JPG"
+  gcsfield4="La Fleur de mon Secret"
+  gcsfield5="50"
+  gcsfield6="La Fleur de mon Secret"
+  gcsfield7="08/95"
+  gcsfield8=""
+  gcsfield9="B58063032 561003500"
+  gcsfield10="1000000"
+  gcsfield11="Cinéma"
+  gcsautoid="301"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/cine2goldmember.jpg"
+  gcsfield4="Austin Power"
+  gcsfield5="50"
+  gcsfield6="Austin Power Goldmember &quot;Les bons&quot;"
+  gcsfield7="09/02"
+  gcsfield8="01/10/2004"
+  gcsfield9="B23887588 523887588"
+  gcsfield10="1000000"
+  gcsfield11="Cinéma"
+  gcsautoid="302"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/P1000969.JPG"
+  gcsfield4="Austin Power"
+  gcsfield5="120"
+  gcsfield6="Austin Power Goldmember &quot;Les bons&quot;"
+  gcsfield7="09/02"
+  gcsfield8="01/10/2004"
+  gcsfield9="B28713900 524830953"
+  gcsfield10="1000000"
+  gcsfield11="Cinéma"
+  gcsautoid="303"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/cine2goldmember2.JPG"
+  gcsfield4="Austin Power"
+  gcsfield5="50"
+  gcsfield6="Austin Power Goldmember &quot;Les méchants&quot;"
+  gcsfield7="09/02"
+  gcsfield8="01/10/2004"
+  gcsfield9="B28613894 523887569"
+  gcsfield10="1000000"
+  gcsfield11="Cinéma"
+  gcsautoid="304"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/P1000970.JPG"
+  gcsfield4="Austin Power"
+  gcsfield5="120"
+  gcsfield6="Austin Power Goldmember &quot;Les méchants&quot;"
+  gcsfield7="09/02"
+  gcsfield8="01/10/2004"
+  gcsfield9="B28713903 525003757"
+  gcsfield10="1000000"
+  gcsfield11="Cinéma"
+  gcsautoid="305"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/cine2pathe.JPG"
+  gcsfield4="Divers"
+  gcsfield5="50"
+  gcsfield6="Pathé"
+  gcsfield7="07/96"
+  gcsfield8=""
+  gcsfield9="A 67110042 675015884"
+  gcsfield10="1300000"
+  gcsfield11="Cinéma"
+  gcsautoid="306"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3=""
+  gcsfield4="Divers"
+  gcsfield5="120"
+  gcsfield6="Pathé"
+  gcsfield7="07/96"
+  gcsfield8=""
+  gcsfield9="679562016 C67163264"
+  gcsfield10="1300000"
+  gcsfield11="Cinéma"
+  gcsautoid="307"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/P1000971.JPG"
+  gcsfield4="Divers"
+  gcsfield5="120"
+  gcsfield6="50ème Festival de Cannes"
+  gcsfield7="04/97"
+  gcsfield8=""
+  gcsfield9="B73112034 745379204"
+  gcsfield10="2000000"
+  gcsfield11="Cinéma"
+  gcsautoid="308"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/cine2seignanneaux2a.JPG"
+  gcsfield4="Le Seigneur des Anneaux"
+  gcsfield5="50"
+  gcsfield6="Les Deux Tours"
+  gcsfield7="10/02"
+  gcsfield8="01/11/2004"
+  gcsfield9="B2A713973 537833150"
+  gcsfield10="2100000"
+  gcsfield11="Cinéma"
+  gcsautoid="309"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/cine2seignanneaux3b.jpg"
+  gcsfield4="Le Seigneur des Anneaux"
+  gcsfield5="50"
+  gcsfield6="Le Retour du Roi"
+  gcsfield7="08/03"
+  gcsfield8="01/09/2005"
+  gcsfield9="B37714272 556549915"
+  gcsfield10="900000"
+  gcsfield11="Cinéma"
+  gcsautoid="310"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Cinema/cinema divers/cine2seignanneauxhaut.jpg"
+  gcsfield4="Le Seigneur des Anneaux"
+  gcsfield5="50"
+  gcsfield6="La Communauté de l'Anneau"
+  gcsfield7="09/01"
+  gcsfield8="01/10/2003"
+  gcsfield9="B18513415 469819855"
+  gcsfield10="2100000"
+  gcsfield11="Cinéma"
+  gcsautoid="311"
+ >
+ </item>
+ <item
+  gcsfield1="Grèce"
+  gcsfield2="1"
+  gcsfield3="grece/25.jpg"
+  gcsfield4="Lac"
+  gcsfield5="100"
+  gcsfield6="ДРАМА"
+  gcsfield7="02/96"
+  gcsfield8=""
+  gcsfield9="2114690572"
+  gcsfield10="690000"
+  gcsfield11="Paysages"
+  gcsautoid="312"
+ >
+ </item>
+ <item
+  gcsfield1="Grèce"
+  gcsfield2="1"
+  gcsfield3="grece/17.jpg"
+  gcsfield4=""
+  gcsfield5="2.93€"
+  gcsfield6="ЕУГЕНКH ПРОСФОРА ТОY ОТ"
+  gcsfield7="04/01"
+  gcsfield8="04/03"
+  gcsfield9="1214 052663"
+  gcsfield10="500000"
+  gcsfield11="Santé"
+  gcsautoid="313"
+ >
+ </item>
+ <item
+  gcsfield1="Grèce"
+  gcsfield2="1"
+  gcsfield3="grece/18.jpg"
+  gcsfield4=""
+  gcsfield5="100"
+  gcsfield6="Parlement Hellenique"
+  gcsfield7="10/97"
+  gcsfield8="10/99"
+  gcsfield9="4104 112516"
+  gcsfield10="300000"
+  gcsfield11=""
+  gcsautoid="314"
+ >
+ </item>
+ <item
+  gcsfield1="Grèce"
+  gcsfield2="1"
+  gcsfield3="grece/19.jpg"
+  gcsfield4=""
+  gcsfield5="2.93€"
+  gcsfield6="TAXYДPOMIKO TAMIEYTHPIO"
+  gcsfield7="02/01"
+  gcsfield8="02/03"
+  gcsfield9="1207 320454"
+  gcsfield10="500000"
+  gcsfield11=""
+  gcsautoid="315"
+ >
+ </item>
+ <item
+  gcsfield1="Grèce"
+  gcsfield2="1"
+  gcsfield3="grece/20.jpg"
+  gcsfield4="Montagne"
+  gcsfield5="1000DRS"
+  gcsfield6="АМФКЛЕIA - NOMOC ФЯIВТIДА"
+  gcsfield7="10/99"
+  gcsfield8="10/01"
+  gcsfield9="0187 968560"
+  gcsfield10="1000000"
+  gcsfield11="Paysages"
+  gcsautoid="316"
+ >
+ </item>
+ <item
+  gcsfield1="Grèce"
+  gcsfield2="1"
+  gcsfield3="grece/21.jpg"
+  gcsfield4="Montagne"
+  gcsfield5="1000DRS"
+  gcsfield6="МЕСЕЛЕРОI - IEPAПЕТРА"
+  gcsfield7="08/99"
+  gcsfield8="08/01"
+  gcsfield9="3181324394"
+  gcsfield10="1000000"
+  gcsfield11="Paysages"
+  gcsautoid="317"
+ >
+ </item>
+ <item
+  gcsfield1="Afrique"
+  gcsfield2=""
+  gcsfield3="Afrique/P1010016.JPG"
+  gcsfield4=""
+  gcsfield5="2500 F CFA"
+  gcsfield6="celtel"
+  gcsfield7=""
+  gcsfield8="Juin 2007"
+  gcsfield9="45739455"
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="318"
+ >
+ </item>
+ <item
+  gcsfield1="Afrique"
+  gcsfield2=""
+  gcsfield3="Afrique/P1010017.JPG"
+  gcsfield4=""
+  gcsfield5="5000 F CFA"
+  gcsfield6="celtel"
+  gcsfield7=""
+  gcsfield8="Juin 2007"
+  gcsfield9="45874013"
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="319"
+ >
+ </item>
+ <item
+  gcsfield1="Allemagne"
+  gcsfield2="1"
+  gcsfield3="Allemagne/1.jpg"
+  gcsfield4=""
+  gcsfield5="12DM"
+  gcsfield6="Schlub mit dem vandalismus an telefonhäuschen! "
+  gcsfield7="08/1995"
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="320"
+ >
+ </item>
+ <item
+  gcsfield1="Allemagne"
+  gcsfield2="1"
+  gcsfield3="Allemagne/2.jpg"
+  gcsfield4=""
+  gcsfield5="5€"
+  gcsfield6="einschieben wählen telefonieren"
+  gcsfield7="05/2005"
+  gcsfield8="06/2008"
+  gcsfield9="GHP TK PD 01"
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="321"
+ >
+ </item>
+ <item
+  gcsfield1="Allemagne"
+  gcsfield2="1"
+  gcsfield3="Allemagne/3.jpg"
+  gcsfield4="Fleurs"
+  gcsfield5="5€"
+  gcsfield6="Hainveilchen (Viola riviniana) Blume des Jahres 2002"
+  gcsfield7="10/2002"
+  gcsfield8="09/2005"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Nature"
+  gcsautoid="322"
+ >
+ </item>
+ <item
+  gcsfield1="Allemagne"
+  gcsfield2="1"
+  gcsfield3="Allemagne/4.jpg"
+  gcsfield4=""
+  gcsfield5="12DM"
+  gcsfield6="Jahr der ziege"
+  gcsfield7="09/1994"
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10="300000"
+  gcsfield11="Art"
+  gcsautoid="323"
+ >
+ </item>
+ <item
+  gcsfield1="Allemagne"
+  gcsfield2="1"
+  gcsfield3="Allemagne/5.jpg"
+  gcsfield4=""
+  gcsfield5="12DM"
+  gcsfield6="Wozu Umwege machen?"
+  gcsfield7="10/1996"
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="324"
+ >
+ </item>
+ <item
+  gcsfield1="Allemagne"
+  gcsfield2="1"
+  gcsfield3="Allemagne/6.jpg"
+  gcsfield4=""
+  gcsfield5="5€"
+  gcsfield6="einschieben wählen telefonieren"
+  gcsfield7="09/2003"
+  gcsfield8="09/2006"
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="325"
+ >
+ </item>
+ <item
+  gcsfield1="Arabie Sahoudite"
+  gcsfield2=""
+  gcsfield3="Arabie/P1010029.JPG"
+  gcsfield4=""
+  gcsfield5="1,5"
+  gcsfield6="Arabian Oryx"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="326"
+ >
+ </item>
+ <item
+  gcsfield1="Chine"
+  gcsfield2=""
+  gcsfield3="chine/P1010127.JPG"
+  gcsfield4="Train"
+  gcsfield5="1000"
+  gcsfield6="Train"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Transport"
+  gcsautoid="327"
+ >
+ </item>
+ <item
+  gcsfield1="Egypte"
+  gcsfield2=""
+  gcsfield3="egypte/P1010018.JPG"
+  gcsfield4=""
+  gcsfield5=""
+  gcsfield6="Mosquée"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="0100010653265"
+  gcsfield10=""
+  gcsfield11="Religion"
+  gcsautoid="328"
+ >
+ </item>
+ <item
+  gcsfield1="Egypte"
+  gcsfield2=""
+  gcsfield3="egypte/P1010019.JPG"
+  gcsfield4=""
+  gcsfield5=""
+  gcsfield6="Sphinx"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="0100026342510"
+  gcsfield10=""
+  gcsfield11="Villes"
+  gcsautoid="329"
+ >
+ </item>
+ <item
+  gcsfield1="Egypte"
+  gcsfield2=""
+  gcsfield3="egypte/P1010020.JPG"
+  gcsfield4=""
+  gcsfield5=""
+  gcsfield6="Villes"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="0100023266345"
+  gcsfield10=""
+  gcsfield11="Villes"
+  gcsautoid="330"
+ >
+ </item>
+ <item
+  gcsfield1="Espagne"
+  gcsfield2="1"
+  gcsfield3="espagne/P1000972.JPG"
+  gcsfield4="Communication"
+  gcsfield5="500 PTA"
+  gcsfield6="Telefonica"
+  gcsfield7="06/1997"
+  gcsfield8=""
+  gcsfield9="D 00673092"
+  gcsfield10="1000000"
+  gcsfield11="Telecom"
+  gcsautoid="331"
+ >
+ </item>
+ <item
+  gcsfield1="Espagne"
+  gcsfield2="1"
+  gcsfield3="espagne/P1000973.JPG"
+  gcsfield4="Train"
+  gcsfield5="1000 PTA 6.01€"
+  gcsfield6="Talgo III"
+  gcsfield7="05/2001"
+  gcsfield8="12/2003"
+  gcsfield9="Y 01322765"
+  gcsfield10="1002000"
+  gcsfield11="Transport"
+  gcsautoid="332"
+ >
+ </item>
+ <item
+  gcsfield1="Espagne"
+  gcsfield2="1"
+  gcsfield3="espagne/P1000974.JPG"
+  gcsfield4="Fauna Ibérica "
+  gcsfield5="1000 PTA 6.01€"
+  gcsfield6="Buitre negro (Aegypius monachus)"
+  gcsfield7="06/2001"
+  gcsfield8="12/2003"
+  gcsfield9="Y 00928782"
+  gcsfield10="1000000"
+  gcsfield11="Animaux"
+  gcsautoid="333"
+ >
+ </item>
+ <item
+  gcsfield1="Espagne"
+  gcsfield2="1"
+  gcsfield3="espagne/P1000975.JPG"
+  gcsfield4="Almeria"
+  gcsfield5="6€"
+  gcsfield6="Almeria"
+  gcsfield7="04/2005"
+  gcsfield8="12/2007"
+  gcsfield9="Y 11565792"
+  gcsfield10="250800"
+  gcsfield11="Villes"
+  gcsautoid="334"
+ >
+ </item>
+ <item
+  gcsfield1="Espagne"
+  gcsfield2="1"
+  gcsfield3="espagne/P1000976.JPG"
+  gcsfield4="Fauna Ibérica"
+  gcsfield5="1000 PTA "
+  gcsfield6="Tortuga boba (caretta caretta)"
+  gcsfield7="03/1997"
+  gcsfield8=""
+  gcsfield9="S 01945432"
+  gcsfield10="1000000"
+  gcsfield11="Animaux"
+  gcsautoid="335"
+ >
+ </item>
+ <item
+  gcsfield1="Espagne"
+  gcsfield2="1"
+  gcsfield3="espagne/P1000977.JPG"
+  gcsfield4="Fauna Iberica"
+  gcsfield5="2000+100 PTA 12.02+0.6€"
+  gcsfield6="Macaon (papilio machaon)"
+  gcsfield7="08/1999"
+  gcsfield8="12/2001"
+  gcsfield9="N14830220"
+  gcsfield10="1000000"
+  gcsfield11="Animaux"
+  gcsautoid="336"
+ >
+ </item>
+ <item
+  gcsfield1="Espagne"
+  gcsfield2="1"
+  gcsfield3="espagne/P1000978.JPG"
+  gcsfield4="Train"
+  gcsfield5="2000+100PTA 12.02+0.6€"
+  gcsfield6="Talgo 350"
+  gcsfield7="12/2000"
+  gcsfield8="12/2002"
+  gcsfield9="T02320550"
+  gcsfield10="250000"
+  gcsfield11="Transport"
+  gcsautoid="337"
+ >
+ </item>
+ <item
+  gcsfield1="Hongrie"
+  gcsfield2="1"
+  gcsfield3="hongrie/P1000982.JPG"
+  gcsfield4="Budapest"
+  gcsfield5="50 Egység"
+  gcsfield6="Foto by enigma &quot;Budapest ......igy&quot; Epületek"
+  gcsfield7="1993"
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10="500000"
+  gcsfield11="Villes"
+  gcsautoid="338"
+ >
+ </item>
+ <item
+  gcsfield1="Jordanie"
+  gcsfield2="1"
+  gcsfield3="Jordanie/P1000991.JPG"
+  gcsfield4="Amman"
+  gcsfield5="2JD"
+  gcsfield6="General View for Amman"
+  gcsfield7="01/2002"
+  gcsfield8="02/2003"
+  gcsfield9="3500 164079"
+  gcsfield10="100000"
+  gcsfield11="Villes"
+  gcsautoid="339"
+ >
+ </item>
+ <item
+  gcsfield1="Portugal"
+  gcsfield2="1"
+  gcsfield3="portugal/P1000979.JPG"
+  gcsfield4="Expo'98"
+  gcsfield5="50"
+  gcsfield6="Bébé dans une fleur"
+  gcsfield7="1998"
+  gcsfield8=""
+  gcsfield9="12673097"
+  gcsfield10=""
+  gcsfield11="Evénements / Expo"
+  gcsautoid="340"
+ >
+ </item>
+ <item
+  gcsfield1="Portugal"
+  gcsfield2="1"
+  gcsfield3="portugal/P1000980.JPG"
+  gcsfield4="Expo '98"
+  gcsfield5="100"
+  gcsfield6="Dame avec une étoile"
+  gcsfield7="02/1998"
+  gcsfield8=""
+  gcsfield9="C 14053383"
+  gcsfield10="310000"
+  gcsfield11="Evénements / Expo"
+  gcsautoid="341"
+ >
+ </item>
+ <item
+  gcsfield1="Portugal"
+  gcsfield2="1"
+  gcsfield3="portugal/P1000981.JPG"
+  gcsfield4="Expo '98"
+  gcsfield5="100 "
+  gcsfield6="Petite vague"
+  gcsfield7="1998"
+  gcsfield8=""
+  gcsfield9="16430475"
+  gcsfield10=""
+  gcsfield11="Evénements / Expo "
+  gcsautoid="342"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/1.jpg"
+  gcsfield4="Le lait"
+  gcsfield5="5 CHF"
+  gcsfield6="A kind of Muh"
+  gcsfield7="04/1998"
+  gcsfield8="04/2001"
+  gcsfield9="04981144795"
+  gcsfield10="450000"
+  gcsfield11="Animaux"
+  gcsautoid="343"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/2.jpg"
+  gcsfield4="Serie 2000: 24 moments sur 24 Taxcards"
+  gcsfield5="5 CHF"
+  gcsfield6="01:00 Vendeur de roses, Lugano"
+  gcsfield7="12/1999"
+  gcsfield8="10/2002"
+  gcsfield9="10990151E6"
+  gcsfield10="500000"
+  gcsfield11="24 heures"
+  gcsautoid="344"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/228_001.jpg"
+  gcsfield4="p-taxcard"
+  gcsfield5="5 CHF"
+  gcsfield6="p-taxcard"
+  gcsfield7="11/1995"
+  gcsfield8="11/1998"
+  gcsfield9="11954224001"
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="345"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/ch05.JPG"
+  gcsfield4="Peintures"
+  gcsfield5="10 CHF"
+  gcsfield6="Yvorne"
+  gcsfield7="08/1996"
+  gcsfield8="02/1999"
+  gcsfield9="08960480856"
+  gcsfield10="1400000"
+  gcsfield11="Art"
+  gcsautoid="346"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/v3.jpg"
+  gcsfield4="Lacs"
+  gcsfield5="10 CHF"
+  gcsfield6="Tannensee"
+  gcsfield7="12/1997"
+  gcsfield8="06/2000"
+  gcsfield9="12970328511"
+  gcsfield10="1250000"
+  gcsfield11="Paysages"
+  gcsautoid="347"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP01.jpg"
+  gcsfield4="Peintures"
+  gcsfield5="5 CHF"
+  gcsfield6="Olten"
+  gcsfield7="06/1996"
+  gcsfield8="11/1998"
+  gcsfield9="11956000144"
+  gcsfield10="400000"
+  gcsfield11="Art"
+  gcsautoid="348"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP06.jpg"
+  gcsfield4="Peintures"
+  gcsfield5="20 CHF"
+  gcsfield6="Les cabines de Burki"
+  gcsfield7="09/1996"
+  gcsfield8="02/1999"
+  gcsfield9="08961883636"
+  gcsfield10="1200000"
+  gcsfield11="Art"
+  gcsautoid="349"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP19.jpg"
+  gcsfield4="Montagne"
+  gcsfield5="5 CHF"
+  gcsfield6="Scimfuss"
+  gcsfield7="11/1997"
+  gcsfield8="04/2000"
+  gcsfield9="10971447427"
+  gcsfield10="1700000"
+  gcsfield11="Paysages"
+  gcsautoid="350"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP20.jpg"
+  gcsfield4="Montagne"
+  gcsfield5="10 CHF"
+  gcsfield6="Lucendro"
+  gcsfield7="12/1997"
+  gcsfield8="04/2000"
+  gcsfield9="10972667818"
+  gcsfield10="1800000"
+  gcsfield11="Paysages"
+  gcsautoid="351"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP22.jpg"
+  gcsfield4="Lacs"
+  gcsfield5="5 CHF"
+  gcsfield6="Vierwaldstättersee"
+  gcsfield7="12/1997"
+  gcsfield8="05/2000"
+  gcsfield9="11970312788"
+  gcsfield10="500000"
+  gcsfield11="Paysages"
+  gcsautoid="352"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP24.jpg"
+  gcsfield4="Lacs"
+  gcsfield5="20 CHF"
+  gcsfield6="Zugersee"
+  gcsfield7="12/1997"
+  gcsfield8="06/2000"
+  gcsfield9="12971353723"
+  gcsfield10="350000"
+  gcsfield11="Paysages"
+  gcsautoid="353"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP33.jpg"
+  gcsfield4="Le Lait"
+  gcsfield5="20 CHF"
+  gcsfield6="Power Station"
+  gcsfield7="04/1998"
+  gcsfield8="04/2001"
+  gcsfield9="04981553194"
+  gcsfield10="400000"
+  gcsfield11=""
+  gcsautoid="354"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP44.jpg"
+  gcsfield4="Technologie suisse des chemins de fer à crémaillère et transports à câbles"
+  gcsfield5="10 CHF"
+  gcsfield6="Funiculaire de Muottas Muragl"
+  gcsfield7="01/1999"
+  gcsfield8="12/2001"
+  gcsfield9=""
+  gcsfield10="700000"
+  gcsfield11="Technologie"
+  gcsautoid="355"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP47.jpg"
+  gcsfield4=""
+  gcsfield5="10 CHF"
+  gcsfield6="Barrage de Luzzone"
+  gcsfield7="12/1998"
+  gcsfield8="11/2001"
+  gcsfield9="11981D160C"
+  gcsfield10="1400000"
+  gcsfield11="Cabines"
+  gcsautoid="356"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP51.jpg"
+  gcsfield4="Le  monde aquatique inconnu"
+  gcsfield5="20 CHF"
+  gcsfield6="Couper, 3700 bar"
+  gcsfield7="03/1999"
+  gcsfield8="12/2001"
+  gcsfield9="129801129D"
+  gcsfield10="200000"
+  gcsfield11=""
+  gcsautoid="357"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP52.jpg"
+  gcsfield4="Artistes à l'entracte"
+  gcsfield5="5 CHF"
+  gcsfield6="Pas de deux au cirque Nock"
+  gcsfield7="04/1999"
+  gcsfield8="12/2001"
+  gcsfield9="129814A12D"
+  gcsfield10="1300000"
+  gcsfield11="Spectacles / Festivals "
+  gcsautoid="358"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP53.jpg"
+  gcsfield4="Artistes à l'entracte"
+  gcsfield5="10 CHF"
+  gcsfield6="Double mixte au Valentina's Variété"
+  gcsfield7="04/1999"
+  gcsfield8="12/2001"
+  gcsfield9="12983B2A99"
+  gcsfield10="1600000"
+  gcsfield11="Spectacles / Festivals "
+  gcsautoid="359"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP54.jpg"
+  gcsfield4="Artistes à l'entracte"
+  gcsfield5="20 CHF"
+  gcsfield6="Une histoire de buffle au cirque Knie"
+  gcsfield7="04/1999"
+  gcsfield8="12/2001"
+  gcsfield9="129841A405"
+  gcsfield10="1000000"
+  gcsfield11="Spectacles / Festivals "
+  gcsautoid="360"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP58.jpg"
+  gcsfield4="Les petits sauvages"
+  gcsfield5="5 CHF"
+  gcsfield6="Ybana alias King Kong Junior (Zoo de Zurich)"
+  gcsfield7="06/1999"
+  gcsfield8="05/2002"
+  gcsfield9="059908F403"
+  gcsfield10="700000"
+  gcsfield11="Animaux"
+  gcsautoid="361"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP59.jpg"
+  gcsfield4="Les petits sauvages"
+  gcsfield5="10 CHF"
+  gcsfield6="Pacha montre ses dents de lait (Zoo al maglio)"
+  gcsfield7="06/1999"
+  gcsfield8="05/2002"
+  gcsfield9="05991839D6"
+  gcsfield10="1200000"
+  gcsfield11="Animaux"
+  gcsautoid="362"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP60.jpg"
+  gcsfield4="Les petits sauvages"
+  gcsfield5="20 CHF"
+  gcsfield6="Victoria se dégourdit (Jardin zoologique de Bâle)"
+  gcsfield7="06/1999"
+  gcsfield8="05/2002"
+  gcsfield9="05991E80D3"
+  gcsfield10="400000"
+  gcsfield11="Animaux"
+  gcsautoid="363"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP61.jpg"
+  gcsfield4="Femmes turbo"
+  gcsfield5="5 CHF"
+  gcsfield6="Eliane Rüegg"
+  gcsfield7="08/1999"
+  gcsfield8="08/2002"
+  gcsfield9="08990229B7"
+  gcsfield10="700000"
+  gcsfield11="Sport"
+  gcsautoid="364"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP70.jpg"
+  gcsfield4="Serie 2000: 24 moments sur 24 Taxcards"
+  gcsfield5="5 CHF"
+  gcsfield6="04:00 Chasse-neige, Engelberg"
+  gcsfield7="01/2000"
+  gcsfield8="12/2002"
+  gcsfield9="12990074C6"
+  gcsfield10="200000"
+  gcsfield11="24 heures"
+  gcsautoid="365"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP71.jpg"
+  gcsfield4="Serie 2000: 24 moments sur 24 Taxcards"
+  gcsfield5="10 CHF"
+  gcsfield6="05:00 Marché central, Zurich"
+  gcsfield7="01/2000"
+  gcsfield8="12/2002"
+  gcsfield9="129903AFED"
+  gcsfield10="250000"
+  gcsfield11="24 heures"
+  gcsautoid="366"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP78.jpg"
+  gcsfield4="Serie 2000: 24 moments sur 24 Taxcards"
+  gcsfield5="20 CHF"
+  gcsfield6="12:00 Cuisine de l'hôpital universaitaire, Zurich"
+  gcsfield7="08/2000"
+  gcsfield8="08/2003"
+  gcsfield9="08000A5E7C"
+  gcsfield10="100000"
+  gcsfield11="24 heures"
+  gcsautoid="367"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP88.jpg"
+  gcsfield4="Serie 2000: 24 moments sur 24 Taxcards"
+  gcsfield5="5 CHF"
+  gcsfield6="22:00 Livreur de pizzas, Baden"
+  gcsfield7="01/2001"
+  gcsfield8="12/2003"
+  gcsfield9="12000276B0"
+  gcsfield10="460000"
+  gcsfield11="24 heures"
+  gcsautoid="368"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/SU128.jpg"
+  gcsfield4="Swisscom-Expo.02: Empire of Silence II"
+  gcsfield5="5 CHF"
+  gcsfield6="La cité des silencieux"
+  gcsfield7="08/2002"
+  gcsfield8="08/2005"
+  gcsfield9="0802066EF8"
+  gcsfield10="750000"
+  gcsfield11=""
+  gcsautoid="369"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP133.jpg"
+  gcsfield4="Le givre"
+  gcsfield5="5 CHF"
+  gcsfield6="Prémices"
+  gcsfield7="11/2002"
+  gcsfield8="10/2005"
+  gcsfield9="100204EFF8"
+  gcsfield10="350000"
+  gcsfield11="Saisons"
+  gcsautoid="370"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/CP136.jpg"
+  gcsfield4="Carnaval"
+  gcsfield5="5 CHF"
+  gcsfield6="En route"
+  gcsfield7="02/2003"
+  gcsfield8="01/2006"
+  gcsfield9="010301E10A"
+  gcsfield10="400000"
+  gcsfield11="Fêtes"
+  gcsautoid="371"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/royal tour.jpg"
+  gcsfield4=""
+  gcsfield5="10 CHF"
+  gcsfield6="Royal Tours"
+  gcsfield7="12/1997"
+  gcsfield8="06/2000"
+  gcsfield9="12970340550"
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="372"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/su48b.jpg"
+  gcsfield4="Le Lait"
+  gcsfield5="10 CHF"
+  gcsfield6="Take it to the Top"
+  gcsfield7="04/1998"
+  gcsfield8="04/2001"
+  gcsfield9="04980645777"
+  gcsfield10="850000"
+  gcsfield11=""
+  gcsautoid="373"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/su86b.jpg"
+  gcsfield4="Serie 2000: 24 moments sur 24 Taxcards"
+  gcsfield5="10 CHF"
+  gcsfield6="02:00 Contrôle de police, Wettingen"
+  gcsfield7="12/1999"
+  gcsfield8="10/2002"
+  gcsfield9="10990D1515"
+  gcsfield10="550000"
+  gcsfield11="24 heures"
+  gcsautoid="374"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/SU51.JPG"
+  gcsfield4="Le monde aquatique inconnu"
+  gcsfield5="10 CHF"
+  gcsfield6="Laver à 60°, couleurs"
+  gcsfield7="03/1999"
+  gcsfield8="12/2001"
+  gcsfield9="129807A700"
+  gcsfield10="400000"
+  gcsfield11=""
+  gcsautoid="375"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/ubs.jpg"
+  gcsfield4=""
+  gcsfield5="5 CHF"
+  gcsfield6="UBS"
+  gcsfield7="08/1997"
+  gcsfield8="02/2000"
+  gcsfield9="08970061830"
+  gcsfield10=""
+  gcsfield11="Banques"
+  gcsautoid="377"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/v.jpg"
+  gcsfield4="Montagne"
+  gcsfield5="20 CHF"
+  gcsfield6="Basodino"
+  gcsfield7="12/1997"
+  gcsfield8="04/2000"
+  gcsfield9="10973639706"
+  gcsfield10="300000"
+  gcsfield11="Paysages"
+  gcsautoid="378"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2="1"
+  gcsfield3="suisse/v1.jpg"
+  gcsfield4="Paysage"
+  gcsfield5="5 CHF"
+  gcsfield6="Cascade de Burki"
+  gcsfield7="10/1996"
+  gcsfield8="03/1999"
+  gcsfield9="09960366900"
+  gcsfield10="500000"
+  gcsfield11="Art"
+  gcsautoid="379"
+ >
+ </item>
+ <item
+  gcsfield1="Suisse"
+  gcsfield2=""
+  gcsfield3="suisse/v2.jpg"
+  gcsfield4="Peintures"
+  gcsfield5="10"
+  gcsfield6="Stalden"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="601D94721"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="380"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2="1"
+  gcsfield3="D:/Elise/Cartes de tel/belgique/5/68524_img658.jpg"
+  gcsfield4="5€"
+  gcsfield5="5€"
+  gcsfield6="Jeu d'échec"
+  gcsfield7=""
+  gcsfield8="31/10/2010"
+  gcsfield9="JJ 139738"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="382"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2="1"
+  gcsfield3="D:/Elise/Cartes de tel/belgique/5/coquillage.JPG"
+  gcsfield4="5€"
+  gcsfield5="5€"
+  gcsfield6="Coquillages"
+  gcsfield7=""
+  gcsfield8="31/12/2010"
+  gcsfield9="JJ 139729"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="383"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2="1"
+  gcsfield3="D:/Elise/Cartes de tel/belgique/5/cp125.jpg"
+  gcsfield4="5€"
+  gcsfield5="5€"
+  gcsfield6="Antennes"
+  gcsfield7=""
+  gcsfield8="31/08/2008"
+  gcsfield9="CJ 335690"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="384"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2="1"
+  gcsfield3="D:/Elise/Cartes de tel/belgique/5/cp140.jpg"
+  gcsfield4="5€"
+  gcsfield5="5€"
+  gcsfield6="Ours en peluche"
+  gcsfield7=""
+  gcsfield8="31/12/2010"
+  gcsfield9="JJ 139707"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="385"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/anniversaire/be01.jpg"
+  gcsfield4="Anniversaire"
+  gcsfield5="20"
+  gcsfield6="Découverte de l'Amérique 1492-1992"
+  gcsfield7="1992"
+  gcsfield8=""
+  gcsfield9="287H49516"
+  gcsfield10=""
+  gcsfield11="Histoire"
+  gcsautoid="386"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/anniversaire/rtt.jpg"
+  gcsfield4="Anniversaire"
+  gcsfield5="20"
+  gcsfield6="RTT 1930-1990"
+  gcsfield7="1990"
+  gcsfield8=""
+  gcsfield9="007C98785"
+  gcsfield10=""
+  gcsfield11="Histoire"
+  gcsautoid="387"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/anniversaire/mozart80.jpg"
+  gcsfield4="Musique"
+  gcsfield5="20"
+  gcsfield6="W.A. Mozart 1756-1791"
+  gcsfield7="1991"
+  gcsfield8=""
+  gcsfield9="105G30186"
+  gcsfield10=""
+  gcsfield11="Histoire"
+  gcsautoid="388"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/anniversaire/rossini.jpg"
+  gcsfield4="Musique"
+  gcsfield5="20"
+  gcsfield6="G. Rossini 1792-1868"
+  gcsfield7="1992"
+  gcsfield8=""
+  gcsfield9="229A94629"
+  gcsfield10=""
+  gcsfield11="Histoire"
+  gcsautoid="389"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/art/158.jpg"
+  gcsfield4="CardEx 97"
+  gcsfield5="20"
+  gcsfield6="Alfred Stevens &quot;Le Bain&quot;"
+  gcsfield7="1997"
+  gcsfield8=""
+  gcsfield9="708A65747"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="390"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/art/160.jpg"
+  gcsfield4="CardEx 97"
+  gcsfield5="20"
+  gcsfield6="Fernand Khnopff &quot;L'Encens&quot;"
+  gcsfield7="1997"
+  gcsfield8=""
+  gcsfield9="708F76665"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="391"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/art/161.jpg"
+  gcsfield4="CardEx 97"
+  gcsfield5="20"
+  gcsfield6="Theodore van Rysselberche &quot;Signas sur son bateau&quot;"
+  gcsfield7="1997"
+  gcsfield8=""
+  gcsfield9="708H49567"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="392"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/art/162.jpg"
+  gcsfield4="CardEx 97"
+  gcsfield5="20"
+  gcsfield6="Henri de Toulouse-Lautrec &quot;Divan Japonais&quot;"
+  gcsfield7="1997"
+  gcsfield8=""
+  gcsfield9="728R23933"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="393"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/art/163.jpg"
+  gcsfield4="CardEx 97"
+  gcsfield5="20"
+  gcsfield6="Jean-Baptiste Carpeaux &quot;Flore&quot;"
+  gcsfield7="1997"
+  gcsfield8=""
+  gcsfield9="728C53882"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="394"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/art/164.jpg"
+  gcsfield4="CardEx 97"
+  gcsfield5="20"
+  gcsfield6="Felicien Rops &quot;Pornokratès&quot;"
+  gcsfield7="1997"
+  gcsfield8=""
+  gcsfield9="748G26609"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="395"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/art/be122.JPG"
+  gcsfield4="CardEx 97"
+  gcsfield5="20"
+  gcsfield6="Edouart Manet"
+  gcsfield7="1997"
+  gcsfield8=""
+  gcsfield9="708E00262"
+  gcsfield10=""
+  gcsfield11="Art"
+  gcsautoid="396"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2="1"
+  gcsfield3="D:/Elise/Cartes de tel/belgique/atomium/mauve.png"
+  gcsfield4="Bruxelles"
+  gcsfield5="500 BEF"
+  gcsfield6="Atomium "
+  gcsfield7=""
+  gcsfield8="30/06/2002"
+  gcsfield9="IH 088959"
+  gcsfield10=""
+  gcsfield11="Villes"
+  gcsautoid="397"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2="1"
+  gcsfield3="D:/Elise/Cartes de tel/belgique/atomium/orange.png"
+  gcsfield4="Bruxelles"
+  gcsfield5="1000 BEF"
+  gcsfield6="Atomium"
+  gcsfield7=""
+  gcsfield8="31/07/2001"
+  gcsfield9="GI 017654"
+  gcsfield10=""
+  gcsfield11="Villes"
+  gcsautoid="398"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2="1"
+  gcsfield3="D:/Elise/Cartes de tel/belgique/atomium/turquoise.png"
+  gcsfield4="Bruxelles"
+  gcsfield5="200 BEF"
+  gcsfield6="Atomium"
+  gcsfield7=""
+  gcsfield8="31/05/2001"
+  gcsfield9="FJ 654462"
+  gcsfield10=""
+  gcsfield11="Villes"
+  gcsautoid="399"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/136.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="Rubriek 3800"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="701C34088"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="400"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/137.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="Rubrique 3760"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="7071G12634"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="401"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/156.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="B.Beep"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="748B27646"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="402"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/157.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="B.Beep"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="748E53808"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="403"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/180.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="La telecard"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="801B17213"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="404"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/200.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="200 BEF"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="622C17268"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="405"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/500.jpg"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="500 BEF"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="606A13635"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="406"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/1000.jpg"
+  gcsfield4=""
+  gcsfield5="105"
+  gcsfield6="1000 BEF"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="605H66238"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="407"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/biche3.jpg"
+  gcsfield4="Belgacom Lessive"
+  gcsfield5="20"
+  gcsfield6="Biche"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="464C17735"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="408"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/blanche.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="Belgacom Telecard 20"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="343B11056"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="409"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/ciao.jpg"
+  gcsfield4="appel internationaux"
+  gcsfield5=""
+  gcsfield6="Phone Pass"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="801G24297"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="410"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/ecureuil.jpg"
+  gcsfield4="Belgacom Lessive"
+  gcsfield5="20"
+  gcsfield6="Ecureuil"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="444G40179"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="411"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/hibou.jpg"
+  gcsfield4="Belgacom Lessive"
+  gcsfield5="20"
+  gcsfield6="Hibou"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="444C94165"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="412"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/lapin2.jpg"
+  gcsfield4="Belgacom Lessive"
+  gcsfield5="20"
+  gcsfield6="Lapin"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="424F79810"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="413"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/lessive.jpg"
+  gcsfield4="Belgacom Lessive"
+  gcsfield5="20"
+  gcsfield6="Lessive"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="104D46080"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="414"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/lessive1.jpg"
+  gcsfield4="Belgacom Lessive"
+  gcsfield5="20"
+  gcsfield6="Antennes"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="203A03881"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="415"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/lessive2.jpg"
+  gcsfield4="Belgacom Lessive"
+  gcsfield5="20"
+  gcsfield6="R.T.T. - Lessive"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="004B33971"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="416"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/orange.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="Telecard RTT 20"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="802A46451"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="417"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/renard.jpg"
+  gcsfield4="Belgacom Lessive"
+  gcsfield5="20"
+  gcsfield6="Renard"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="424E20903"
+  gcsfield10=""
+  gcsfield11="Animaux"
+  gcsautoid="418"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2=""
+  gcsfield3="D:/Elise/Cartes de tel/belgique/belgacom/vert.jpg"
+  gcsfield4=""
+  gcsfield5="20"
+  gcsfield6="Belgacom"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="521B16554"
+  gcsfield10=""
+  gcsfield11="Belgacom"
+  gcsautoid="419"
+ >
+ </item>
+ <item
+  gcsfield1="Belgique"
+  gcsfield2="1"
+  gcsfield3="D:/Elise/Cartes de tel/belgique/billet/116x.jpg"
+  gcsfield4=""
+  gcsfield5="5€ "
+  gcsfield6="5€"
+  gcsfield7=""
+  gcsfield8="31/12/2004"
+  gcsfield9="DJ 087445"
+  gcsfield10=""
+  gcsfield11=""
+  gcsautoid="420"
+ >
+ </item>
+</collection>
