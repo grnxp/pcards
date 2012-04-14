@@ -3,3 +3,4 @@ db/*
 migrations/*
 media/*
 Thumbs.db
+*.*~
