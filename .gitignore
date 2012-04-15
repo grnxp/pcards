@@ -2,5 +2,6 @@
 db/*
 migrations/*
 media/*
+pictures/*
 Thumbs.db
 *.*~

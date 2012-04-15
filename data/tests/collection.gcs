@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<collection type="Cartes_telephoniques" items="408" version="1.5.0">
+ <information>
+  <email>user_mail@...</email>
+  <images>collection_images</images>
+  <lang>FR (Français)</lang>
+  <maxId>422</maxId>
+  <owner>owner informations</owner>
+ </information>
+
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="Vitell_1_0.jpg"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Vitell 1"
+  gcsfield7="03/1993"
+  gcsfield8=""
+  gcsfield9="B320C0061"
+  gcsfield10="1500000"
+  gcsfield11="Alimentation "
+  gcsautoid="4"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="france/Alimentation/Boissons/boissonivittel2.JPG"
+  gcsfield4="Boissons"
+  gcsfield5="50"
+  gcsfield6="Vitell 2"
+  gcsfield7="03/1997"
+  gcsfield8=""
+  gcsfield9="B72089104 732157506"
+  gcsfield10="1000000"
+  gcsfield11="Alimentation "
+  gcsautoid="5"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010073.JPG"
+  gcsfield4=""
+  gcsfield5="£5"
+  gcsfield6="OnLine"
+  gcsfield7=""
+  gcsfield8="06/1999"
+  gcsfield9="284-830722"
+  gcsfield10=""
+  gcsfield11="Appels internationnaux"
+  gcsautoid="187"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2="1"
+  gcsfield3="royaume unis/P1010074.JPG"
+  gcsfield4="Musique"
+  gcsfield5="£3"
+  gcsfield6="Glastonbury Festival 26-27-28 June 1998"
+  gcsfield7=""
+  gcsfield8="31/03/2000"
+  gcsfield9="02/3/002039/0845"
+  gcsfield10=""
+  gcsfield11="Spectacles / Festivals"
+  gcsautoid="188"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2="1"
+  gcsfield3="royaume unis/P1010075.JPG"
+  gcsfield4=""
+  gcsfield5="50p"
+  gcsfield6="BT Phonecard"
+  gcsfield7=""
+  gcsfield8="31/03/2000"
+  gcsfield9="23/6/001130/0581"
+  gcsfield10=""
+  gcsfield11="Telecom"
+  gcsautoid="189"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010076.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="£5 off your Pizza"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9="529A31637"
+  gcsfield10=""
+  gcsfield11="Alimentation"
+  gcsautoid="190"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010077.JPG"
+  gcsfield4=""
+  gcsfield5="10"
+  gcsfield6="Princess Diana 1961-1997"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10="5000, card number 38"
+  gcsfield11="Personnalités"
+  gcsautoid="191"
+ >
+ </item>
+ <item
+  gcsfield1="Royaume-Unis"
+  gcsfield2=""
+  gcsfield3="royaume unis/P1010078.JPG"
+  gcsfield4="Cinéma"
+  gcsfield5="£10"
+  gcsfield6="&quot;Leonardo Di Caprio Phonecard&quot;"
+  gcsfield7=""
+  gcsfield8=""
+  gcsfield9=""
+  gcsfield10=""
+  gcsfield11="Personnalités"
+  gcsautoid="192"
+ >
+ </item>
+  <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney02.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="EuroDisney Resort"
+  gcsfield7="04/2002"
+  gcsfield8=""
+  gcsfield9="B230L0038"
+  gcsfield10="510000"
+  gcsfield11="Disney"
+  gcsautoid="31"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney04.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Le cadeau"
+  gcsfield7="11/1993"
+  gcsfield8=""
+  gcsfield9="D41001756"
+  gcsfield10="6000000"
+  gcsfield11="Disney"
+  gcsautoid="32"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney05.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="EuroDisneyland Paris "
+  gcsfield7="05/1994"
+  gcsfield8=""
+  gcsfield9="649149506"
+  gcsfield10="2000000"
+  gcsfield11="Disney"
+  gcsautoid="33"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney08.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Disneyland Paris 2"
+  gcsfield7="02/1995"
+  gcsfield8=""
+  gcsfield9="A 51014512 497464515"
+  gcsfield10="500000"
+  gcsfield11="Disney"
+  gcsautoid="34"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney06.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="&quot;séjour golf&quot;"
+  gcsfield7="06/1994"
+  gcsfield8=""
+  gcsfield9="C47045825"
+  gcsfield10="1400000"
+  gcsfield11="Disney"
+  gcsautoid="35"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney09.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Disneyland Paris 1"
+  gcsfield7="04/1997"
+  gcsfield8=""
+  gcsfield9="C75107261 759776710"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="36"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney10.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Sommet des enfants"
+  gcsfield7="05/1996"
+  gcsfield8=""
+  gcsfield9="B64179076 649123124"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="37"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney12.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Walt Disney Studios 1"
+  gcsfield7="04/2002"
+  gcsfield8="01/05/2004"
+  gcsfield9="A23613745 500347337"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="38"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney13.JPG"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Walt Disney Studio 2"
+  gcsfield7="04/2002"
+  gcsfield8="01/05/2004"
+  gcsfield9="D23413735 498675383"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="39"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney14.jpg"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="Disney Village"
+  gcsfield7="08/2003"
+  gcsfield8=""
+  gcsfield9="B37714275 557624551"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="40"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disney15.jpg"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="La légende de Buffalo Bill"
+  gcsfield7="08/2003"
+  gcsfield8=""
+  gcsfield9="D38714278 558047652"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="41"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/buffalo bill 120.jpg"
+  gcsfield4=""
+  gcsfield5="120"
+  gcsfield6="La légende de Buffalo Bill"
+  gcsfield7="08/2003"
+  gcsfield8=""
+  gcsfield9="A38714287 558634813"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="42"
+ >
+ </item>
+ <item
+  gcsfield1="France"
+  gcsfield2="1"
+  gcsfield3="./france/Disney/disneyleroilion.jpg"
+  gcsfield4=""
+  gcsfield5="50"
+  gcsfield6="La légende du Roi Lion"
+  gcsfield7="07/2004"
+  gcsfield8="01/08/2006"
+  gcsfield9="B46714593 589401321"
+  gcsfield10="1000000"
+  gcsfield11="Disney"
+  gcsautoid="43"></item>
+</collection>
+
