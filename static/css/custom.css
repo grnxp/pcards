@@ -1,3 +1,5 @@
-body {
-		
+.img-centered
+{
+	vertical-align: middle;
+	padding: 5px;
 }

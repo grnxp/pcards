@@ -9,6 +9,7 @@ class Country(models.Model):
 	
 	class Meta:
 		verbose_name_plural ='Pays'
+		verbose_name = 'Pays'
 		
 	def __unicode__(self):
 		return self.label
@@ -20,6 +21,7 @@ class Category(models.Model):
 	
 	class Meta:
 		verbose_name_plural ='Catégories'
+		verbose_name = 'Catégorie'
 		
 	def __unicode__(self):
 		return self.label
@@ -28,18 +30,18 @@ class SubCategory(models.Model):
 	label = models.CharField(verbose_name='Thème', unique=True, max_length=50)
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
-	#category = models.ForeignKey(Category, verbose_name='Catégorie')
+	category = models.ForeignKey(Category, verbose_name='Catégorie', null=True, blank=True)
 	
 	class Meta:
 		verbose_name_plural ='Thèmes'
+		verbose_name = 'Thème'
 		
 	def __unicode__(self):
-		return self.label
+		return self.category.label + ' - ' + self.label
 
 class Item(models.Model):
 	
 	country = models.ForeignKey(Country, verbose_name='Pays')
-	category = models.ForeignKey(Category, verbose_name='Catégorie')
 	subcategory = models.ForeignKey(SubCategory, verbose_name='Thème')
 	label = models.CharField(verbose_name='Titre', max_length=50)
 	image = models.ImageField(upload_to='pictures')
@@ -53,6 +55,7 @@ class Item(models.Model):
 	
 	class Meta:
 		verbose_name_plural ='Cartes de téléphone'
+		verbose_name = 'Carte de téléphone'
 	
 	def __unicode__(self):
-		return '%s %s %s %s' % (self.country.label, self.category.label, self.subcategory.label, self.label)
+		return '%s %s %s %s' % (self.country.label, self.subcategory.category.label, self.subcategory.label, self.label)

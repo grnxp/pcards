@@ -9,14 +9,42 @@
 	<div class="thumbnail">
 		<img src="{{card.image|scale}}" alt="">
 	</div>
+	<table class="table table-bordered">
 	
-	<ul>
-		<li>{{card.country}}</li>
-		<li>{{card.category}}</li>
-		<li>{{card.subcategory}}</li>
-		<li>{{card.with_chip}}</li>
-	</ul>
-	
+		<tr>
+			<td>Pays</td>
+			<td><a href="{% url list-by-country card.country.id 1 %}">{{card.country}}</a></td>
+		</tr>
+		<tr>
+			<td>Catégorie</td>
+			<td><a href="{% url list-by-category card.subcategory.category.id 1 %}">{{card.subcategory.category.label}}</a></td>
+		</tr>
+		<tr>
+			<td>Thème</td>
+			<td><a href="{% url list-by-subcategory card.subcategory.id 1 %}">{{card.subcategory.label}}</a></td>
+		</tr>
+		<tr>
+			<td>Nombre d'unités</td>
+			<td>{{card.units}}</td>
+		</tr>
+		<tr>
+			<td>Tirage</td>
+			<td>{{card.numberOfCopies}}</td>
+		</tr>
+		<tr>
+			<td>Puce</td>
+			<td>{% if card.with_chip %}Oui{% else %}Non{% endif %}</td>
+		</tr>
+		<tr>
+			<td>Date d'émission</td>
+			<td>{{card.emissiondate}}</td>
+		</tr>
+		<tr>
+			<td>Date d'expiration</td>
+			<td>{{card.expirationdate}}</td>
+		</tr>
+	</table>
+	<p>Dernière mise-à-jour : {{card.updated_at}}</p>
 </div>
 
 {% endblock %}

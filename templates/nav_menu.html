@@ -1,3 +1,7 @@
+<script>
+
+</script>
+
 ﻿<div class="well" style="padding: 8px 0;">
 	<ul class="nav nav-list">
 		<li class="nav-header">
@@ -10,7 +14,13 @@
 			Catégories
 		</li>
 		{% for cat in categories %}
-			<li><a href="{% url list-by-category cat.id 1 %}">{{cat.label}}</a></li>
+			<li><a href="{% url list-by-category cat.id 1 %}">{{cat.label}}</a>
+				<ul class="nav nav-list">
+				{% for subcat in cat.subcategory_set.all %}
+					<li><a href="{% url list-by-subcategory subcat.id 1 %}">{{subcat.label}}</a>
+				{% endfor %}
+				</ul>
+			</li>
 		{% endfor %}
 		<li class="divider"></li>
 		<li><a href="#"><i class="icon-book"></i>Recherche avancée</a></li>

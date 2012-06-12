@@ -111,10 +111,13 @@ class Command(BaseCommand):
 		i.country = country
 
 		category, created = Category.objects.get_or_create(label=item.category.strip())
-		i.category = category
+		#i.category = category
 
 		subcategory, created = SubCategory.objects.get_or_create(label=item.subcategory.strip())
+		subcategory.category = category
 		i.subcategory = subcategory
+
+		i.subcategory.save()
 
 		i.units = item.units
 		i.label = item.label

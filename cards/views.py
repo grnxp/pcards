@@ -26,20 +26,25 @@ def details(request, item_id):
 def search_by_country(request, country_id, page_number):
 	country = get_object_or_404(Country, pk=country_id)
 	
-	context = { 'object' : country }
+	context = { 'cards_list' : country.item_set.all(), 'title' : country.label }
 	
 	return render_to_response('cards/list.html', RequestContext(request, context))
 
 def search_by_category(request, category_id, page_number):
-	country = get_object_or_404(Category, pk=category_id)
+	category = get_object_or_404(Category, pk=category_id)
 	
-	context = { 'object' : country }
+	cards_list = list()
+	
+	for subcat in category.subcategory_set.all():
+		cards_list.extend(subcat.item_set.all())
+	
+	context = { 'cards_list' :  cards_list, 'title' : category.label }
 	
 	return render_to_response('cards/list.html', RequestContext(request, context))
 	
 def search_by_subcategory(request, subcategory_id, page_number):
-	country = get_object_or_404(SubCategory, pk=subcategory_id)
+	subcategory = get_object_or_404(SubCategory, pk=subcategory_id)
 	
-	context = { 'object' : country }
+	context = { 'cards_list' : subcategory.item_set.all(), 'title' : subcategory.label }
 	
 	return render_to_response('cards/list.html', RequestContext(request, context))
