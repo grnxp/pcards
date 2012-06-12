@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load image_tags %}
+
+{% block main_container %}
+
+	<h2>{{object.label}}</h2>
+
+	<ul class="thumbnails">
+	{% for card in object.item_set.all %}
+		<li class="span2">
+			<a href="{% url card-details card.id %}" class="thumbnail">
+				<img src="{{card.image|crop}}" />
+			</a>
+		</li>
+	{% endfor %}
+	</ul>
+
+{% endblock %}

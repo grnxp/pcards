@@ -1,0 +1,38 @@
+﻿{% load inclusion_tags %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.css" media="screen" />
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/custom.css" media="screen" />
+	<script src="{{ STATIC_URL }}js/jquery-1.7.1.min.js"></script>
+	<title>{% block page_title %}Collec' de cart'{% endblock %}</title>
+</head>
+<body>
+<header>
+	<p><a href="{% url index %}">No header</a></p>
+</header>
+<div class="container-fluid">
+    <div class="row-fluid">
+		<div class="row-fluid">
+			<div class="span3">
+				{% nav_menu %}
+			</div>
+			<div class="span9">
+				{% block main_container %}{% endblock %}
+			</div>
+		</div>
+	</div>
+</div>
+
+	<section id="main_content">
+		
+	</section>
+<footer>
+	<p>footer</p>
+<footer>
+	
+</footer>
+</body>
+</html>

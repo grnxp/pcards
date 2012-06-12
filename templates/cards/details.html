@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+
+{% load image_tags %}
+
+{% block main_container %}
+<div class="span10">
+	<h2>{{ card.label }}</h2>
+	
+	<div class="thumbnail">
+		<img src="{{card.image|scale}}" alt="">
+	</div>
+	
+	<ul>
+		<li>{{card.country}}</li>
+		<li>{{card.category}}</li>
+		<li>{{card.subcategory}}</li>
+		<li>{{card.with_chip}}</li>
+	</ul>
+	
+</div>
+
+{% endblock %}

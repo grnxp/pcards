@@ -107,13 +107,13 @@ class Command(BaseCommand):
 
 		i = Item()
 
-		country, created = Country.objects.get_or_create(name=item.country)
+		country, created = Country.objects.get_or_create(label=item.country.strip())
 		i.country = country
 
-		category, created = Category.objects.get_or_create(label=item.category)
+		category, created = Category.objects.get_or_create(label=item.category.strip())
 		i.category = category
 
-		subcategory, created = SubCategory.objects.get_or_create(label=item.subcategory)
+		subcategory, created = SubCategory.objects.get_or_create(label=item.subcategory.strip())
 		i.subcategory = subcategory
 
 		i.units = item.units
@@ -123,7 +123,7 @@ class Command(BaseCommand):
 		i.numberOfCopies = item.numberOfCopies
 		
 		if item.image_path is not None:
-			i.image.save(i.label, File(open(item.image_path)))
+			i.image.save(os.path.basename(item.image_path), File(open(item.image_path, 'rb')))
 
 		i.save()
 

@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% load image_tags %}
+
+{% block main_container %}
+
+<h2>Derniers ajouts</h2>
+
+<ul class="thumbnails">
+{% for card in cards_list %}
+	<li class="span2">
+		<a href="{% url card-details card.id %}" class="thumbnail">
+			<img src="{{card.image|crop}}" />
+		</a>
+	</li>
+{% endfor %}
+</ul>
+
+{% endblock %}

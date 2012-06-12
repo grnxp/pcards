@@ -1,0 +1,18 @@
+﻿<div class="well" style="padding: 8px 0;">
+	<ul class="nav nav-list">
+		<li class="nav-header">
+			Pays
+		</li>
+		{% for country in countries %}
+			<li><a href="{% url list-by-country country.id 1 %}">{{country.label}}</a>
+		{% endfor %}
+		<li class="nav-header">
+			Catégories
+		</li>
+		{% for cat in categories %}
+			<li><a href="{% url list-by-category cat.id 1 %}">{{cat.label}}</a></li>
+		{% endfor %}
+		<li class="divider"></li>
+		<li><a href="#"><i class="icon-book"></i>Recherche avancée</a></li>
+	</ul>
+</div>
