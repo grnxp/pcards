@@ -58,7 +58,7 @@ class Command(BaseCommand):
 			i.country = attrs.get('gcsfield1')
 			i.with_chip = attrs.get('gcsfield2')
 			i.image_path = self._get_absfilepath(os.path.dirname(filepath), attrs.get('gcsfield3'))
-			i.subcategory = attrs.get('gcsfield4')
+			i.subcategory = attrs.get('gcsfield4')			
 			i.units  = attrs.get('gcsfield5')
 			i.label = attrs.get('gcsfield6')
 			i.emissionDate = attrs.get('gcsfield7')
@@ -67,7 +67,9 @@ class Command(BaseCommand):
 			i.category = attrs.get('gcsfield11')
 			i.gcsid = attrs.get('gcsautoid')
 
-
+			if i.subcategory is None or i.subcategory == '':
+				i.subcategory = i.category
+			
 			my_list.append(i)
 	
 		return my_list

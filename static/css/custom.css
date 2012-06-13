@@ -3,3 +3,9 @@
 	vertical-align: middle;
 	padding: 5px;
 }
+
+#page-content
+{
+	width: 95%;
+	margin: auto;
+}

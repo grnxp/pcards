@@ -22,6 +22,7 @@ class Category(models.Model):
 	class Meta:
 		verbose_name_plural ='Catégories'
 		verbose_name = 'Catégorie'
+		ordering = ['label']
 		
 	def __unicode__(self):
 		return self.label
@@ -35,6 +36,7 @@ class SubCategory(models.Model):
 	class Meta:
 		verbose_name_plural ='Thèmes'
 		verbose_name = 'Thème'
+		ordering = ['label']
 		
 	def __unicode__(self):
 		return self.category.label + ' - ' + self.label
