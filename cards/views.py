@@ -31,7 +31,21 @@ def query(request):
 	else:
 		terms = request.GET['q']
 	
-	context = { 'cards_list' : None, 'title' : 'Recherche sur les termes : ' + terms }
+	from django.db import connection
+	
+	cursor = connection.cursor()
+	
+	for term in terms.split(' '):
+		pass
+	
+	raw_sql = '%s shalalal %s'
+	
+	for row in cursor.execute(raw_sql, ['%'+term+'%']):
+		print row.id
+	
+	cards_list = query_set
+	
+	context = { 'cards_list' : cards_list, 'title' : 'Recherche sur les termes : ' + terms }
 	
 	return render_to_response('cards/list.html', RequestContext(request, context))
 
