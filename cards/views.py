@@ -23,6 +23,21 @@ def details(request, item_id):
 
 	return render_to_response('cards/details.html', RequestContext(request, context))
 	
+def query(request):
+	
+	if request.method == "POST":
+		terms = request.POST['q']
+		
+	else:
+		terms = request.GET['q']
+	
+	context = { 'cards_list' : None, 'title' : 'Recherche sur les termes : ' + terms }
+	
+	return render_to_response('cards/list.html', RequestContext(request, context))
+
+def advanced_query(request):
+	return render_to_response('cards/advanced_query.html', RequestContext(request, context)) 
+
 def search_by_country(request, country_id, page_number):
 	country = get_object_or_404(Country, pk=country_id)
 	
@@ -48,3 +63,4 @@ def search_by_subcategory(request, subcategory_id, page_number):
 	context = { 'cards_list' : subcategory.item_set.all(), 'title' : subcategory.label }
 	
 	return render_to_response('cards/list.html', RequestContext(request, context))
+	

@@ -5,9 +5,13 @@
 ﻿<div class="well" style="padding: 8px 0;">
 	<ul class="nav nav-list">
 		<li>
-			<form>
-				<input type="text" class="search-query" placeholder="Recherche">
+			<form action="/query/" method="POST">
+				{% csrf_token %} 
+				<input id="q" name="q" type="text" class="search-query" placeholder="Recherche">
 			</form>
+		</li>
+		<li class="pull-right">
+			<a href="{% url advanced-query %}" title="Recherche avancée" />
 		</li>
 		<li class="nav-header">
 			Pays

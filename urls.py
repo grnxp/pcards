@@ -11,6 +11,8 @@ urlpatterns = patterns('',
     # url(r'^xcards/', include('xcards.foo.urls')),
 
 	url(r'^details/(?P<item_id>\d+)/$', 'cards.views.details', name='card-details'),
+	url(r'^query/$', 'cards.views.query'),
+	url(r'^advanced-query/$', 'cards.views.advanced_query', name='advanced-query'),
 	url(r'^list/country/(?P<country_id>\d+)/(?P<page_number>\d+)/$', 'cards.views.search_by_country', name='list-by-country'),
 	url(r'^list/category/(?P<category_id>\d+)/(?P<page_number>\d+)/$', 'cards.views.search_by_category', name='list-by-category'),
 	url(r'^list/subcategory/(?P<subcategory_id>\d+)/(?P<page_number>\d+)/$', 'cards.views.search_by_subcategory', name='list-by-subcategory'),
