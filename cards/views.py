@@ -31,19 +31,14 @@ def query(request):
 	else:
 		terms = request.GET['q']
 	
-	from django.db import connection
+	from django.db.models import Q
 	
-	cursor = connection.cursor()
+	q = Q()
 	
 	for term in terms.split(' '):
-		pass
+		q.add((Q(label__icontains=term) | Q(subcategory__label__icontains=term) | Q(subcategory__category__label__icontains=term) | Q(country__label__icontains=term) ), q.AND)
 	
-	raw_sql = '%s shalalal %s'
-	
-	for row in cursor.execute(raw_sql, ['%'+term+'%']):
-		print row.id
-	
-	cards_list = query_set
+	cards_list = Item.objects.filter(q)
 	
 	context = { 'cards_list' : cards_list, 'title' : 'Recherche sur les termes : ' + terms }
 	

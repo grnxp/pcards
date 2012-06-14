@@ -6,9 +6,11 @@
 <div class="span10">
 	<h2>{{ card.label }}</h2>
 	
+	{% if card.image %}
 	<div class="thumbnail">
 		<img src="{{card.image|scale}}" alt="">
 	</div>
+	{% endif %}
 	<table class="table table-bordered">
 	
 		<tr>
