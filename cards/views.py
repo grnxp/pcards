@@ -45,6 +45,8 @@ def query(request):
 	return render_to_response('cards/list.html', RequestContext(request, context))
 
 def advanced_query(request):
+	context = { }
+	
 	return render_to_response('cards/advanced_query.html', RequestContext(request, context)) 
 
 def search_by_country(request, country_id, page_number):
