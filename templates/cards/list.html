@@ -7,15 +7,31 @@
 	<h2>{{title}}</h2>
 
 	<ul class="thumbnails">
-	{% for card in cards_list %}
-		<li class="span2">
-			<a href="{% url card-details card.id %}" class="thumbnail">
-			{% if card.image %}
-				<img src="{{card.image|crop}}" title="{{card.label}}" />
-			{% endif %}
-			</a>
-		</li>
-	{% endfor %}
+		{% for card in cards %}
+			<li class="span2">
+				<a href="{% url card-details card.id %}" class="thumbnail">
+				{% if card.image %}
+					<img src="{{card.image|crop}}" title="{{card.label}}" />
+				{% endif %}
+				</a>
+			</li>
+		{% endfor %}
 	</ul>
 
+	<div class="pagination">
+		<span class="step-links">
+			{% if cards.has_previous %}
+				<a href="?page={{ contacts.previous_page_number }}">page précédente</a>
+			{% endif %}
+
+			<span class="current">
+				Page {{ cards.number }} de {{ cards.paginator.num_pages }}.
+			</span>
+
+			{% if cards.has_next %}
+				<a href="?page={{ contacts.next_page_number }}">page suivante</a>
+			{% endif %}
+		</span>
+	</div>
+	
 {% endblock %}
