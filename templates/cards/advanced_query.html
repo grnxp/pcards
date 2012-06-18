@@ -1,1 +1,10 @@
 {% extends 'base.html' %}
+
+{% block main_container %}
+
+<form action="/advanced-query/" method="post">
+	{% csrf_token %}
+	{{ form.as_p }}
+	<input type="submit" value="Envoyer!" />
+</form>
+{% endblock %}

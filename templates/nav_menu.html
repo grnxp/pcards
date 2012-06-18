@@ -17,21 +17,20 @@
 			Pays
 		</li>
 		{% for country in countries %}
-			<li><a href="{% url list-by-country country.id 1 %}">{{country.label}}</a>
+			<li><a href="{% url list-by-country country.id %}">{{country.label}}</a>
 		{% endfor %}
 		<li class="nav-header">
 			Catégories
 		</li>
 		{% for cat in categories %}
-			<li><a href="{% url list-by-category cat.id 1 %}">{{cat.label}}</a>
+			<li><a href="{% url list-by-category cat.id %}">{{cat.label}}</a>
 				<ul class="nav nav-list">
 				{% for subcat in cat.subcategory_set.all %}
-					<li><a href="{% url list-by-subcategory subcat.id 1 %}">{{subcat.label}}</a>
+					<li><a href="{% url list-by-subcategory subcat.id %}">{{subcat.label}}</a>
 				{% endfor %}
 				</ul>
 			</li>
 		{% endfor %}
 		<li class="divider"></li>
-		<li><a href="#"><i class="icon-book"></i>Recherche avancée</a></li>
 	</ul>
 </div>
