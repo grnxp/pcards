@@ -15,15 +15,15 @@
 	
 		<tr>
 			<td>Pays</td>
-			<td><a href="{% url list-by-country card.country.id 1 %}">{{card.country}}</a></td>
+			<td><a href="{% url list-by-country card.country.id %}">{{card.country}}</a></td>
 		</tr>
 		<tr>
 			<td>Catégorie</td>
-			<td><a href="{% url list-by-category card.subcategory.category.id 1 %}">{{card.subcategory.category.label}}</a></td>
+			<td><a href="{% url list-by-category card.subcategory.category.id %}">{{card.subcategory.category.label}}</a></td>
 		</tr>
 		<tr>
 			<td>Thème</td>
-			<td><a href="{% url list-by-subcategory card.subcategory.id 1 %}">{{card.subcategory.label}}</a></td>
+			<td><a href="{% url list-by-subcategory card.subcategory.id %}">{{card.subcategory.label}}</a></td>
 		</tr>
 		<tr>
 			<td>Nombre d'unités</td>
@@ -44,6 +44,16 @@
 		<tr>
 			<td>Date d'expiration</td>
 			<td>{{card.expirationdate}}</td>
+		</tr>
+		<tr>
+			<td>Tags</td>
+			<td>
+				<ul>
+				{% for tag in card.tags.all %}
+					<li>{{tag.label}}</li>
+				{% endfor %}
+				</ul>
+			</td>
 		</tr>
 	</table>
 	<p class="pull-right">Dernière mise-à-jour : {{card.updated_at}}</p>

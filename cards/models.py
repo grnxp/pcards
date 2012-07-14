@@ -41,6 +41,14 @@ class SubCategory(models.Model):
 	def __unicode__(self):
 		return self.category.label + ' - ' + self.label
 
+class Tag(models.Model):
+	label = models.CharField(verbose_name='Label', max_length=50)
+	created_at = models.DateTimeField(auto_now_add=True)
+	updated_at = models.DateTimeField(auto_now=True)
+	
+	def __unicode__(self):
+		return self.label
+
 class Item(models.Model):
 	
 	country = models.ForeignKey(Country, verbose_name='Pays')
@@ -52,6 +60,7 @@ class Item(models.Model):
 	emissionDate = models.CharField(verbose_name="Année ou date d'émission", max_length=10, blank=True)
 	expirationDate = models.CharField(verbose_name="Année ou date d'expiration", max_length=10, blank=True)
 	numberOfCopies = models.CharField(verbose_name='Tirage', max_length=50, blank=True)
+	tags = models.ManyToManyField(Tag, verbose_name='Liste des tags')
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)	
 	
@@ -61,3 +70,5 @@ class Item(models.Model):
 	
 	def __unicode__(self):
 		return '%s %s %s %s' % (self.country.label, self.subcategory.category.label, self.subcategory.label, self.label)
+		
+
