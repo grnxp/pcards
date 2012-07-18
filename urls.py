@@ -10,7 +10,7 @@ urlpatterns = patterns('',
     # url(r'^$', 'xcards.views.home', name='home'),
     # url(r'^xcards/', include('xcards.foo.urls')),
 
-	url(r'^details/(?P<item_id>\d+)/$', 'cards.views.details', name='card-details'),
+	url(r'^details/(?P<card_id>\d+)/$', 'cards.views.details', name='card-details'),
 	url(r'^query/$', 'cards.views.query'),
 	url(r'^advanced-query/$', 'cards.views.advanced_query', name='advanced-query'),
 	url(r'^list/country/(?P<country_id>\d+)/$', 'cards.views.search_by_country', name='list-by-country'),

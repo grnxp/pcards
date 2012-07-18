@@ -107,7 +107,7 @@ class Command(BaseCommand):
 		Insère un item provenant de GCStar dans la base de données.
 		"""
 
-		i = Item()
+		i = Card()
 
 		country, created = Country.objects.get_or_create(label=item.country.strip())
 		i.country = country

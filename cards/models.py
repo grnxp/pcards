@@ -49,7 +49,7 @@ class Tag(models.Model):
 	def __unicode__(self):
 		return self.label
 
-class Item(models.Model):
+class Card(models.Model):
 	
 	country = models.ForeignKey(Country, verbose_name='Pays')
 	subcategory = models.ForeignKey(SubCategory, verbose_name='Thème')
