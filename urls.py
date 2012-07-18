@@ -16,6 +16,7 @@ urlpatterns = patterns('',
 	url(r'^list/country/(?P<country_id>\d+)/$', 'cards.views.search_by_country', name='list-by-country'),
 	url(r'^list/category/(?P<category_id>\d+)/$', 'cards.views.search_by_category', name='list-by-category'),
 	url(r'^list/subcategory/(?P<subcategory_id>\d+)/$', 'cards.views.search_by_subcategory', name='list-by-subcategory'),
+	url(r'^map/$', 'osm.views.map', name='map'),
 	
 	
     url(r'^admin/doc/', include('django.contrib.admindocs.urls')),

@@ -1,0 +1,51 @@
+{% load osm_tags %}
+
+<html>
+<body>
+  <div id="mapdiv"></div>
+  <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+  <script>
+    map = new OpenLayers.Map("mapdiv");
+    map.addLayer(new OpenLayers.Layer.OSM());
+ 
+    var zoom=2;
+ 
+    var markers = new OpenLayers.Layer.Markers( "Markers" );
+    map.addLayer(markers);
+ 
+	{% for coord in coordinates %}
+		var lonLat = new OpenLayers.LonLat({{ coord.longitude|floatdot }}, {{ coord.latitude|floatdot }})
+			.transform(
+				new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+				map.getProjectionObject() // to Spherical Mercator Projection
+			);
+			
+		// A popup with some information about our location
+		var popup = new OpenLayers.Popup.FramedCloud("Popup", 
+			lonLat.getBounds().getCenterLonLat(), null,
+			'<a target="_blank" href="http://openlayers.org/">We</a> ' +
+			'could be here.<br>Or elsewhere.', null,
+			true // <-- true if we want a close (X) button, false otherwise
+		);
+				
+		markers.addMarker(new OpenLayers.Marker(lonLat));
+		map.addPopup(popup);
+		
+	{% endfor %}
+ 
+	map.addControl(new OpenLayers.Control.PanZoomBar());
+	map.addControl(new OpenLayers.Control.LayerSwitcher({'ascending':false}));
+	map.addControl(new OpenLayers.Control.Permalink());
+	map.addControl(new OpenLayers.Control.Permalink('permalink'));
+	map.addControl(new OpenLayers.Control.MousePosition());
+	map.addControl(new OpenLayers.Control.OverviewMap());
+	map.addControl(new OpenLayers.Control.KeyboardDefaults());
+ 
+    map.setCenter (lonLat, zoom);
+  </script>
+  <ul>
+  {% for coord in coordinates %}
+	<li>{{ coord }}</li>
+  {% endfor %}
+  </ul>
+</body></html>

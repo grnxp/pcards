@@ -10,6 +10,10 @@ class Country(models.Model):
 	class Meta:
 		verbose_name_plural ='Pays'
 		verbose_name = 'Pays'
+		ordering = ['label']
+		
+	def __str__(self):
+		return self.label
 		
 	def __unicode__(self):
 		return self.label
