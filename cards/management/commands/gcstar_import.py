@@ -127,8 +127,10 @@ class Command(BaseCommand):
 		i.expirationDate = item.expirationDate
 		i.numberOfCopies = item.numberOfCopies
 		
-		if item.image_path is not None:
+		if item.image_path is not None and os.path.isfile(item.image_path):
 			i.image.save(os.path.basename(item.image_path), File(open(item.image_path, 'rb')))
+		else:
+			print "%s n'a pas été inséré." % (item.image_path)
 
 		i.save()
 
