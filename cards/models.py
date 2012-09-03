@@ -77,6 +77,6 @@ class Card(models.Model):
 		verbose_name = 'Carte de téléphone'
 	
 	def __unicode__(self):
-		return '%s %s %s %s' % (self.country.label, self.subcategory.category.label, self.subcategory.label, self.label)
+		return '%s %s' % (self.country.label, self.label)
 		
 
