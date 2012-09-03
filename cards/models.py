@@ -39,7 +39,7 @@ class SubCategory(models.Model):
 		ordering = ['label']
 		
 	def __unicode__(self):
-		return self.category.label + ' - ' + self.label
+		return self.label
 
 class Tag(models.Model):
 	label = models.CharField(verbose_name='Label', max_length=50)
@@ -50,7 +50,6 @@ class Tag(models.Model):
 		return self.label
 
 class Item(models.Model):
-	
 	country = models.ForeignKey(Country, verbose_name='Pays')
 	subcategory = models.ForeignKey(SubCategory, verbose_name='Thème')
 	label = models.CharField(verbose_name='Titre', max_length=50)

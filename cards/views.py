@@ -44,6 +44,7 @@ def query(request):
 	
 	if request.method == "POST":
 		terms = request.POST['q']
+		request.POST.urlencode()
 		
 	else:
 		terms = request.GET['q']
