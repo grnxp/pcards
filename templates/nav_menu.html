@@ -19,18 +19,5 @@
 		{% for country in countries %}
 			<li><a href="{% url list-by-country country.id %}">{{country.label}}</a>
 		{% endfor %}
-		<li class="nav-header">
-			Catégories
-		</li>
-		{% for cat in categories %}
-			<li><a href="{% url list-by-category cat.id %}">{{cat.label}}</a>
-				<ul class="nav nav-list">
-				{% for subcat in cat.subcategory_set.all %}
-					<li><a href="{% url list-by-subcategory subcat.id %}">{{subcat.label}}</a>
-				{% endfor %}
-				</ul>
-			</li>
-		{% endfor %}
-		<li class="divider"></li>
 	</ul>
 </div>

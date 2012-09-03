@@ -1,8 +1,10 @@
 from cards.models import *
 from django.contrib import admin
 
-admin.site.register(Category)
-admin.site.register(SubCategory)
 admin.site.register(Country)
 admin.site.register(Tag)
-admin.site.register(Card)
+
+class CardAdmin(admin.ModelAdmin):
+	exclude = ['subcategory']
+
+admin.site.register(Card, CardAdmin)

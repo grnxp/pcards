@@ -6,7 +6,7 @@ from django.http import HttpResponseRedirect, HttpResponse, Http404
 from django.core.urlresolvers import reverse
 from django.template import RequestContext
 from django import forms
-from cards.models import Card, Country, Category, SubCategory
+from cards.models import Card, Country, Tag
 from django.core.context_processors import csrf
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
@@ -116,6 +116,17 @@ def search_by_country(request, country_id):
 	cards = pagination(country.card_set.all(), request)
 	
 	context = { 'cards' : cards, 'title' : country.label }
+	
+	return render_to_response('cards/list.html', RequestContext(request, context))
+
+def search_by_tag(request, tag_id):
+	tag = get_object_or_404(Tag, pk=tag_id)
+	
+	cards_list = tag.card_set.all()
+	
+	cards = pagination(cards_list, request)
+	
+	context = { 'cards' : cards, 'title' : tag.label }
 	
 	return render_to_response('cards/list.html', RequestContext(request, context))
 

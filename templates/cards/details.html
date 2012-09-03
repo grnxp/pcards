@@ -18,14 +18,6 @@
 			<td><a href="{% url list-by-country card.country.id %}">{{card.country}}</a></td>
 		</tr>
 		<tr>
-			<td>Catégorie</td>
-			<td><a href="{% url list-by-category card.subcategory.category.id %}">{{card.subcategory.category.label}}</a></td>
-		</tr>
-		<tr>
-			<td>Thème</td>
-			<td><a href="{% url list-by-subcategory card.subcategory.id %}">{{card.subcategory.label}}</a></td>
-		</tr>
-		<tr>
 			<td>Nombre d'unités</td>
 			<td>{{card.units}}</td>
 		</tr>
@@ -48,9 +40,9 @@
 		<tr>
 			<td>Tags</td>
 			<td>
-				<ul>
+				<ul>				
 				{% for tag in card.tags.all %}
-					<li>{{tag.label}}</li>
+					<li><a href="{% url list-by-tag tag.id %}">{{ tag.label }}</a></li>
 				{% endfor %}
 				</ul>
 			</td>
