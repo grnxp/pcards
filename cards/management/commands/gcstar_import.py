@@ -112,15 +112,13 @@ class Command(BaseCommand):
 		country, created = Country.objects.get_or_create(label=item.country.strip())
 		i.country = country
 
-		category, created = Category.objects.get_or_create(label=item.category.strip())
+		#category, created = Category.objects.get_or_create(label=item.category.strip())
 		#i.category = category
-
-		subcategory, created = SubCategory.objects.get_or_create(label=item.subcategory.strip())
-		subcategory.category = category
-		i.subcategory = subcategory
-
-		i.subcategory.save()
-
+		#subcategory, created = SubCategory.objects.get_or_create(label=item.subcategory.strip())
+		#subcategory.category = category
+		#i.subcategory = subcategory
+		#i.subcategory.save()
+			
 		i.units = item.units
 		i.label = item.label
 		i.emissionDate = item.emissionDate
@@ -133,6 +131,21 @@ class Command(BaseCommand):
 			print "%s n'a pas été inséré." % (item.image_path)
 
 		i.save()
+
+		try:
+			t1, created1 = Tag.objects.get_or_create(label=unicode(item.subcategory.strip()))
+			t2, created2 = Tag.objects.get_or_create(label=unicode(item.category.strip()))
+	
+			t1.save()
+			t2.save()
+	
+		
+			i.tags.add(t1)
+			i.tags.add(t2)
+		
+			i.save()
+		except:
+			print 'exception @ ' + i.label
 
 		
 class GCItem():
