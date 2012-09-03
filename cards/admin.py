@@ -7,8 +7,7 @@ admin.site.register(Tag)
 
 class CardAdmin(AutocompleteModelAdmin):
 	related_search_fields = {
-		'country' : ('label',),
 		'tags' : ('label',),
 	}
 
-admin.site.register(Card, CardAdmin)
+admin.site.register(Card)
