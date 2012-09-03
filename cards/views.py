@@ -122,7 +122,7 @@ def search_by_country(request, country_id):
 def search_by_tag(request, tag_id):
 	tag = get_object_or_404(Tag, pk=tag_id)
 	
-	cards_list = tag.cards.all()
+	cards_list = tag.tags.all()
 	
 	cards = pagination(cards_list, request)
 	

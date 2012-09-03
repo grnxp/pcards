@@ -34,8 +34,8 @@ from django.utils.functional import update_wrapper
 #from django.db import models, transaction, router
 #csrf_protect_m = method_decorator( csrf_protect )
 
-media_css={ 'all': ( '%s/jquery.autocomplete.css'%settings.STATIC_URL, ) }
-media_js=( '%sadmin/js/jquery.autocomplete.js'%settings.STATIC_URL, )
+media_css={ 'all': ( '%s/jquery.autocomplete.css' % settings.MEDIA_URL, ) }
+media_js=( '%sadmin/js/jquery.autocomplete.js' % settings.MEDIA_URL, )
 
 
 class ForeignKeySearchInput( forms.HiddenInput ):
@@ -95,8 +95,8 @@ class ManyToManySearchInput( forms.MultipleHiddenInput ):
 		css=media_css
 		js=media_js
 
-	input_type='hidden'		# чтобы не отрисовывать текстовое поле
-	is_hidden=False			# Чтобы отрисовывать заголовок в Inline
+	input_type='hidden'
+	is_hidden=False		
 
 	def __init__( self, rel, search_fields, attrs = None ):
 		self.rel=rel
@@ -292,7 +292,7 @@ class AutocompleteWidgetWrapper( RelatedFieldWidgetWrapper ):
 			# API to determine the ID dynamically.
 			output.append( u'<a href="%sadd/" class="add-another" id="add_id_%s" onclick="return showAutocompletePopup(this);"> '%\
 				( related_url, name ) )
-			output.append( u'<img src="%simg/admin/icon_addlink.gif" width="10" height="10" alt="%s"/></a>'%( settings.ADMIN_MEDIA_PREFIX, _( 'Add Another' ) ) )
+			output.append( u'<img src="%simg/admin/icon_addlink.gif" width="10" height="10" alt="%s" target="_blank"/></a>'%( settings.ADMIN_MEDIA_PREFIX, _( 'Add Another' ) ) )
 		return mark_safe( u''.join( output ) )
 
 
