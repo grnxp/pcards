@@ -1,13 +1,14 @@
 {% extends 'base.html' %}
 
 {% load image_tags %}
+{% load filter_tags %}
 
 {% block main_container %}
 
 	<h2>{{title}}</h2>
 
 	<ul class="thumbnails">
-		{% for card in cards %}
+		{% for card in cards.object_list %}
 			<li class="span2">
 				<a href="{% url card-details card.id %}" class="thumbnail">
 				{% if card.image %}
@@ -18,18 +19,33 @@
 		{% endfor %}
 	</ul>
 
-	<div class="pagination">
+	<div class="pagination" style="margin: 0 auto; display: inline-block; text-align: center;">
 		<span class="step-links">
 			{% if cards.has_previous %}
-				<a href="?page={{ cards.previous_page_number }}">page précédente</a>
+				<a href="?page={{ cards.previous_page_number }}">«</a>
+			{% else %}
+				<span class="disabled">
+					<a href="?page={{ cards.previous_page_number }}">«</a>
+				</span>
 			{% endif %}
-
-			<span class="current">
-				Page {{ cards.number }} de {{ cards.paginator.num_pages }}.
-			</span>
-
+			
+			{% for page_num in cards.paginator.num_pages|get_range %}
+				{% if page_num == cards.number %}
+					<span class="active">
+						<a class="active" href="?page={{ page_num }}">{{ page_num }}</a>
+					</span>
+				{% else %}
+					<a href="?page={{ page_num }}">{{ page_num }}</a>
+				{% endif %}
+	
+			{% endfor %}
+	
 			{% if cards.has_next %}
-				<a href="?page={{ cards.next_page_number }}">page suivante</a>
+				<a href="?page={{ cards.next_page_number }}">»</a>
+			{% else %}
+				<span class="disabled">
+					<a href="?page={{ cards.next_page_number }}">»</a>
+				</span>
 			{% endif %}
 		</span>
 	</div>

@@ -6,21 +6,21 @@ from django.http import HttpResponseRedirect, HttpResponse, Http404
 from django.core.urlresolvers import reverse
 from django.template import RequestContext
 from django import forms
-from cards.models import Item, Country, Category, SubCategory
+from cards.models import Card, Country, Category, SubCategory
 from django.core.context_processors import csrf
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 
 import cards.forms
 
 def index(request):
-	cards_list = Item.objects.order_by('-created_at')[:25]
+	cards_list = Card.objects.order_by('-created_at')[:25]
 	
 	context = { 'cards_list' : cards_list}
 
 	return render_to_response('cards/index.html', RequestContext(request, context))
 	
-def details(request, item_id):
-	a = get_object_or_404(Item, pk=item_id)
+def details(request, card_id):
+	a = get_object_or_404(Card, pk=card_id)
 	
 	context = {'card': a }	
 
@@ -37,6 +37,8 @@ def pagination(cards_list, request):
 		cards = paginator.page(1)
 	except EmptyPage:
 		cards = paginator.page(paginator.num_pages)
+	except:
+		cards = paginator.page(1)
 		
 	return cards
 	
@@ -56,7 +58,7 @@ def query(request):
 	for term in terms.split(' '):
 		q.add((Q(label__icontains=term) | Q(subcategory__label__icontains=term) | Q(subcategory__category__label__icontains=term) | Q(country__label__icontains=term) ), q.AND)
 	
-	cards_list = Item.objects.filter(q)
+	cards_list = Card.objects.filter(q)
 	
 	cards = pagination(cards_list, request)
 	
@@ -93,7 +95,7 @@ def advanced_query(request):
 			# la date de début
 			# faut modifier le modèle ici...
 				
-			cards_list = Item.objects.filter(q)
+			cards_list = Card.objects.filter(q)
 			
 			cards_list = pagination(cards_list, request)
 			
@@ -111,7 +113,7 @@ def advanced_query(request):
 def search_by_country(request, country_id):
 	country = get_object_or_404(Country, pk=country_id)
 	
-	cards = pagination(country.item_set.all(), request)
+	cards = pagination(country.card_set.all(), request)
 	
 	context = { 'cards' : cards, 'title' : country.label }
 	
@@ -123,7 +125,7 @@ def search_by_category(request, category_id):
 	cards_list = list()
 	
 	for subcat in category.subcategory_set.all():
-		cards_list.extend(subcat.item_set.all())
+		cards_list.extend(subcat.card_set.all())
 		
 	cards = pagination(cards_list, request)
 	
@@ -134,7 +136,7 @@ def search_by_category(request, category_id):
 def search_by_subcategory(request, subcategory_id):
 	subcategory = get_object_or_404(SubCategory, pk=subcategory_id)
 	
-	cards = pagination(subcategory.item_set.all(), request)
+	cards = pagination(subcategory.card_set.all(), request)
 	
 	context = { 'cards' : cards, 'title' : subcategory.label }
 	

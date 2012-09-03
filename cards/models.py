@@ -10,6 +10,10 @@ class Country(models.Model):
 	class Meta:
 		verbose_name_plural ='Pays'
 		verbose_name = 'Pays'
+		ordering = ['label']
+		
+	def __str__(self):
+		return self.label
 		
 	def __unicode__(self):
 		return self.label
@@ -49,7 +53,8 @@ class Tag(models.Model):
 	def __unicode__(self):
 		return self.label
 
-class Item(models.Model):
+
+class Card(models.Model):
 	country = models.ForeignKey(Country, verbose_name='Pays')
 	subcategory = models.ForeignKey(SubCategory, verbose_name='Thème')
 	label = models.CharField(verbose_name='Titre', max_length=50)
