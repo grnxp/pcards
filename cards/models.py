@@ -61,7 +61,6 @@ class Tag(models.Model):
 
 class Card(models.Model):
 	country = models.ForeignKey(Country, verbose_name='Pays')
-	subcategory = models.ForeignKey(SubCategory, verbose_name='Thème')
 	label = models.CharField(verbose_name='Titre', max_length=255)
 	image = models.ImageField(upload_to='pictures')
 	with_chip = models.BooleanField(verbose_name='Avec ou sans puce', blank=True)
