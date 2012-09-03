@@ -46,7 +46,7 @@ class SubCategory(models.Model):
 		return self.label
 
 class Tag(models.Model):
-	label = models.CharField(verbose_name='Label', max_length=255)
+	label = models.CharField(verbose_name='Label', unique=True, max_length=255)
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)
 	
@@ -68,7 +68,7 @@ class Card(models.Model):
 	emissionDate = models.CharField(verbose_name="Année ou date d'émission", max_length=10, blank=True)
 	expirationDate = models.CharField(verbose_name="Année ou date d'expiration", max_length=10, blank=True)
 	numberOfCopies = models.CharField(verbose_name='Tirage', max_length=50, blank=True)
-	tags = models.ManyToManyField(Tag, null=True, blank=True, verbose_name='Liste des tags')
+	tags = models.ManyToManyField(Tag, null=True, blank=True, verbose_name='Liste des tags', related_name='tags')
 	created_at = models.DateTimeField(auto_now_add=True)
 	updated_at = models.DateTimeField(auto_now=True)	
 	
