@@ -4,6 +4,16 @@
 
 {% block main_container %}
 
+<h2>Nuage de tags</h2>
+
+<div class="well">
+	<ul style="list-style-type: none;">
+		{% for tag in tags_list %}
+			<li style="display: inline;"><a href="{% url list-by-tag tag.id %}">{{ tag.label }} ({{ tag.occurence }})</li>
+		{% endfor %}
+	</ul>
+</div>
+
 <h2>Derniers ajouts</h2>
 
 <ul class="thumbnails">

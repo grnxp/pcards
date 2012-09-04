@@ -13,9 +13,18 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 import cards.forms
 
 def index(request):
+	from django.db.models import Count
+	
+	tags_list = Tag.objects.annotate(occurence=Count('tags'))
+	
+	#tag_max = max(tags_list, key=occurence)
+	#tag_min = max(tags_list, key=occurence)
+	
+	#print '################' + str(tag_max) + ' ' + str(tag_min)
+	
 	cards_list = Card.objects.order_by('-created_at')[:25]
 	
-	context = { 'cards_list' : cards_list}
+	context = { 'tags_list' : tags_list,'cards_list' : cards_list}
 
 	return render_to_response('cards/index.html', RequestContext(request, context))
 	
