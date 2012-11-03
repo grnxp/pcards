@@ -15,12 +15,9 @@ import cards.forms
 def index(request):
 	from django.db.models import Count
 	
+	nbr_of_cards = Card.objects.count()
+	
 	tags_list = Tag.objects.annotate(occurence=Count('tags'))
-	
-	#tag_max = max(tags_list, key=occurence)
-	#tag_min = max(tags_list, key=occurence)
-	
-	#print '################' + str(tag_max) + ' ' + str(tag_min)
 	
 	cards_list = Card.objects.order_by('-created_at')[:25]
 	
@@ -65,7 +62,7 @@ def query(request):
 	q = Q()
 	
 	for term in terms.split(' '):
-		q.add((Q(label__icontains=term) | Q(subcategory__label__icontains=term) | Q(subcategory__category__label__icontains=term) | Q(country__label__icontains=term) ), q.AND)
+		q.add((Q(label__icontains=term) | Q(country__label__icontains=term) ), q.AND)
 	
 	cards_list = Card.objects.filter(q)
 	

@@ -9,7 +9,7 @@
 <div class="well">
 	<ul style="list-style-type: none;">
 		{% for tag in tags_list %}
-			<li style="display: inline;"><a href="{% url list-by-tag tag.id %}">{{ tag.label }} ({{ tag.occurence }})</li>
+			<li style="display: inline;"><a href="{% url list-by-tag tag.id %}"><span style="font-size: {{ tag.occurence }} / {{ total }}">{{ tag.label }} ({{ tag.occurence }})</span></li>
 		{% endfor %}
 	</ul>
 </div>
