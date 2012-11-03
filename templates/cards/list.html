@@ -12,7 +12,7 @@
 			<li class="span2">
 				<a href="{% url card-details card.id %}" class="thumbnail">
 				{% if card.image %}
-					<img src="{{card.image|crop}}" title="{{card.label}}" />
+					<img src="{{card|crop}}" title="{{card.label}}" />
 				{% endif %}
 				</a>
 			</li>

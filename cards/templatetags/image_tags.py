@@ -13,8 +13,13 @@ IMAGE_SIZE = '300x300'
 
 register = template.Library()
 
+thumbnails_dir = os.path.join(settings.MEDIA_ROOT, 'thumbnails')
 
-def resized_path(path, method):
+if not os.path.exists(thumbnails_dir):
+	os.makedirs(thumbnails_dir)
+
+
+def resized_path(card_id, path, method):
 	if method == 'crop':
 		size = THUMBNAIL_SIZE
 	elif method == 'scale':
@@ -22,11 +27,17 @@ def resized_path(path, method):
 	
 	dir, name = os.path.split(path)
 	image_name, ext = name.rsplit('.', 1)
+	
+	thumbnails_dir = os.path.join(dir, 'thumbnails')
+	
+	final_path = os.path.join(thumbnails_dir, '%s_%s_%s.%s' % (card_id, method, size, EXT)).replace('\\', '/')
 
-	return os.path.join(dir, '%s_%s_%s.%s' % (image_name, method, size, EXT)).replace('\\', '/')
+	print 'final path ' + final_path
+
+	return final_path
 
 
-def scale(imagefield, method='scale'):
+def scale(card_item, method='scale'):
     """ 
     Template filter used to scale an image
     that will fit inside the defined area.
@@ -36,17 +47,14 @@ def scale(imagefield, method='scale'):
     {% load image_tags %}
     {{ profile.picture|scale }}
     """
+    
+    imagefield = card_item.image
 
     # imagefield can be a dict with "path" and "url" keys
     if imagefield.__class__.__name__ == 'dict':
         imagefield = type('imageobj', (object,), imagefield)
 
-    image_path = resized_path(imagefield.path, method)
-
-    #thumb_path = os.path.join(settings.MEDIA_ROOT, "%s_%s_%s.%s" % (imagefield.name.rsplit('.', 1)[0], method, EXT))
-    #thumb_url = "%s_%s_%s.%s" % (imagefield.url.rsplit('.', 1)[0], method, EXT)
-
-    #print thumb_path, thumb_url
+    image_path = resized_path(card_item.id, imagefield.path, method)
 
     if not os.path.exists(image_path):
         try:
@@ -78,10 +86,14 @@ def scale(imagefield, method='scale'):
             width, height = [int(i) for i in THUMBNAIL_SIZE.split('x')]
             ImageOps.fit(image, (width, height), Image.ANTIALIAS
                         ).save(image_path, FMT, quality=QUAL)
-       
-    return resized_path(imagefield.url, method)
 
-def crop(imagefield):
+	
+	print resized_path(card_item.id, imagefield.url, method)
+	
+    return resized_path(card_item.id, imagefield.url, method)
+
+#def crop(imagefield):
+def crop(card_item):
     """
     Template filter used to crop an image
     to make it fill the defined area.
@@ -90,7 +102,7 @@ def crop(imagefield):
     {{ profile.picture|crop }}
 
     """
-    return scale(imagefield, 'crop')
+    return scale(card_item, 'crop')
 
 
 register.filter('scale', scale)
