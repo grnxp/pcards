@@ -4,12 +4,47 @@
 
 {% block main_container %}
 
+<script>
+
+	$().ready(function() {  
+		var catContainer = $('#tagcloud');  
+		// get an array of all the <li>'s  
+		var categories = catContainer.find('ul li');  
+		var cloudMarkup = '';  
+		// set maxPercent/minPercent preferences  
+		var maxPercent = 250, minPercent = 100;  
+		// note that max is initialized to a number that I know is lower than the max count  
+		// and that min is set to a number larger than the known min count  
+		var max = 1, min = 999, count = 0;  
+		// loop through each li and calculate statistics  
+		
+		categories.each(function(i) {  
+			count = parseInt($(this).find('span').text());  
+			max = (count > max ? count : max);  
+			min = (min > count ? count : min);  
+		});  
+		
+		var total, link, size;  
+		var multiplier = (maxPercent-minPercent)/(max-min);  
+		// loop through each li and generate the markup for the new tag cloud  
+		categories.each(function(i) {  
+			count = parseInt($(this).find('span').text());  
+			link = $(this).find('a');  
+			size = minPercent + ((max-(max-(count-min)))*multiplier) + '%';  
+			cloudMarkup += '<a class="cloud_link" style="font-size:' + size + '" href="' + link.attr('href') + '">' + link.text() + '</a> ';  
+		});  
+		// replace the html content of the parent container with the new tag cloud  
+		catContainer.html(cloudMarkup);  
+	}); 	
+	
+</script>
+
 <h2>Nuage de tags</h2>
 
-<div class="well">
+<div id="tagcloud" class="well">
 	<ul style="list-style-type: none;">
 		{% for tag in tags_list %}
-			<li style="display: inline;"><a href="{% url list-by-tag tag.id %}"><span style="font-size: {{ tag.occurence }} / {{ total }}">{{ tag.label }} ({{ tag.occurence }})</span></li>
+			<li><a href="{% url list-by-tag tag.id %}">{{ tag.label }}</a><span>{{ tag.occurence }}</span></li>
 		{% endfor %}
 	</ul>
 </div>
