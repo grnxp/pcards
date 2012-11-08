@@ -4,50 +4,28 @@
 
 {% block main_container %}
 
-<script>
+<link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/jqcloud.css" />
+<script type="text/javascript" src="{{ STATIC_URL }}js/jqcloud-1.0.2.js"></script>
 
-	$().ready(function() {  
-		var catContainer = $('#tagcloud');  
-		// get an array of all the <li>'s  
-		var categories = catContainer.find('ul li');  
-		var cloudMarkup = '';  
-		// set maxPercent/minPercent preferences  
-		var maxPercent = 250, minPercent = 100;  
-		// note that max is initialized to a number that I know is lower than the max count  
-		// and that min is set to a number larger than the known min count  
-		var max = 1, min = 999, count = 0;  
-		// loop through each li and calculate statistics  
-		
-		categories.each(function(i) {  
-			count = parseInt($(this).find('span').text());  
-			max = (count > max ? count : max);  
-			min = (min > count ? count : min);  
-		});  
-		
-		var total, link, size;  
-		var multiplier = (maxPercent-minPercent)/(max-min);  
-		// loop through each li and generate the markup for the new tag cloud  
-		categories.each(function(i) {  
-			count = parseInt($(this).find('span').text());  
-			link = $(this).find('a');  
-			size = minPercent + ((max-(max-(count-min)))*multiplier) + '%';  
-			cloudMarkup += '<a class="cloud_link" style="font-size:' + size + '" href="' + link.attr('href') + '">' + link.text() + '</a> ';  
-		});  
-		// replace the html content of the parent container with the new tag cloud  
-		catContainer.html(cloudMarkup);  
-	}); 	
-	
+<script type="text/javascript">
+	/*!
+	* Create an array of word objects, each representing a word in the cloud
+	*/
+	var word_array = [
+		{% for tag in tags_list %}
+			{text: "{{ tag.label }}", weight: {{ tag.occurence }}, link: "{% url list-by-tag tag.id %}"},
+		{% endfor %}         
+	];
+
+	$(function() {
+		// When DOM is ready, select the container element and call the jQCloud method, passing the array of words as the first argument.
+		$("#tagCloud").jQCloud(word_array);		
+	});	  
 </script>
-
+	
 <h2>Nuage de tags</h2>
 
-<div id="tagcloud" class="well">
-	<ul style="list-style-type: none;">
-		{% for tag in tags_list %}
-			<li><a href="{% url list-by-tag tag.id %}">{{ tag.label }}</a><span>{{ tag.occurence }}</span></li>
-		{% endfor %}
-	</ul>
-</div>
+<div id="tagCloud" style="width: 550px; height: 350px;"></div>
 
 <h2>Derniers ajouts</h2>
 

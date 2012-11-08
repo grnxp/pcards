@@ -13,7 +13,7 @@ IMAGE_SIZE = '300x300'
 
 register = template.Library()
 
-thumbnails_dir = os.path.join(settings.MEDIA_ROOT, 'thumbnails')
+thumbnails_dir = os.path.join(settings.MEDIA_ROOT, 'pictures', 'thumbnails')
 
 if not os.path.exists(thumbnails_dir):
 	os.makedirs(thumbnails_dir)
