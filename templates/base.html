@@ -11,41 +11,40 @@
 	<title>{% block page_title %}Collec' de cart'{% endblock %}</title>
 </head>
 <body>
-<header>
-	<div>
-		<!--<a href="/"><img src="{{STATIC_URL}}img/header.png" alt="Ma collection de télécartes" /></a>-->
-	</div>
-	<div>
-		<ul class="nav nav-pills pull-right">
-			<li class="active">
-				<a href="#">Télécartes</a>
-			</li>
-			<li class="dropdown">
-				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Pays<b class="caret"></b></a>
-				<ul class="dropdown-menu">
-					{% nav_menu %}
-				</ul>
-			</li>
-			<li><a href="#">Tags</a>			
-			<li><a href="#">A propos</a></li>
-			<li><a href="#">Admin</a></li>
-			<li>
-				<form action="/query/" method="POST">
-					{% csrf_token %} 
-					<input id="q" name="q" type="text" class="search-query" placeholder="Recherche">
-				</form>
-			</li>
-		</ul>	
-	</div>
-</header>
-</div class="clearfix"></div>
 
-{% block main_container %}{% endblock %}
+<div class="container">
+	<header>
+		<div>
+			<!--<a href="/"><img src="{{STATIC_URL}}img/header.png" alt="Ma collection de télécartes" /></a>-->
+		</div>
+		<div>
+			<ul class="nav nav-pills">
+				<li class="active">
+					<a href="#">Télécartes</a>
+				</li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Pays<b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						{% nav_menu %}
+					</ul>
+				</li>
+				<li><a href="#">Tags</a>			
+				<li><a href="#">A propos</a></li>
+				<li><a href="/admin">Admin</a></li>
+				<li class="pull-right">
+					<form action="/query/" method="POST">
+						{% csrf_token %} 
+						<input id="q" name="q" type="text" class="search-query" placeholder="Recherche">
+					</form>
+				</li>
+			</ul>	
+		</div>
+	</header>
 
-<footer>
-	<p>(pied de page)</p>
-<footer>
-	
+	<div class="row">
+		{% block main_container %}{% endblock %}
+	</div>
+</div>	
 </footer>
 </body>
 </html>

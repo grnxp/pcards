@@ -11,7 +11,7 @@
 		$("a.thumbnail").click(function(e) {
 			e.preventDefault();
 			
-			$('#myModal').modal();
+			$('#modalDisplay').modal();
 			
 			var request = $.ajax({
 				url: $(this).attr('href'),
@@ -20,34 +20,50 @@
 			});	
 			
 			request.done(function(result) {
-				$('#myModal').html(result);
+				$('#modalDisplay').html(result);
 			});
 			
 			request.fail(function(jqxhr, textStatus) {
-				$('#myModal').html('La requête a foiré: ' + textStatus);
+				$('#modalDisplay').html('La requête a foiré: ' + textStatus);
 			});
 			
+		});
+		
+		$('legend').click(function(){
+			$(this).parent().find('.content').slideToggle("slow");
 		});
 	});	 
 </script>
 
-<div id="myModal" class="modal large hide fade">
+<div id="modalDisplay" class="modal large hide fade">
 	
 </div>
 
-<h2>{{title}}</h2>
+<h2>{{ title }}</h2>
 
-<ul class="thumbnails">
-	{% for card in cards.object_list %}
-		<li class="span2">
-			<a href="{% url card-details card.id %}" class="thumbnail">
-			{% if card.image %}
-				<img src="{{card|crop}}" title="{{card.label}}" />
-			{% endif %}
-			</a>
-		</li>
-	{% endfor %}
-</ul>
+<fieldset>
+	<legend>Tags</legend>
+	<ul class="tags content">
+		{% for tag in tags_list %}
+			<li><a href="{% url list-by-tag tag.id %}">{{ tag.label }}</a></li>
+		{% endfor %}
+	</ul>
+</fieldset>
+
+<fieldset>
+	<legend>Cartes</legend>
+	<ul class="thumbnails content">
+		{% for card in cards.object_list %}
+			<li class="span2">
+				<a href="{% url card-details card.id %}" class="thumbnail">
+				{% if card.image %}
+					<img src="{{card|crop}}" title="{{card.label}}" />
+				{% endif %}
+				</a>
+			</li>
+		{% endfor %}
+	</ul>
+</fieldset>
 
 <div class="pagination" style="margin: 0 auto; display: inline-block; text-align: center;">
 	<span class="step-links">

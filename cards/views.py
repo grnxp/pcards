@@ -52,7 +52,7 @@ def query(request):
 	
 	if request.method == "POST":
 		terms = request.POST['q']
-		request.POST.urlencode()
+		#request.POST.urlencode()
 		
 	else:
 		terms = request.GET['q']
@@ -60,15 +60,21 @@ def query(request):
 	from django.db.models import Q
 	
 	q = Q()
+	t = Q()
 	
 	for term in terms.split(' '):
 		q.add((Q(label__icontains=term) | Q(country__label__icontains=term) ), q.AND)
+		t.add((Q(label__icontains=term)), t.AND)
+	
+	tags_list = Tag.objects.filter(t)
+	
+	print tags_list
 	
 	cards_list = Card.objects.filter(q)
-	
+		
 	cards = pagination(cards_list, request)
 	
-	context = { 'cards' : cards, 'title' : 'Recherche sur les termes : ' + terms }
+	context = { 'tags_list': tags_list, 'cards' : cards, 'title' : 'Recherche sur les termes : ' + terms }
 	
 	return render_to_response('cards/list.html', RequestContext(request, context))
 
