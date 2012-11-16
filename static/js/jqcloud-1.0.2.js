@@ -109,7 +109,7 @@
 		
 		var currentCssClass = 'w' + weight + " " + custom_class;
 		
-        word_span = $('<span>').attr(word.html).addClass(currentCssClass);				
+        word_span = $('<span>').attr(word.html).addClass(currentCssClass);		
 
         // Append link if word.url attribute was set
         if (word.link) {

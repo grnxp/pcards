@@ -7,30 +7,43 @@
 	<link rel="stylesheet" href="{{ STATIC_URL }}css/bootstrap.css" media="screen" />
 	<link rel="stylesheet" href="{{ STATIC_URL }}css/custom.css" media="screen" />
 	<script src="{{ STATIC_URL }}js/jquery-1.8.2.min.js"></script>
+	<script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
 	<title>{% block page_title %}Collec' de cart'{% endblock %}</title>
 </head>
 <body>
-<header class="jumbotron subhead" id="overview">
-	<a href="/"><img src="{{STATIC_URL}}img/header.png" alt="Ma collection de télécartes" /></a>
-</header>
-<div class="container-fluid">
-    <div class="row-fluid">
-		<div class="row-fluid">
-			<div class="span3">
-				{% nav_menu %}
-			</div>
-			<div class="span9">
-				{% block main_container %}{% endblock %}
-			</div>
-		</div>
+<header>
+	<div>
+		<!--<a href="/"><img src="{{STATIC_URL}}img/header.png" alt="Ma collection de télécartes" /></a>-->
 	</div>
-</div>
+	<div>
+		<ul class="nav nav-pills pull-right">
+			<li class="active">
+				<a href="#">Télécartes</a>
+			</li>
+			<li class="dropdown">
+				<a class="dropdown-toggle" data-toggle="dropdown" href="#">Pays<b class="caret"></b></a>
+				<ul class="dropdown-menu">
+					{% nav_menu %}
+				</ul>
+			</li>
+			<li><a href="#">Tags</a>			
+			<li><a href="#">A propos</a></li>
+			<li><a href="#">Admin</a></li>
+			<li>
+				<form action="/query/" method="POST">
+					{% csrf_token %} 
+					<input id="q" name="q" type="text" class="search-query" placeholder="Recherche">
+				</form>
+			</li>
+		</ul>	
+	</div>
+</header>
+</div class="clearfix"></div>
 
-	<section id="main_content">
-		
-	</section>
+{% block main_container %}{% endblock %}
+
 <footer>
-	<p>footer</p>
+	<p>(pied de page)</p>
 <footer>
 	
 </footer>

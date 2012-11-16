@@ -1,23 +1,3 @@
-<script>
-
-</script>
-
-﻿<div class="well" style="padding: 8px 0;">
-	<ul class="nav nav-list">
-		<li>
-			<form action="/query/" method="POST">
-				{% csrf_token %} 
-				<input id="q" name="q" type="text" class="search-query" placeholder="Recherche">
-			</form>
-		</li>
-		<li class="pull-right">
-			<a href="{% url advanced-query %}" title="Recherche avancée">Recherche avancée</a>
-		</li>
-		<li class="nav-header">
-			Pays
-		</li>
-		{% for country in countries %}
-			<li><a href="{% url list-by-country country.id %}">{{country.label}}</a>
-		{% endfor %}
-	</ul>
-</div>
+{% for country in countries %}
+	<li><a href="{% url list-by-country country.id %}">{{country.label}}</a>
+{% endfor %}

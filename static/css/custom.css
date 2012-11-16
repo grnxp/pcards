@@ -15,3 +15,30 @@ header img
 	margin: auto;
 	text-align: center;
 }
+
+.modal.large{
+    width: 780px;
+    margin-left: -390px; /* - width/2 */
+}
+
+.modal-body
+{
+	max-height: 600px;
+}
+
+.modal.fade.in
+{
+	top: 40%;
+}
+
+ul.tags
+{
+	margin: 0;
+}
+
+ul.tags li
+{
+	display: inline;
+	padding: 2px;
+	margin: 0;
+}

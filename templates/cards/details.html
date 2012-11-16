@@ -1,18 +1,17 @@
-{% extends 'base.html' %}
-
 {% load image_tags %}
 
-{% block main_container %}
-<div class="span10">
-	<h2>{{ card.label }}</h2>
-	
+<div class="modal-header">
+	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	<h3>{{ card.label }}</h3>
+</div>
+<div class="modal-body">
 	{% if card.image %}
 	<div class="thumbnail">
 		<img src="{{card|scale}}" alt="">
 	</div>
 	{% endif %}
-	<table class="table table-bordered">
 	
+	<table class="table table-bordered">
 		<tr>
 			<td>Pays</td>
 			<td><a href="{% url list-by-country card.country.id %}">{{card.country}}</a></td>
@@ -40,7 +39,7 @@
 		<tr>
 			<td>Tags</td>
 			<td>
-				<ul>				
+				<ul class="tags">				
 				{% for tag in card.tags.all %}
 					<li><a href="{% url list-by-tag tag.id %}">{{ tag.label }}</a></li>
 				{% endfor %}
@@ -48,7 +47,7 @@
 			</td>
 		</tr>
 	</table>
-	<p class="pull-right"><a href="/admin/cards/card/{{card.id}}/" target="_blank" >Modification</a> - Dernière mise-à-jour : {{card.updated_at}}</p>
 </div>
-
-{% endblock %}
+<div class="modal-footer">
+	<p class="pull-left">Dernière mise-à-jour: {{card.updated_at}}</p><a href="/admin/cards/card/{{card.id}}/" target="_blank" class="btn btn-primary" >Modification</a> 
+</div>
