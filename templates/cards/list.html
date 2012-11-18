@@ -43,6 +43,7 @@
 
 <fieldset>
 	<legend>Tags</legend>
+	
 	<ul class="tags content">
 		{% for tag in tags_list %}
 			<li><a href="{% url list-by-tag tag.id %}">{{ tag.label }}</a></li>

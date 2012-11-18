@@ -68,8 +68,6 @@ def query(request):
 	
 	tags_list = Tag.objects.filter(t)
 	
-	print tags_list
-	
 	cards_list = Card.objects.filter(q)
 		
 	cards = pagination(cards_list, request)
