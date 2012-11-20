@@ -31,6 +31,15 @@ def details(request, card_id):
 	context = {'card': a }	
 
 	return render_to_response('cards/details.html', RequestContext(request, context))
+	
+def charts(request):
+	from django.db.models import Count
+	
+	c = Country.objects.annotate(num_cards=Count('card'))
+	
+	context = {'countries' : c }
+	
+	return render_to_response('cards/charts.html', RequestContext(request, context))
 
 def pagination(cards_list, request):
 	paginator = Paginator(cards_list, 20)

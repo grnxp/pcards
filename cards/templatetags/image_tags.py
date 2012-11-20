@@ -10,31 +10,34 @@ QUAL = 75
 
 THUMBNAIL_SIZE = '260x180'
 IMAGE_SIZE = '300x300'
+TINY_SIZE = '50x50'
 
 register = template.Library()
 
 thumbnails_dir = os.path.join(settings.MEDIA_ROOT, 'pictures', 'thumbnails')
 
 if not os.path.exists(thumbnails_dir):
-	os.makedirs(thumbnails_dir)
+    os.makedirs(thumbnails_dir)
 
 
 def resized_path(card_id, path, method):
-	if method == 'crop':
-		size = THUMBNAIL_SIZE
-	elif method == 'scale':
-		size = IMAGE_SIZE
-	
-	dir, name = os.path.split(path)
-	image_name, ext = name.rsplit('.', 1)
-	
-	thumbnails_dir = os.path.join(dir, 'thumbnails')
-	
-	final_path = os.path.join(thumbnails_dir, '%s_%s_%s.%s' % (card_id, method, size, EXT)).replace('\\', '/')
+    if method == 'crop':
+        size = THUMBNAIL_SIZE
+    elif method == 'scale':
+        size = IMAGE_SIZE
+    elif method == 'tiny':
+        size = TINY_SIZE
+    
+    dir, name = os.path.split(path)
+    image_name, ext = name.rsplit('.', 1)
+    
+    thumbnails_dir = os.path.join(dir, 'thumbnails')
+    
+    final_path = os.path.join(thumbnails_dir, '%s_%s_%s.%s' % (card_id, method, size, EXT)).replace('\\', '/')
 
-	print 'final path ' + final_path
+    print 'final path ' + final_path
 
-	return final_path
+    return final_path
 
 
 def scale(card_item, method='scale'):
@@ -65,7 +68,7 @@ def scale(card_item, method='scale'):
             except ImportError:
                 raise ImportError('Cannot import the Python Image Library.')
 
-        image = Image.open(imagefield.path)
+        image = Image.open(imagefield.path)        
 
         # normalize image mode
         if image.mode != 'RGB':
@@ -87,9 +90,18 @@ def scale(card_item, method='scale'):
             ImageOps.fit(image, (width, height), Image.ANTIALIAS
                         ).save(image_path, FMT, quality=QUAL)
 
-	
-	print resized_path(card_item.id, imagefield.url, method)
-	
+        elif method == 'tiny':
+            try:
+                import ImageOps
+            except ImportError:
+                from PIL import ImageOps
+
+            width, height = [int(i) for i in TINY_SIZE.split('x')]
+            ImageOps.fit(image, (width, height), Image.ANTIALIAS
+                        ).save(image_path, FMT, quality=QUAL)
+    
+    print resized_path(card_item.id, imagefield.url, method)
+    
     return resized_path(card_item.id, imagefield.url, method)
 
 #def crop(imagefield):
