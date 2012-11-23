@@ -37,7 +37,7 @@ def charts(request):
 	
 	c = Country.objects.annotate(num_cards=Count('card'))
 	
-	context = {'countries' : c }
+	context = {'countries': c, 'c_string': ', '.join(("'" + x.label + "'" for x in c)) }
 	
 	return render_to_response('cards/charts.html', RequestContext(request, context))
 
