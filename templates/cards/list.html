@@ -1,46 +1,14 @@
 {% extends 'base.html' %}
 
-{% load image_tags %}
+{% load inclusion_tags %}
 {% load filter_tags %}
 
 {% block main_container %}
 
-<script>
-	$(function() {
-		// When DOM is ready, select the container element and call the jQCloud method, passing the array of words as the first argument.
-		$("a.thumbnail").click(function(e) {
-			e.preventDefault();
-			
-			$('#modalDisplay').modal();
-			
-			var request = $.ajax({
-				url: $(this).attr('href'),
-				type: 'GET',
-				dataType: 'html'
-			});	
-			
-			request.done(function(result) {
-				$('#modalDisplay').html(result);
-			});
-			
-			request.fail(function(jqxhr, textStatus) {
-				$('#modalDisplay').html('La requête a foiré: ' + textStatus);
-			});
-			
-		});
-		
-		$('legend').click(function(){
-			$(this).parent().find('.content').slideToggle("slow");
-		});
-	});	 
-</script>
-
-<div id="modalDisplay" class="modal large hide fade">
-	
-</div>
 
 <h2>{{ title }}</h2>
 
+{% if tags_list %}
 <fieldset>
 	<legend>Tags</legend>
 	
@@ -50,51 +18,13 @@
 		{% endfor %}
 	</ul>
 </fieldset>
+{% endif %}
 
+{% if cards %}
 <fieldset>
 	<legend>Cartes</legend>
-	<ul class="thumbnails content">
-		{% for card in cards.object_list %}
-			<li class="span2">
-				<a href="{% url card-details card.id %}" class="thumbnail">
-				{% if card.image %}
-					<img src="{{card|crop}}" title="{{card.label}}" />
-				{% endif %}
-				</a>
-			</li>
-		{% endfor %}
-	</ul>
+	{% cards_list_partial cards %} 
 </fieldset>
-
-<div class="pagination" style="margin: 0 auto; display: inline-block; text-align: center;">
-	<span class="step-links">
-		{% if cards.has_previous %}
-			<a href="?page={{ cards.previous_page_number }}">«</a>
-		{% else %}
-			<span class="disabled">
-				<a href="?page={{ cards.previous_page_number }}">«</a>
-			</span>
-		{% endif %}
-		
-		{% for page_num in cards.paginator.num_pages|get_range %}
-			{% if page_num == cards.number %}
-				<span class="active">
-					<a class="active" href="?page={{ page_num }}">{{ page_num }}</a>
-				</span>
-			{% else %}
-				<a href="?page={{ page_num }}">{{ page_num }}</a>
-			{% endif %}
-
-		{% endfor %}
-
-		{% if cards.has_next %}
-			<a href="?page={{ cards.next_page_number }}">»</a>
-		{% else %}
-			<span class="disabled">
-				<a href="?page={{ cards.next_page_number }}">»</a>
-			</span>
-		{% endif %}
-	</span>
-</div>
+{% endif %}
 
 {% endblock %}

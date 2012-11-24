@@ -17,13 +17,25 @@ def index(request):
 	
 	nbr_of_cards = Card.objects.count()
 	
-	tags_list = Tag.objects.annotate(occurence=Count('tags'))
+	tags_list = Tag.objects.order_by('?').annotate(occurences=Count('tags'))[:15]
 	
 	cards_list = Card.objects.order_by('-created_at')[:25]
 	
 	context = { 'tags_list' : tags_list,'cards_list' : cards_list}
 
 	return render_to_response('cards/index.html', RequestContext(request, context))
+	
+def about(request):
+	return render_to_response('cards/about.html', RequestContext(request, {}))
+	
+def tags(request):
+	from django.db.models import Count
+	
+	tags_list = Tag.objects.annotate(occurences=Count('tags'))
+	
+	context = { 'tags_list' : tags_list }
+	
+	return render_to_response('cards/tags.html', RequestContext(request, context))
 	
 def details(request, card_id):
 	a = get_object_or_404(Card, pk=card_id)
@@ -41,22 +53,6 @@ def charts(request):
 	
 	return render_to_response('cards/charts.html', RequestContext(request, context))
 
-def pagination(cards_list, request):
-	paginator = Paginator(cards_list, 20)
-	
-	page = request.GET.get('page')
-	
-	try:
-		cards = paginator.page(page)
-	except PageNotAnInteger:
-		cards = paginator.page(1)
-	except EmptyPage:
-		cards = paginator.page(paginator.num_pages)
-	except:
-		cards = paginator.page(1)
-		
-	return cards
-	
 def query(request):
 	
 	if request.method == "POST":
@@ -79,7 +75,7 @@ def query(request):
 	
 	cards_list = Card.objects.filter(q)
 		
-	cards = pagination(cards_list, request)
+	cards = cards_list
 	
 	context = { 'tags_list': tags_list, 'cards' : cards, 'title' : 'Recherche sur les termes : ' + terms }
 	
@@ -132,7 +128,7 @@ def advanced_query(request):
 def search_by_country(request, country_id):
 	country = get_object_or_404(Country, pk=country_id)
 	
-	cards = pagination(country.card_set.all(), request)
+	cards = country.card_set.all()
 	
 	context = { 'cards' : cards, 'title' : country.label }
 	
@@ -143,31 +139,9 @@ def search_by_tag(request, tag_id):
 	
 	cards_list = tag.tags.all()
 	
-	cards = pagination(cards_list, request)
+	cards = cards_list
 	
 	context = { 'cards' : cards, 'title' : tag.label }
 	
 	return render_to_response('cards/list.html', RequestContext(request, context))
 
-def search_by_category(request, category_id):
-	category = get_object_or_404(Category, pk=category_id)
-	
-	cards_list = list()
-	
-	for subcat in category.subcategory_set.all():
-		cards_list.extend(subcat.card_set.all())
-		
-	cards = pagination(cards_list, request)
-	
-	context = { 'cards' :  cards, 'title' : category.label }
-	
-	return render_to_response('cards/list.html', RequestContext(request, context))
-	
-def search_by_subcategory(request, subcategory_id):
-	subcategory = get_object_or_404(SubCategory, pk=subcategory_id)
-	
-	cards = pagination(subcategory.card_set.all(), request)
-	
-	context = { 'cards' : cards, 'title' : subcategory.label }
-	
-	return render_to_response('cards/list.html', RequestContext(request, context))

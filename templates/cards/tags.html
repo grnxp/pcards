@@ -1,0 +1,57 @@
+﻿{% extends 'base.html' %}
+
+{% block main_container %}
+
+<style type="text/css">
+.cloud_link
+{
+	margin: 1.2em 1.2em 1.2em 1.2em;
+}
+</style>
+	
+<script>
+	$().ready(function() {  
+		var catContainer = $('div#categories');  
+
+		var categories = catContainer.find('ul li');  
+		var cloudMarkup = '';  
+
+		var maxPercent = 350, minPercent = 100;  
+		
+		var max = 1, min = 999, count = 0;  
+		
+		categories.each(function(i) {  
+			count = parseInt($(this).find('span').text());  
+			max = (count > max ? count : max);  
+			min = (min > count ? count : min);  
+		});  
+	
+		var total, link, size;  
+		var multiplier = (maxPercent-minPercent)/(max-min);  
+ 
+		categories.each(function(i) {  
+			count = parseInt($(this).find('span').text());  
+			link = $(this).find('a');  
+			size = minPercent + ((max-(max-(count-min)))*multiplier) + '%';  
+			cloudMarkup += '<a class="cloud_link" style="font-size:' + size + '" href="' + link.attr('href') + '">' + link.text() + '</a> ';  
+		});  
+		// replace the html content of the parent container with the new tag cloud  
+
+		catContainer.html(cloudMarkup);  
+
+		$('.menu li').removeClass('active');	
+		$('#navlink_tags').parent().addClass('active');	
+
+		
+	}); 
+</script>
+
+<div id="categories" style="min-width: 400px; height: 400px; margin: 0 auto">
+	<ul>
+		{% for tag in tags_list %}
+			<li><a href={% url list-by-tag tag.id %}>{{tag.label}}</a><span dir="ltr">{{tag.occurences}}</span></li>
+		{% endfor %}
+	</ul>
+</div>
+
+{% endblock %}

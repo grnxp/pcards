@@ -18,9 +18,9 @@
 			<!--<a href="/"><img src="{{STATIC_URL}}img/header.png" alt="Ma collection de télécartes" /></a>-->
 		</div>
 		<div>
-			<ul class="nav nav-pills">
+			<ul class="nav nav-pills menu">
 				<li class="active">
-					<a href="{% url index %}">Télécartes</a>
+					<a id="navlink_main" href="{% url index %}">Télécartes</a>
 				</li>
 				<li class="dropdown">
 					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Pays<b class="caret"></b></a>
@@ -28,9 +28,9 @@
 						{% nav_menu %}
 					</ul>
 				</li>
-				<li><a href="#">Tags</a>	
-				<li><a href="{% url charts %}">Graphiques</a></li>
-				<li><a href="#">A propos</a></li>
+				<li><a id="navlink_tags" href="{% url tags %}">Tags</a>	
+				<li><a id="navlink_charts" href="{% url charts %}">Graphiques</a></li>
+				<li><a id="navlink_about" href="{% url about %}">A propos</a></li>
 				<li><a href="/admin">Admin</a></li>
 				<li class="pull-right">
 					<form action="/query/" method="POST">
@@ -42,9 +42,8 @@
 		</div>
 	</header>
 
-	<div class="row">
-		{% block main_container %}{% endblock %}
-	</div>
+	{% block main_container %}{% endblock %}
+
 </div>	
 </body>
 </html>

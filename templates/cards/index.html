@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 
 {% load image_tags %}
+{% load inclusion_tags %}
 
 {% block main_container %}
 
@@ -13,7 +14,7 @@
 	*/
 	var word_array = [
 		{% for tag in tags_list %}
-			{text: "{{ tag.label }}", weight: {{ tag.occurence }}, link: "{% url list-by-tag tag.id %}"},
+			{text: "{{ tag.label }}", weight: {{ tag.occurences }}, link: "{% url list-by-tag tag.id %}"},
 		{% endfor %}         
 	];
 
@@ -23,22 +24,21 @@
 	});	  
 </script>
 	
-<h2>Nuage de tags</h2>
+<div class="container">
 
-<div id="tagCloud" style="width: 550px; height: 350px;"></div>
+	<div class="row">
+		<div class="span4">
+			<img style="vertical-align: middle;" src="{{ STATIC_URL }}/img/header_pic.png" alt="" />
+		</div>
+		<div class="span8">
+			<div id="tagCloud" style="width: 550px; height: 350px;"></div>			
+		</div>
+	</div>
+
+</div>
 
 <h2>Derniers ajouts</h2>
 
-<ul class="thumbnails">
-{% for card in cards_list %}
-	<li class="span2">
-		<a href="{% url card-details card.id %}" class="thumbnail">
-			{% if card.image %}
-				<img src="{{card|crop}}" title="{{card.label}}" />
-			{% endif %}
-		</a>
-	</li>
-{% endfor %}
-</ul>
+{% cards_list_partial cards_list %} 
 
 {% endblock %}

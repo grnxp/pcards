@@ -1,0 +1,18 @@
+﻿{% extends 'base.html' %}
+
+{% load image_tags %}
+
+{% block main_container %}
+
+<script type="text/javascript">
+	$(function () {		
+		
+		$('.menu li').removeClass('active');	
+		$('#navlink_about').parent().addClass('active');	
+		
+	});   
+</script>
+	
+<h2>A propos</h2>
+<p>Bon bah faut ajouter du texte ici hein :)</p>
+{% endblock %}

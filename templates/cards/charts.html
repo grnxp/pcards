@@ -8,59 +8,19 @@
 <script type="text/javascript" src="{{ STATIC_URL }}js/modules/exporting.js"></script>
 
 <script type="text/javascript">
-	$(function () {
-		var chart;		
+	$(function () {		
 		var barChart;
 		
 		$(document).ready(function() {
+		
+			$('.menu li').removeClass('active');	
+			$('#navlink_charts').parent().addClass('active');	
 		
 			
 			Highcharts.setOptions({
 				colors: ['#058DC7', '#50B432', '#ED561B', '#DDDF00', '#24CBE5', '#64E572', '#FF9655', '#FFF263', '#6AF9C4']
 			});
-		
-			chart = new Highcharts.Chart({
-				chart: {
-					renderTo: 'container',
-					plotBackgroundColor: null,
-					plotBorderWidth: null,
-					plotShadow: false
-				},
-				title: {
-					text: 'Nombre de cartes par pays'
-				},
-				tooltip: {
-					pointFormat: '{series.name}: <b>{point.percentage}%</b>',
-					percentageDecimals: 1
-				},
-				plotOptions: {
-					pie: {
-						allowPointSelect: true,
-						cursor: 'pointer',
-						dataLabels: {
-							enabled: true,
-							color: '#000000',
-							connectorColor: '#000000',
-							formatter: function() {
-								return '<b>'+ this.point.name +'</b>: '+ this.percentage.toFixed(2) +' %';
-							}
-						}
-					}
-				},
-				credits: {
-					enabled: false
-				},
-				series: [{
-					type: 'pie',
-					name: 'CardsCountry',
-					data: [
-						{% for country in countries %}
-							['{{country.label}}', {{country.num_cards}}],
-						{% endfor %}						
-					]
-				}]
-			});
-		
+			
 			barchart = new Highcharts.Chart({
 				chart: {
 					renderTo: 'barcontainer',
@@ -119,13 +79,9 @@
 	});   
 </script>
 	
-<h2>Stats, tout ça</h2>
+<h2></h2>
 
-<div id="container" style="min-width: 400px; height: 400px; margin: 0 auto">
-
-</div>
-
-<div id="barcontainer" style="min-width: 400px; height: 400px; margin: 0 auto">
+<div id="barcontainer" style="min-width: 400px; height: 85%; margin: 0 auto">
 
 </div>
 

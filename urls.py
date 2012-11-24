@@ -14,10 +14,10 @@ urlpatterns = patterns('cards.views',
 	url(r'^query/$', 'query'),
 	url(r'^advanced-query/$', 'advanced_query', name='advanced-query'),
 	url(r'^list/country/(?P<country_id>\d+)/$', 'search_by_country', name='list-by-country'),
-	url(r'^list/category/(?P<category_id>\d+)/$', 'search_by_category', name='list-by-category'),
-	url(r'^list/subcategory/(?P<subcategory_id>\d+)/$', 'search_by_subcategory', name='list-by-subcategory'),
 	url(r'^list/tag/(?P<tag_id>\d+)/$', 'search_by_tag', name='list-by-tag'),
 	url(r'^charts/$', 'charts', name='charts'),
+	url(r'^tags/$', 'tags', name='tags'),
+	url(r'^about/$', 'about', name='about'),
 	url(r'^$', 'index', name='index'),
 )
 

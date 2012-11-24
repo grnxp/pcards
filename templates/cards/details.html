@@ -1,5 +1,17 @@
 {% load image_tags %}
 
+<script>
+	$(function() {
+		$('#next_card').click(function() {
+			// do something
+		});
+		
+		$('#previous_card').click(function() {
+			// do something
+		};
+	});
+</script>
+
 <div class="modal-header">
 	<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
 	<h3>{{ card.label }} (<a href="{% url list-by-country card.country.id %}">{{card.country}}</a>)</h3>
@@ -43,9 +55,13 @@
 			</td>
 		</tr>
 	</table>
+	<!--<p>
+		<span class="pull-left">Dernière mise-à-jour: {{card.updated_at}}</span>
+		
+	</p>-->
 </div>
 <div class="modal-footer">
-	<p class="pull-left"></p>
-	<p class="pull-right"></p>
-	<p class="pull-left">Dernière mise-à-jour: {{card.updated_at}}</p><a href="/admin/cards/card/{{card.id}}/" target="_blank" class="btn btn-primary" >Modification</a> 
+	<span class="pull-right"><a href="/admin/cards/card/{{card.id}}/" target="_blank" class="btn" >Modification</a> </span>
+	<!--<a id="previous_card" class="btn btn-primary pull-left" href="#"><i class="icon icon-arrow-left" /> Précédente</a>
+	<a id="next_card" class="btn btn-primary" href="#">Suivante <i class="icon icon-arrow-right" /></a>-->
 </div>
