@@ -16,12 +16,12 @@ class CardForTagInline(admin.StackedInline):
 	search_fields = ['label',]
 	
 class TagAdmin(admin.ModelAdmin):
-	inlines = [CardForTagInline,]
+	#inlines = [CardForTagInline,]
 	
 	search_fields = ['label',]
 	
 class CountryAdmin(admin.ModelAdmin):
-	inlines = [CardInline,]
+	#inlines = [CardInline,]
 	
 	search_fields = ['label',]
 
