@@ -116,6 +116,9 @@ def crop(card_item):
     """
     return scale(card_item, 'crop')
 
+def tiny(card_item):
+	return scale(card_item, 'tiny')
 
 register.filter('scale', scale)
 register.filter('crop', crop)
+register.filter('tiny', tiny)

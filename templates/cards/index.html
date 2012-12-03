@@ -6,13 +6,29 @@
 {% block main_container %}
 
 <link rel="stylesheet" type="text/css" href="{{ STATIC_URL }}css/jqcloud.css" />
-<script type="text/javascript" src="{{ STATIC_URL }}js/jqcloud-1.0.2.js"></script>
+<script type="text/javascript" src="{{ STATIC_URL }}js/jquery.tagcanvas.min.js"></script>
+
+<script type="text/javascript">
+      $(document).ready(function() {
+        if(!$('#myCanvas').tagcanvas({
+          textColour: '#0088CC',
+          outlineColour: '#0088CC',
+          reverse: true,
+          depth: 0.8,
+          wheelZoom: true,
+          maxSpeed: 0.02
+        },'tags')) {
+          // something went wrong, hide the canvas container
+          $('#myCanvasContainer').hide();
+        }
+      });
+    </script>
 
 <script type="text/javascript">
 	/*!
 	* Create an array of word objects, each representing a word in the cloud
 	*/
-	var word_array = [
+	/*var word_array = [
 		{% for tag in tags_list %}
 			{text: "{{ tag.label }}", weight: {{ tag.occurences }}, link: "{% url list-by-tag tag.id %}"},
 		{% endfor %}         
@@ -21,18 +37,29 @@
 	$(function() {
 		// When DOM is ready, select the container element and call the jQCloud method, passing the array of words as the first argument.
 		$("#tagCloud").jQCloud(word_array);		
-	});	  
+	});*/	  
 </script>
 	
 <div class="container">
-
+<div class="well">
+Un petit texte d'introduction ici.
+</div>
+	<div id="myCanvasContainer">	
+      <canvas width="600" height="600" id="myCanvas">
+        <p>Anything in here will be replaced on browsers that support the canvas element</p>
+      </canvas>
+    </div>
+    <div id="tags">
+      <ul>
+      {% for tag in tags_list %}
+      	<li><a href="{% url list-by-tag tag.id %}">{{ tag.label }}</a>
+      {% endfor %}     
+      </ul>
+    </div>
 	<div class="row">
 		<div class="span4">
 			<img style="vertical-align: middle;" src="{{ STATIC_URL }}/img/header_pic.png" alt="" />
-		</div>
-		<div class="span8">
-			<div id="tagCloud" style="width: 550px; height: 350px;"></div>			
-		</div>
+		</div>		
 	</div>
 
 </div>

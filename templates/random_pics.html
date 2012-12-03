@@ -1,0 +1,10 @@
+{% load image_tags %}
+
+
+<div style="margin: auto; width: 85%:">
+{% for card in random_pics %}
+{% if card.image %}
+	<a href="{% url card-details card.id %}"><img src="{{card|tiny}}" alt="" /></a>
+{% endif %}
+{% endfor %}
+</div>

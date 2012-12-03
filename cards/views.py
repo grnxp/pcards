@@ -17,7 +17,7 @@ def index(request):
 	
 	nbr_of_cards = Card.objects.count()
 	
-	tags_list = Tag.objects.order_by('?').annotate(occurences=Count('tags'))[:15]
+	tags_list = Tag.objects.order_by('?').annotate(occurences=Count('tags'))[:25]
 	
 	cards_list = Card.objects.order_by('-created_at')[:25]
 	
