@@ -97,7 +97,6 @@ class Command(BaseCommand):
 			if os.path.exists(file):
 				return os.path.abspath(file)
 		
-		#raise IOError("Le fichier référencé n'existe pas. Chemins essayés: %s" % (', '.join(possiblePaths)))
 		self.stdout.write("Le fichier référencé n'existe pas. Chemins essayés: %s" % (', '.join(possiblePaths)))
 		
 		return None
