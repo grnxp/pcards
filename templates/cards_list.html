@@ -1,40 +1,5 @@
 {% load image_tags %}
 
-
-<script>
-	$(function() {
-		// When DOM is ready, select the container element and call the jQCloud method, passing the array of words as the first argument.
-		$("a.thumbnail").click(function(e) {
-			e.preventDefault();
-			
-			$('#modalDisplay').modal();
-			
-			var request = $.ajax({
-				url: $(this).attr('href'),
-				type: 'GET',
-				dataType: 'html'
-			});	
-			
-			request.done(function(result) {
-				$('#modalDisplay').html(result);
-			});
-			
-			request.fail(function(jqxhr, textStatus) {
-				$('#modalDisplay').html('La requête a foiré: ' + textStatus);
-			});
-			
-		});
-		
-		$('legend').click(function(){
-			$(this).parent().find('.content').slideToggle("slow");
-		});
-	});	 
-</script>
-
-<div id="modalDisplay" class="modal large hide fade">
-	
-</div>
-
 <ul class="thumbnails">
 {% for card in cards_list %}
 	<li class="span2">

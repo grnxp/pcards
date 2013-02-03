@@ -9,13 +9,47 @@
 	<script src="{{ STATIC_URL }}js/jquery-1.8.2.min.js"></script>
 	<script src="{{ STATIC_URL }}js/bootstrap.min.js"></script>
 	<title>{% block page_title %}Collec' de cart'{% endblock %}</title>
+
+	<script>
+		$(function() {
+			// When DOM is ready, select the container element and call the jQCloud method, passing the array of words as the first argument.
+			$("a.thumbnail, a.randomized").click(function(e) {
+				e.preventDefault();
+			
+				$('#modalDisplay').modal();
+			
+				var request = $.ajax({
+					url: $(this).attr('href'),
+					type: 'GET',
+					dataType: 'html'
+				});	
+			
+				request.done(function(result) {
+					$('#modalDisplay').html(result);
+				});
+			
+				request.fail(function(jqxhr, textStatus) {
+					$('#modalDisplay').html('La requête a foiré: ' + textStatus);
+				});
+			
+			});
+		
+			$('legend').click(function(){
+				$(this).parent().find('.content').slideToggle("slow");
+			});
+		});	 
+	</script>
 </head>
 <body>
+
+<div id="modalDisplay" class="modal large hide fade">
+	
+</div>
 
 <div class="container">
 	<header>
 		<div style="padding-bottom: 1em;">
-			{% random_pics %}<!--<a href="/"><img src="{{STATIC_URL}}img/header.png" alt="Ma collection de télécartes" /></a>-->
+			{% random_pics %}
 		</div>
 		<div>
 			<ul class="nav nav-pills menu">
