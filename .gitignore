@@ -6,3 +6,6 @@ pictures/*
 Thumbs.db
 build/*
 *.*~
+*.log
+*.pot
+local_settings.py
